@@ -6,6 +6,7 @@ import { CompactTopicCard } from '@/components/ui/TopicCard';
 import type { CategorySectionProps, TopicCategory } from '@/lib/types';
 import { formatNumber } from '@/lib/utils';
 import { CATEGORIES } from '@/lib/constants';
+import { navigateTo } from '@/lib/navigation';
 
 export function CategorySection({ category, expanded = false, onToggle }: CategorySectionProps) {
   const [isExpanded, setIsExpanded] = useState(expanded);
@@ -55,7 +56,7 @@ export function CategorySection({ category, expanded = false, onToggle }: Catego
                 topic={topic}
                 onClick={() => {
                   // Navigate to topic page
-                  window.location.href = `/topic/${topic.name}`;
+                  navigateTo(`/topic/${topic.name}`);
                 }}
               />
             ))}

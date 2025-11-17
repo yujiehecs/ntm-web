@@ -9,6 +9,7 @@ import { loadManualTagsData, processManualTagsData, filterThreads } from '@/lib/
 import type { TopicInfo, Thread, FilterOptions } from '@/lib/types';
 import { formatNumber, getRelativeTime, capitalizeWords } from '@/lib/utils';
 import { TOPIC_MAPPINGS, FILTER_OPTIONS, EXTERNAL_LINKS } from '@/lib/constants';
+import { navigateTo } from '@/lib/navigation';
 
 export function TopicPageClient({ topicName }: { topicName: string }) {
   const [topic, setTopic] = useState<TopicInfo | null>(null);
@@ -92,7 +93,7 @@ export function TopicPageClient({ topicName }: { topicName: string }) {
           <p className="text-gray-600 mb-4">{error || 'Unknown error occurred'}</p>
           <Button
             variant="outline"
-            onClick={() => window.location.href = '/'}
+            onClick={() => navigateTo('/')}
           >
             <ArrowLeftIcon className="h-4 w-4 mr-2" />
             Back to Dashboard
@@ -111,7 +112,7 @@ export function TopicPageClient({ topicName }: { topicName: string }) {
         <div className="flex items-center justify-between">
           <div>
             <button
-              onClick={() => window.location.href = '/'}
+              onClick={() => navigateTo('/')}
               className="flex items-center text-gray-600 hover:text-gray-900 mb-2"
             >
               <ArrowLeftIcon className="h-4 w-4 mr-2" />
