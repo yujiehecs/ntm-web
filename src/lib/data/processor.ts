@@ -15,11 +15,15 @@ import { groupBy, sortBy, getMonthKey, calculatePercentageChange } from '@/lib/u
  */
 export async function loadManualTagsData(): Promise<ManualTagsData> {
   try {
-    console.log('Loading data from /data/manual_tags_production.json...');
+    // Use relative path that works with basePath
+    const basePath = process.env.NODE_ENV === 'production' ? '/ntm-web' : '';
+    const dataPath = `${basePath}/data/manual_tags_production.json`;
+    
+    console.log('Loading data from', dataPath);
 
     // In production, this would come from an API or static file
     // For now, we'll need to copy the data file to the public directory
-    const response = await fetch('/data/manual_tags_production.json');
+    const response = await fetch(dataPath);
     console.log('Fetch response status:', response.status, response.statusText);
 
     if (!response.ok) {
