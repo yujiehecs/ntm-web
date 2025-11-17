@@ -270,7 +270,7 @@ export const APP_CONFIG = {
   repository: 'https://github.com/ntm-community/insights',
   totalThreads: 959,
   totalTopics: 40,
-  totalCategories: 5,
+  totalCategories: 8,
   lastUpdated: '2025-11-16'
 };
 

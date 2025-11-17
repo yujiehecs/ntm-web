@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import { MagnifyingGlassIcon, HomeIcon } from '@heroicons/react/24/outline';
 import { APP_CONFIG } from '@/lib/constants';
+import { navigateTo } from '@/lib/navigation';
 
 interface LayoutProps {
   children: ReactNode;
@@ -14,7 +15,7 @@ export function Layout({ children }: LayoutProps) {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-4">
               <button
-                onClick={() => window.location.href = '/'}
+                onClick={() => navigateTo('/')}
                 className="flex items-center gap-2 hover:text-blue-600 transition-colors"
               >
                 <span className="text-2xl">🔬</span>
@@ -29,7 +30,7 @@ export function Layout({ children }: LayoutProps) {
 
             <nav className="flex items-center gap-4">
               <button
-                onClick={() => window.location.href = '/'}
+                onClick={() => navigateTo('/')}
                 className="flex items-center gap-2 px-3 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-colors"
               >
                 <HomeIcon className="h-4 w-4" />

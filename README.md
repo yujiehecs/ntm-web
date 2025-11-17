@@ -15,10 +15,10 @@ A modern, data-driven web application that transforms 959 manually-curated NTM f
 ## 🎯 Features
 
 ### 📊 Dashboard Homepage
-- **Statistical Overview** - 959 discussions, 40 topics, 5 categories at a glance
+- **Statistical Overview** - 959 discussions, 40 topics, 8 categories at a glance
 - **Trending Topics** - Real-time percentage changes and growth indicators
 - **Most Active Topics** - Ranked by discussion volume with activity metrics
-- **Category Browser** - Expandable sections for Treatment, Safety, Daily Management, Health, and Support
+- **Category Browser** - Expandable sections for Treatment, Health, Airway Clearance, Equipment, Testing, Safety, Daily Living, and Support
 - **Visual Indicators** - Charts, badges, and trend arrows for quick insights
 
 ### 🔬 Topic-Specific Pages
@@ -71,7 +71,7 @@ public/data/manual_tags_production.json (444KB)
 3. **Enhance** - Generate historical dates for time-series if needed
 4. **Group** - Organize threads by topic with cross-references
 5. **Aggregate** - Calculate monthly trends, statistics, and rankings
-6. **Categorize** - Group topics into 5 main categories
+6. **Categorize** - Group topics into 8 main categories
 7. **Analyze** - Compute trending topics with percentage changes
 
 ### Performance Optimizations
@@ -178,20 +178,63 @@ cat public/data/manual_tags_production.json
 
 ## 📊 40-Topic Taxonomy
 
-### 🏥 Treatment (10 topics)
-medication_management, arikayce_side_effects, inhaled_antibiotics, oral_antibiotics, iv_antibiotics, combination_therapy, treatment_duration, medication_interactions, off_label_use, treatment_monitoring
+The platform organizes 959 discussions into 40 topics across 8 categories:
 
-### 🛡️ Safety & Prevention (9 topics)
-water_safety, equipment_sterilization, environmental_exposures, infection_prevention, travel_precautions, home_modifications, shower_safety, air_quality, exercise_activity
+### 💊 Treatment & Medications (8 topics)
+**big3_antibiotics** - Standard three-drug antibiotic regimen (rifampin, ethambutol, azithromycin/clarithromycin)
+**iv_antibiotics** - IV antibiotics given through a PICC line, including home IV therapy
+**inhaled_medications** - Antibiotics you breathe in through a nebulizer, like Arikayce
+**newer_antibiotics** - Newer or alternative antibiotics for drug-resistant infections
+**species_specific_treatment** - Different treatment approaches for MAC vs. abscessus and other species
+**treatment_monitoring** - Blood tests, hearing tests, and monitoring for medication side effects
+**surgical_treatment** - Lung surgery options like lobectomy when medications alone aren't sufficient
+**alternative_therapies** - Vitamins, supplements, and supportive approaches alongside medical treatment
 
-### 💊 Daily Management (8 topics)
-nebulizers, airway_clearance, saline_therapy, mucus_management, nutrition_supplements, energy_management, sleep_quality, symptom_tracking
+### ⚠️ Health Complications (6 topics)
+**hearing_complications** - Hearing loss, tinnitus, and ototoxic side effects from medications
+**hemoptysis_bleeding** - Coughing up blood and when to seek emergency care
+**medication_side_effects** - Nausea, liver issues, skin changes, and other drug side effects
+**coinfections** - Other infections like aspergillus or pseudomonas occurring alongside NTM
+**digestive_issues** - GERD, acid reflux, and stomach problems affecting medication absorption
+**other_complications** - Heart problems, severe fatigue, and other systemic effects
 
-### 🩺 Health & Complications (7 topics)
-bronchiectasis, hearing_issues, gi_issues, liver_monitoring, kidney_function, mental_health, quality_of_life
+### 🫁 Airway Clearance (5 topics)
+**nebulizers** - Machines that turn liquid medications into breathable mist
+**vest_therapy** - Vibrating vests that help shake mucus loose from lungs
+**aerobika_opep** - Handheld oscillating devices used with breathing exercises
+**manual_techniques** - Breathing techniques and positions to clear mucus without equipment
+**saline_therapy** - Salt water solutions to thin mucus and make it easier to cough up
 
-### 🤝 Support & Resources (6 topics)
-emotional_support, insurance_coverage, research_trials, specialist_access, patient_advocacy, caregiver_support
+### 🔧 Equipment Care (4 topics)
+**equipment_sterilization** - Proper cleaning and sterilization methods to prevent reinfection
+**equipment_maintenance** - When to replace nebulizer parts, tubing, and filters
+**travel_equipment** - Portable equipment and tips for traveling with medical devices
+**home_iv_care** - PICC line care, flushing, dressing changes, and IV supplies
+
+### 🔬 Testing & Monitoring (4 topics)
+**sputum_cultures** - Monthly sputum tests to track infection progress
+**imaging_scans** - CT scans and X-rays to monitor lung changes and nodules
+**bronchoscopy** - Procedures to examine lungs and collect samples
+**resistance_testing** - Tests to determine which medications work against your infection
+
+### 🛡️ Safety & Environment (4 topics)
+**water_safety** - Shower filters, water heater settings, and avoiding NTM in water
+**environmental_exposures** - Hot tubs, gardening, dusty areas, and environmental risks
+**travel_safety** - Hotel precautions, international travel, and vacation planning
+**infection_prevention** - Protecting yourself from other respiratory infections
+
+### 🏠 Daily Living (4 topics)
+**work_employment** - Job accommodations, disability considerations, managing work fatigue
+**exercise_activity** - Safe exercise options and modifying activities with shortness of breath
+**family_relationships** - Impact on family life and helping loved ones understand NTM
+**nutrition_lifestyle** - Eating well, managing weight changes, and maintaining daily routines
+
+### 🤝 Support & Resources (5 topics)
+**emotional_support** - Anxiety, depression, coping strategies, and mental health support
+**patient_stories** - Real experiences from other patients about their NTM journey
+**medical_centers** - Finding specialists and medical centers with NTM expertise
+**insurance_costs** - Insurance coverage, medication costs, and financial assistance
+**research_trials** - Clinical trials, research studies, and experimental treatments
 
 ## 🎯 Use Cases
 
