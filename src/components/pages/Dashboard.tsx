@@ -14,7 +14,7 @@ import { GlossaryView } from './GlossaryView';
 
 type TabType = 'topics' | 'glossary';
 
-export default function Dashboard() {
+function DashboardContent() {
   const searchParams = useSearchParams();
   const [activeTab, setActiveTab] = useState<TabType>('topics');
   const [data, setData] = useState<ProcessedData | null>(null);
@@ -217,5 +217,11 @@ export default function Dashboard() {
         )}
       </div>
     </Layout>
+  );
+}
+
+export default function Dashboard() {
+  return (
+    <DashboardContent />
   );
 }

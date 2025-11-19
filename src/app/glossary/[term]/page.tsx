@@ -1,18 +1,14 @@
 import { notFound } from 'next/navigation';
 import { GlossaryDetail } from '@/components/pages/GlossaryDetail';
 import type { GlossaryData } from '@/lib/types/glossary';
+import { promises as fs } from 'fs';
+import path from 'path';
 
 async function loadGlossaryData(): Promise<GlossaryData> {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-  const response = await fetch(`${baseUrl}/data/glossary.json`, {
-    cache: 'no-store',
-  });
-
-  if (!response.ok) {
-    throw new Error('Failed to load glossary data');
-  }
-
-  return response.json();
+  // For static export, read directly from file system
+  const filePath = path.join(process.cwd(), 'public', 'data', 'glossary.json');
+  const fileContents = await fs.readFile(filePath, 'utf8');
+  return JSON.parse(fileContents);
 }
 
 function slugToTermTitle(slug: string, glossary: GlossaryData): string | null {
