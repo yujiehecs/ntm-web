@@ -1,0 +1,358 @@
+{
+  "topic_name": "manual_techniques",
+  "category": "Airway Clearance",
+  "threads_reviewed": 10,
+  "threads_total": 83,
+  "thread_list": [
+    "time-to-reconsider-mucoactive-agents-for-airway-clearance-nejm",
+    "airway-clearance-10",
+    "airway-clearance-and-sputum",
+    "airway-clearance-9",
+    "any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac",
+    "arthritis-and-vest-1",
+    "best-times-for-act",
+    "bololo-bottle-sterilizer-1",
+    "bronchial-artery-embolization",
+    "bronchiectasis-4"
+  ],
+  "tips": [
+    {
+      "tip": "Airway clearance twice daily is the gold standard ('in sickness and in health') - it is both preventative and curative. Even when not producing visible sputum, ACT moves mucus around preventing bacterial colonization and should be continued consistently.",
+      "cited_threads": ["airway-clearance-and-sputum", "airway-clearance-9"],
+      "source_type": "patient_validated",
+      "priority": "critical",
+      "notes": "Multiple long-term patients emphasize 2x daily minimum. The act of moving mucus prevents MAC from 'hiding and sitting' in airways even when nothing is coughed up."
+    },
+    {
+      "tip": "Always perform airway clearance on an empty stomach - at least 2-3 hours after eating. This prevents reflux/aspiration risk and makes the process more effective and comfortable.",
+      "cited_threads": ["best-times-for-act"],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Consistently mentioned across multiple patients. Timing meals around ACT is challenging but critical for safety and effectiveness."
+    },
+    {
+      "tip": "Maintain at least 6 hours between airway clearance sessions. Common schedules: 6am/12pm, 6am/4pm, or upon waking/late afternoon. Find a schedule you can maintain consistently - compliance matters more than perfection.",
+      "cited_threads": ["best-times-for-act"],
+      "source_type": "expert_validated",
+      "priority": "high",
+      "notes": "Dr. Daley confirmed 6-hour minimum window. One patient does 6am/12pm to avoid afternoon grazing interfering with empty stomach requirement."
+    },
+    {
+      "tip": "The 'Pop Cough' technique is highly effective: Inhale deeply, initiate hard exhalation against tightly pursed lips, then forcefully yell 'POP' as if blowing out birthday candles. This high-velocity exhalation propels mucus like a leaf blower. Repeat multiple times.",
+      "cited_threads": ["airway-clearance-10"],
+      "source_type": "patient_wisdom",
+      "priority": "high",
+      "notes": "Modification of huff cough that many patients find more effective. The pursed lips and explosive 'POP' create higher velocity airflow."
+    },
+    {
+      "tip": "Postural drainage using gravity is essential: Position body so hips are elevated above head (10+ inches) to let mucus 'slide down the mountain' into major airways. Use inversion table, thick pillow under hips, or lie on inclined surface.",
+      "cited_threads": ["airway-clearance-10", "best-times-for-act"],
+      "source_type": "patient_validated",
+      "priority": "high",
+      "notes": "One patient does 45 minutes postural drainage after exercise and nebulizing - reports lungs feel clear for rest of day. Analogous to mudslides moving downhill by gravity."
+    },
+    {
+      "tip": "Nebulize saline BEFORE using Aerobika or vest, then let it settle in lungs for a few minutes. The saline needs time to penetrate and loosen mucus. Sequence: nebulize → brief rest → breathing techniques → mechanical devices.",
+      "cited_threads": ["any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac"],
+      "source_type": "expert",
+      "priority": "high",
+      "notes": "Dr. Pamela McShane recommends NOT using vest/Aerobika simultaneously while nebbing. Let saline work first, then mobilize. Counters common practice of multitasking to save time."
+    },
+    {
+      "tip": "After nebulizing saline, lie down and perform breath-holding: inhale deeply, hold 5-7 seconds, gently release. This drives saline deeper into airways. Often triggers productive cough after just 1-2 breath holds.",
+      "cited_threads": ["any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac"],
+      "source_type": "patient_validated",
+      "priority": "high",
+      "notes": "Mamie's technique - consistently produces sputum. The lying position and breath-hold maximize saline penetration before attempting to mobilize mucus."
+    },
+    {
+      "tip": "For patients unable to produce sputum, nebulize TWO vials of 7% saline instead of one. The increased volume and prolonged irritation time improves mucus mobilization. Takes over an hour but significantly increases sputum production.",
+      "cited_threads": ["any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac"],
+      "source_type": "expert",
+      "priority": "medium",
+      "notes": "Dr. Pamela McShane's recommendation specifically for non-producers. Time-intensive but effective for challenging cases."
+    },
+    {
+      "tip": "If 7% saline is too irritating (throat irritation, blood-tinged sputum), mix 2mL of 3% and 2mL of 7% for a total of 4mL at intermediate concentration. Nebulize this mixture twice per session.",
+      "cited_threads": ["any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac"],
+      "source_type": "patient_wisdom",
+      "priority": "medium",
+      "notes": "Mamie's custom blend - gentler than pure 7% but more effective than 3% alone. Good compromise for sensitive airways."
+    },
+    {
+      "tip": "Using Aerobika in different body positions increases effectiveness: sitting upright, lying on back, lying on each side. Change positions throughout the session to target different lung regions.",
+      "cited_threads": ["any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac"],
+      "source_type": "patient_validated",
+      "priority": "medium",
+      "notes": "Positional changes help mobilize mucus from all lung lobes. Mamie goes through 4-5 cycles of autogenic drainage with position changes."
+    },
+    {
+      "tip": "The autogenic drainage app provides structured breathing cycles that effectively mobilize mucus. Use 4-5 cycles interspersed with half-coughs. Takes approximately 4.5 minutes and integrates well with Aerobika use.",
+      "cited_threads": ["any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac", "airway-clearance-9"],
+      "source_type": "patient_validated",
+      "priority": "medium",
+      "notes": "Free app provides timer and guidance for proper autogenic drainage technique. Can be done randomly throughout day beyond formal sessions."
+    },
+    {
+      "tip": "Guaifenesin (Mucinex) 600mg taken 30-60 minutes before ACT significantly improves mucus production and clearance. Take with full glass of water. Some patients take 400mg with lunch before afternoon ACT session.",
+      "cited_threads": ["any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac", "bronchiectasis-4"],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Lavinia's protocol uses 600mg before both AM/PM sessions plus 400mg at lunch. Multiple patients report Mucinex helps with night coughing and overall mucus mobilization."
+    },
+    {
+      "tip": "A complete ACT session (nebulizer + techniques + equipment) takes 20-60 minutes depending on method. Streamlined routine: 15-20min nebulizing, 4-5min autogenic drainage, 10-15min Aerobika/vest, 10min postural drainage.",
+      "cited_threads": ["any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac", "best-times-for-act"],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Lavinia's efficient protocol totals ~40min per session. Some patients spend 90+ minutes with extensive postural drainage. Find sustainable balance."
+    },
+    {
+      "tip": "If breath-actuated nebulizing takes too long (>30min for one vial), switch to continuous delivery mode for at least one vial to save time. It's acceptable to leave small amount of saline remaining - doesn't need to be completely empty.",
+      "cited_threads": ["any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac"],
+      "source_type": "patient_wisdom",
+      "priority": "medium",
+      "notes": "Practical time-saving tip from experienced patients. Breath-actuated is ideal but continuous mode is acceptable compromise when time-constrained."
+    },
+    {
+      "tip": "Percussion vibrators (6-head models available online <$40) can be more effective than expensive vests for some patients. Hold against chest - the penetrating vibrations break up and mobilize mucus like holding jelly jar upside down against vibrator.",
+      "cited_threads": ["airway-clearance-10"],
+      "source_type": "patient_validated",
+      "priority": "medium",
+      "notes": "RB reports this was the 'greatest difference' of any single component. Far cheaper than $15,000+ vest systems and more portable."
+    },
+    {
+      "tip": "Pharmaceutical adjuncts improve ACT effectiveness: Stiolto (loosens mucus) followed 90 minutes later by Levalbuterol (dilates airways). The sequence allows mucus mobilization then airway opening for easier expectoration.",
+      "cited_threads": ["airway-clearance-10"],
+      "source_type": "patient_validated",
+      "priority": "medium",
+      "notes": "RB's pharmaceutical protocol enhances mechanical clearance. Albuterol/Levalbuterol before saline nebbing is common practice."
+    },
+    {
+      "tip": "For patients unable to produce sputum with standard techniques, postural drainage (shoulder stand or head-down positions) after nebulizing and Aerobika often triggers production. Takes a few minutes for mucus to drain into position.",
+      "cited_threads": ["airway-clearance-9"],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Lynn's technique helped non-producers. CAUTION: NJH advises against inverted positions for patients with GERD due to aspiration risk - check with physician first."
+    },
+    {
+      "tip": "Morning ACT sessions are typically most productive, especially post-breakfast when mucus has accumulated overnight. Many patients report this as their most effective session of the day.",
+      "cited_threads": ["airway-clearance-and-sputum", "best-times-for-act"],
+      "source_type": "patient_experience",
+      "priority": "low",
+      "notes": "Bill Renner: 'My post-breakfast session is the most effective.' Circadian mucus production patterns make morning clearing more productive."
+    },
+    {
+      "tip": "Even when not producing visible sputum, you ARE clearing mucus - it's just mixed with saliva and swallowed. Improved O2 saturation, reduced cough, and better breathing are indicators of effective clearance beyond sputum production.",
+      "cited_threads": ["airway-clearance-9"],
+      "source_type": "expert_validated",
+      "priority": "high",
+      "notes": "Jan Hanson's pulmonologist confirmed dramatic O2 improvement despite no visible sputum. Relieves anxiety about 'not doing it right' when nothing comes up."
+    },
+    {
+      "tip": "Collecting sputum in sandwich bags for 1-2 days shows separation between saliva and true sputum - reassures patients they are producing even when it seems like nothing. Sputum congeals and separates from saliva over time.",
+      "cited_threads": ["airway-clearance-9"],
+      "source_type": "patient_wisdom",
+      "priority": "low",
+      "notes": "Stephanie's method for self-monitoring. Sputum breaks up during expectoration but congeals when allowed to settle. Helps track effectiveness."
+    },
+    {
+      "tip": "Huff coughing technique alone is insufficient for many patients. Requires combination approach: saline + mechanical device (Aerobika/vest) + breathing techniques + postural drainage for complete clearance.",
+      "cited_threads": ["bronchial-artery-embolization"],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Linda reports inability to produce sputum with huff cough alone despite strong regular coughs. Multifaceted approach needed."
+    },
+    {
+      "tip": "For hemoptysis (blood in sputum), temporarily reduce ACT intensity: lower Aerobika setting, skip vest, use lowest saline concentration. Continue gentler ACT rather than stopping completely unless doctor advises cessation.",
+      "cited_threads": ["bronchial-artery-embolization"],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Kathleen's approach - nebulize first on lowest setting, then gentle Aerobika, then autogenic drainage app. Avoids vest which is too harsh during hemoptysis."
+    },
+    {
+      "tip": "Respiratory physiotherapy (percussive therapy from trained therapist) can teach techniques for difficult-to-clear patients and may be helpful when self-directed methods aren't working. Consider consultation for individualized instruction.",
+      "cited_threads": ["bronchial-artery-embolization"],
+      "source_type": "patient_wisdom",
+      "priority": "medium",
+      "notes": "Mamie's suggestion for patients struggling with sputum production. Professional assessment can identify technique issues."
+    },
+    {
+      "tip": "Consistent daily ACT can significantly reduce chronic coughing, including nighttime cough. Vest therapy for 6 months brought one patient 'almost normal' with dramatic cough reduction.",
+      "cited_threads": ["bronchiectasis-4"],
+      "source_type": "patient_validated",
+      "priority": "high",
+      "notes": "Caroline's experience shows cumulative benefit of sustained ACT. Results may take months but can be transformative for quality of life."
+    },
+    {
+      "tip": "For nighttime coughing that disrupts sleep: nebulize hypertonic saline just before bed, follow with autogenic drainage to maximize clearance, do nasal rinse, sleep on incline (wedge pillow or adjustable bed), keep honey and lozenges at bedside.",
+      "cited_threads": ["bronchiectasis-4"],
+      "source_type": "patient_validated",
+      "priority": "high",
+      "notes": "Patricia Ponte's protocol. Multiple patients report success with elevation. Cathie uses electronic adjustable bed - immediately starts coughing if head not elevated."
+    },
+    {
+      "tip": "If waking with night cough, get up and do 2-3 cycles of autogenic drainage rather than coughing in bed. This clears airways so you can return to sleep. Keep ginger or honey lozenges at bedside for minor coughing.",
+      "cited_threads": ["bronchiectasis-4"],
+      "source_type": "patient_validated",
+      "priority": "medium",
+      "notes": "Patricia's method prevents hour-long coughing fits. Getting vertical and actively clearing is more effective than lying down coughing."
+    },
+    {
+      "tip": "Cough suppressants (Delsym) are generally avoided but acceptable for specific situations: when sleep deprivation is severe, in doctor's waiting rooms, or when socially necessary. Use sparingly with physician approval.",
+      "cited_threads": ["bronchiectasis-4"],
+      "source_type": "expert_validated",
+      "priority": "medium",
+      "notes": "Alena's pulmonologist gave conditional approval. Sleep is critical for healing - occasional suppressant use for sleep may be lesser evil than chronic sleep deprivation."
+    },
+    {
+      "tip": "A tablespoon of pure local honey before bedtime (after brushing teeth) can help suppress nighttime cough naturally. The coating effect on throat reduces cough reflex.",
+      "cited_threads": ["bronchiectasis-4"],
+      "source_type": "patient_experience",
+      "priority": "low",
+      "notes": "Cathie's method. Honey's antimicrobial and soothing properties. Local honey may have additional immune benefits."
+    },
+    {
+      "tip": "Night coughing can indicate lower respiratory infection or exacerbation. If suddenly worse, send sputum sample for culture to check for new pathogens requiring treatment beyond routine ACT.",
+      "cited_threads": ["bronchiectasis-4"],
+      "source_type": "patient_validated",
+      "priority": "high",
+      "notes": "Patricia Ponte's diagnostic approach. Sudden worsening of night cough is clinical warning sign worth investigating promptly."
+    },
+    {
+      "tip": "After exacerbation treatment with antibiotics, sputum production typically decreases or stops temporarily. This is expected - antibiotics dry out secretions. Continue twice-daily ACT even without visible sputum. Production usually gradually returns.",
+      "cited_threads": ["airway-clearance-and-sputum"],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Christine and Patricia confirmed this pattern. Reduced sputum post-antibiotic treatment is normal, not a reason to reduce ACT frequency."
+    },
+    {
+      "tip": "Some patients require 3x daily ACT during illness or exacerbations to maintain progress. When feeling well, 2x daily is standard, but increase frequency when symptomatic.",
+      "cited_threads": ["airway-clearance-and-sputum"],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "One patient does 3x daily proactively after hospitalization. Flexible frequency based on clinical status rather than rigid schedule."
+    },
+    {
+      "tip": "For patients with arthritis, osteoporosis, or back problems, vest therapy may cause intolerable pain. Aerobika + autogenic drainage app without vest can be effective alternative. Don't force painful interventions.",
+      "cited_threads": ["arthritis-and-vest-1"],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Patient stopped vest after back surgery - ongoing pain made vest unusable. Ethambutol neuropathy compounded issues. Alternative ACT methods exist for those who cannot tolerate mechanical devices."
+    },
+    {
+      "tip": "Recent NEJM article (September 2025) questions effectiveness of mucoactive agents (hypertonic saline) for bronchiectasis exacerbation reduction in clinical trials. However, patient experience remains that ACT with saline provides subjective benefit and symptom control.",
+      "cited_threads": ["time-to-reconsider-mucoactive-agents-for-airway-clearance-nejm"],
+      "source_type": "research_evidence",
+      "priority": "medium",
+      "notes": "Editorial creates uncertainty about evidence base, but most patients report personal benefit. NTM-specific studies (vs general bronchiectasis) still limited. Patricia notes no significant difference when traveling without nebulizer but continues using based on overall experience."
+    },
+    {
+      "tip": "Equipment hygiene between sessions: Dawn soap + tap water rinse + air dry is minimum. Daily sterilization (boiling or baby bottle sterilizer) recommended. Aerobika can be boiled; Acapella contains metal and may melt, limiting sterilization options.",
+      "cited_threads": ["bololo-bottle-sterilizer-1"],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Aerobika preferred over Acapella specifically because it can withstand full sterilization. Equipment recontamination is significant concern - proper cleaning critical."
+    },
+    {
+      "tip": "Using two sets of nebulizer cups and Aerobikas allows daily sterilization without disrupting ACT schedule: use set #1 for morning/afternoon, soak in Dawn solution, rinse, sterilize and dry overnight in baby bottle sterilizer, ready for next day.",
+      "cited_threads": ["best-times-for-act", "bololo-bottle-sterilizer-1"],
+      "source_type": "patient_wisdom",
+      "priority": "high",
+      "notes": "Sally and Lisa's system. Bololo sterilizer particularly popular. Eliminates equipment cleaning stress during busy day."
+    },
+    {
+      "tip": "Total daily time commitment for ACT including cleaning/sterilizing is 2-3 hours minimum. Morning routine: 90min (exercise, nebulize, postural drainage, cleaning). Evening: 60min (nebulize, techniques, cleaning). Factor this into work/life planning.",
+      "cited_threads": ["best-times-for-act"],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Jan Coleman's honest assessment: 'My life is consumed by AC.' Working patients struggle fitting this in - quality of life consideration when weighing treatment intensity."
+    },
+    {
+      "tip": "Finding a sustainable ACT routine you will actually do consistently is more important than achieving the 'perfect' protocol. Work with your physician to find schedule, techniques, and equipment combination that fits your life.",
+      "cited_threads": ["best-times-for-act", "airway-clearance-9"],
+      "source_type": "expert_validated",
+      "priority": "critical",
+      "notes": "Dr. Daley: 'Whatever routine gets you to be compliant, and is reasonable, is the routine to do.' Perfection is enemy of consistency. The best ACT routine is the one you'll actually do twice daily long-term."
+    }
+  ],
+  "key_insights": [
+    "Airway clearance is both preventative and curative - it works by constantly moving mucus to prevent MAC from establishing biofilms, not just by producing visible sputum. Even non-productive sessions provide benefit by mobilizing bacteria and preventing colonization.",
+    "The twice-daily standard is non-negotiable for most patients, but timing flexibility exists: minimum 6-hour gap between sessions, always on empty stomach (2-3 hours post-meal), with morning sessions typically most productive. Individual schedules vary from 6am/12pm to 6am/4pm to upon-waking/late-afternoon.",
+    "Technique sequencing matters: nebulize saline first and let it settle (don't multitask with vest/Aerobika during nebbing), then perform breathing techniques (breath-holds, autogenic drainage), then mechanical devices (Aerobika, vest), then postural drainage. Each step prepares for the next.",
+    "The 'Pop Cough' technique represents patient-driven innovation - a modification of huff cough adding pursed lips and explosive vocalization that many find more effective than standard techniques taught by medical professionals. Patient wisdom complements clinical protocols.",
+    "Postural drainage using gravity is underutilized but highly effective - positioning hips 10+ inches above head for 30-45 minutes after nebulizing allows mucus to 'slide down the mountain' into major airways where it can be expectorated. Inversion tables, thick pillows, or adjustable beds facilitate this.",
+    "Recent NEJM evidence (Sept 2025) questions mucoactive agents' efficacy in clinical trials, creating tension between research findings and patient-reported benefit. Most patients continue based on subjective improvement despite weak trial evidence. NTM-specific studies still needed.",
+    "Total time commitment is substantial (2-3 hours daily including cleaning) and represents major quality-of-life burden, especially for working patients. This reality must be acknowledged when discussing treatment adherence - sustainability matters more than perfection.",
+    "Equipment matters: percussion vibrators ($40) may outperform expensive vests ($15,000+) for some patients. Aerobika preferred over Acapella because it can be boiled. Two equipment sets enable proper sterilization without schedule disruption. Individual responses vary dramatically.",
+    "Inability to produce sputum doesn't mean ACT is ineffective - mucus clearance occurs without visible production (mixed with saliva, swallowed), and objective measures (O2 saturation, reduced cough frequency, lung function) can demonstrate benefit. This relieves anxiety about 'doing it wrong.'",
+    "Complications require protocol modifications: hemoptysis demands gentler approach (low saline concentration, skip vest, gentle Aerobika), arthritis/osteoporosis may preclude vest use, GERD contraindicates inverted positions. ACT protocols must be individualized for medical comorbidities.",
+    "Night coughing can be controlled through comprehensive evening protocol: prebedtime nebulizing + autogenic drainage + nasal rinse + sleeping on incline + bedside honey/lozenges. Sudden worsening may indicate infection requiring culture. Sleep quality is critical enough that occasional cough suppressant use is acceptable.",
+    "Pharmaceutical adjuncts enhance mechanical clearance: guaifenesin 600mg taken 30-60min before ACT, Stiolto for mucus loosening, Levalbuterol for airway dilation. Strategic medication timing optimizes mechanical techniques.",
+    "The autogenic drainage app provides accessible, structured breathing technique guidance. Stack breathing and autogenic drainage can be done randomly throughout the day beyond formal sessions, adding incremental benefit without major time commitment.",
+    "Patient attitude shift is critical: viewing ACT as 'gratitude practice' (Maureen), automatic routine 'like pouring coffee' (Brenda), or lifestyle acceptance rather than burden improves adherence. Psychological framing affects long-term compliance.",
+    "Results timelines vary: some experience dramatic improvement within months (Caroline 'almost normal' after 6 months vest), others see gradual accumulation of benefit. Consistency over months-to-years is required - this is marathon, not sprint."
+  ],
+  "common_questions": [
+    {
+      "question": "How often should I do airway clearance?",
+      "answer": "Twice daily minimum is the gold standard, 'in sickness and in health.' Three times daily during exacerbations or illness. Sessions should be spaced at least 6 hours apart. This is both preventative (moving mucus to prevent bacterial colonization) and curative (clearing existing infection)."
+    },
+    {
+      "question": "When is the best time to do ACT?",
+      "answer": "Always on empty stomach (2-3 hours after eating). Common schedules: 6am/12pm, 6am/4pm, upon waking/late afternoon, or upon waking/before bed. Morning sessions are typically most productive. The best schedule is one you can sustain consistently - work with your life pattern, not against it."
+    },
+    {
+      "question": "What if I can't produce any sputum - am I doing it wrong?",
+      "answer": "No. You ARE clearing mucus even without visible sputum - it's mixed with saliva and swallowed, or mobilized without reaching your mouth. Objective improvements (better O2 saturation, reduced coughing, easier breathing) demonstrate effectiveness. Continue ACT even when non-productive because it prevents bacterial colonization by constantly moving mucus."
+    },
+    {
+      "question": "What's the correct order for doing airway clearance?",
+      "answer": "Nebulize saline first, let it settle in lungs for a few minutes (don't use vest/Aerobika during nebbing), then do breath-holding exercise (inhale, hold 5-7 seconds, release) to drive saline deeper, then mechanical devices (Aerobika, vest, percussion vibrator), then postural drainage with gravity, finally breathing techniques (autogenic drainage, pop cough, huff cough). Sequence matters - each step prepares for the next."
+    },
+    {
+      "question": "How long should each ACT session take?",
+      "answer": "20-60 minutes depending on your protocol. Streamlined: 15-20min nebulizing, 5min autogenic drainage, 10-15min Aerobika/vest, 10min postural drainage. Extensive: add 30-45min postural drainage, multiple position changes, extra nebulizing cycles. Total daily time including equipment cleaning: 2-3 hours. Find sustainable balance."
+    },
+    {
+      "question": "Do I really need to do ACT twice a day if I'm feeling fine?",
+      "answer": "Yes. ACT is preventative - it keeps you feeling fine by preventing MAC from establishing biofilms in static mucus. 'In sickness and in health' is the mantra. Patients who reduce frequency when feeling well often experience symptom return. Twice daily maintains the benefit."
+    },
+    {
+      "question": "What's the Pop Cough and how is it different from huff cough?",
+      "answer": "Pop Cough: Inhale deeply, exhale hard against tightly pursed lips, then explosively yell 'POP' like blowing out birthday candles. The pursed lips create back-pressure and the explosive release generates high-velocity airflow that propels mucus like a leaf blower. Many patients find this more effective than standard huff cough which lacks the pursed-lip back-pressure and explosive force."
+    },
+    {
+      "question": "Should I nebulize while using my vest or Aerobika to save time?",
+      "answer": "No - Dr. Pamela McShane now recommends against multitasking. Nebulize first and let saline settle into airways (it's soaking the mucus like soaking dishes). Then use mechanical devices to mobilize the now-loosened mucus. Doing both simultaneously reduces effectiveness of each. Sequence matters more than time savings."
+    },
+    {
+      "question": "Is postural drainage really necessary or can I skip it?",
+      "answer": "Highly beneficial for many patients - some report it makes the biggest difference in their routine. Elevating hips 10+ inches above head uses gravity to drain mucus from small airways into large airways where you can cough it up. One patient does 45min postural drainage and reports lungs feel clear all day. Try it before dismissing - may be game-changer."
+    },
+    {
+      "question": "Can I do ACT just once a day instead of twice?",
+      "answer": "Not recommended without physician approval. Even physicians hesitant about once-daily will often defer to 'what do the support groups recommend?' (which is twice daily). Some patients dream of once-daily due to time burden, but twice-daily maintains stability. Discuss specific situation with NTM specialist if twice-daily is truly unsustainable."
+    },
+    {
+      "question": "What should I do about nighttime coughing that keeps me awake?",
+      "answer": "Comprehensive evening protocol: nebulize saline immediately before bed, do autogenic drainage to maximize clearance, nasal rinse, sleep elevated (wedge pillow or adjustable bed), keep honey and lozenges at bedside. If you wake coughing, get up and do 2-3 cycles of autogenic drainage rather than coughing in bed. If severe, occasional cough suppressant with physician approval is acceptable - sleep is critical for healing."
+    },
+    {
+      "question": "Do I need an expensive vest or will cheaper alternatives work?",
+      "answer": "Individual responses vary dramatically. Some patients get best results with $40 percussion vibrators, others swear by $15,000 vests, some can't tolerate vests at all due to pain (arthritis, osteoporosis) and do fine with just Aerobika. Try less expensive options first (percussion vibrator, Aerobika) before investing in vest. The best device is the one you'll use consistently."
+    },
+    {
+      "question": "Should I stop ACT when I have blood in my sputum (hemoptysis)?",
+      "answer": "No, but modify intensity: use lowest saline concentration, lowest Aerobika setting, skip vest temporarily, continue gentle Aerobika and autogenic drainage app. Complete cessation lets mucus accumulate. Notify physician about hemoptysis - may need CT scan and consideration of bronchial artery embolization if recurrent. Gentle ACT is better than no ACT."
+    },
+    {
+      "question": "Can I reduce ACT after finishing antibiotics since my sputum decreased?",
+      "answer": "No - antibiotics temporarily dry out secretions, but continue twice-daily ACT even without visible sputum. Production usually gradually returns after antibiotics leave your system. The reduced sputum post-treatment is expected and not a reason to reduce ACT frequency. ACT prevents reinfection."
+    },
+    {
+      "question": "How do I fit ACT into a full-time work schedule?",
+      "answer": "Challenging but possible. Wake early for morning session (6am). Do afternoon session at 4pm before dinner, or after work around 7-9pm (if last meal was 4pm). Negotiate work-from-home flexibility during initial months. Use two equipment sets so you can sterilize overnight without disrupting schedule. Accept that 2-3 hours daily is consumed by disease management - this is reality of chronic lung disease."
+    }
+  ]
+}

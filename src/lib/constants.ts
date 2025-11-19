@@ -299,6 +299,7 @@ export const FILTER_OPTIONS = {
 export const EXTERNAL_LINKS = {
   ntmForum: 'https://ntmforum.org',
   ntmInfo: 'https://ntminfo.org',
+  ntmConnectBase: 'https://connect.ntminfo.org',
   originalThread: (threadFile: string) =>
     `https://ntmforum.org/thread/${threadFile.replace('.md', '')}`,
 };

@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "project": "NTM Topic Tips Extraction",
+    "created": "2025-11-15",
+    "source_file": "enhanced_manual_tags_COMPLETE.json",
+    "total_threads_in_source": 959,
+    "methodology": "Human reading comprehension of thread discussions to extract actionable, expert-validated insights",
+    "quality_standards": "Tips prioritize safety-critical information, expert validation (especially Dr. Joseph Falkinham), practical patient wisdom, and correction of common misconceptions"
+  },
+  "topics": [
+    {
+      "topic_name": "equipment_sterilization",
+      "category": "Equipment Care",
+      "status": "complete",
+      "tips_count": 20,
+      "threads_analyzed": 18,
+      "threads_total": 179,
+      "completed_date": "2025-11-15",
+      "file": "topic_tips/equipment_sterilization.json"
+    },
+    {
+      "topic_name": "water_safety",
+      "category": "Safety & Environment",
+      "status": "complete",
+      "tips_count": 33,
+      "threads_analyzed": 26,
+      "threads_total": 136,
+      "completed_date": "2025-11-16",
+      "file": "topic_tips/water_safety.json"
+    },
+    {
+      "topic_name": "medication_side_effects",
+      "category": "Health Complications",
+      "status": "complete",
+      "tips_count": 50,
+      "threads_analyzed": 23,
+      "threads_total": 109,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/medication_side_effects.json"
+    },
+    {
+      "topic_name": "treatment_monitoring",
+      "category": "Treatment & Medications",
+      "status": "complete",
+      "tips_count": 40,
+      "threads_analyzed": 24,
+      "threads_total": 101,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/treatment_monitoring.json"
+    },
+    {
+      "topic_name": "manual_techniques",
+      "category": "Airway Clearance",
+      "status": "complete",
+      "tips_count": 37,
+      "threads_analyzed": 10,
+      "threads_total": 83,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/manual_techniques.json"
+    },
+    {
+      "topic_name": "nebulizers",
+      "category": "Airway Clearance",
+      "status": "complete",
+      "tips_count": 12,
+      "threads_analyzed": 12,
+      "threads_total": 85,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/nebulizers.json"
+    },
+    {
+      "topic_name": "saline_therapy",
+      "category": "Airway Clearance",
+      "status": "complete",
+      "tips_count": 30,
+      "threads_analyzed": 11,
+      "threads_total": 47,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/saline_therapy.json"
+    },
+    {
+      "topic_name": "inhaled_medications",
+      "category": "Treatment & Medications",
+      "status": "complete",
+      "tips_count": 30,
+      "threads_analyzed": 17,
+      "threads_total": 49,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/inhaled_medications.json"
+    },
+    {
+      "topic_name": "infection_prevention",
+      "category": "Safety & Environment",
+      "status": "complete",
+      "tips_count": 12,
+      "threads_analyzed": 18,
+      "threads_total": 77,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/infection_prevention.json"
+    },
+    {
+      "topic_name": "vest_therapy",
+      "category": "Airway Clearance",
+      "status": "complete",
+      "tips_count": 11,
+      "threads_analyzed": 7,
+      "threads_total": 21,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/vest_therapy.json"
+    },
+    {
+      "topic_name": "bronchoscopy",
+      "category": "Testing & Monitoring",
+      "status": "complete",
+      "tips_count": 3,
+      "threads_analyzed": 11,
+      "threads_total": 11,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/bronchoscopy.json"
+    },
+    {
+      "topic_name": "medical_centers",
+      "category": "Support & Resources",
+      "status": "complete",
+      "tips_count": 19,
+      "threads_analyzed": 19,
+      "threads_total": 195,
+      "completed_date": "2025-01-15",
+      "file": "topic_tips/medical_centers.json"
+    },
+    {
+      "topic_name": "research_trials",
+      "category": "Support & Resources",
+      "status": "complete",
+      "tips_count": 9,
+      "threads_analyzed": 12,
+      "threads_total": 107,
+      "completed_date": "2025-11-15",
+      "file": "topic_tips/research_trials.json"
+    },
+    {
+      "topic_name": "environmental_exposures",
+      "category": "Safety & Environment",
+      "status": "complete",
+      "tips_count": 16,
+      "threads_analyzed": 15,
+      "threads_total": 107,
+      "completed_date": "2025-11-15",
+      "file": "topic_tips/environmental_exposures.json"
+    },
+    {
+      "topic_name": "big3_antibiotics",
+      "category": "Treatment & Medications",
+      "status": "complete",
+      "tips_count": 16,
+      "threads_analyzed": 12,
+      "threads_total": 53,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/big3_antibiotics.json"
+    },
+    {
+      "topic_name": "alternative_therapies",
+      "category": "Treatment & Medications",
+      "status": "complete",
+      "tips_count": 17,
+      "threads_analyzed": 19,
+      "threads_total": 52,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/alternative_therapies.json"
+    },
+    {
+      "topic_name": "emotional_support",
+      "category": "Support & Resources",
+      "status": "complete",
+      "tips_count": 16,
+      "threads_analyzed": 18,
+      "threads_total": 85,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/emotional_support.json"
+    },
+    {
+      "topic_name": "iv_antibiotics",
+      "category": "Treatment & Medications",
+      "status": "complete",
+      "tips_count": 18,
+      "threads_analyzed": 12,
+      "threads_total": 18,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/iv_antibiotics.json"
+    },
+    {
+      "topic_name": "hearing_complications",
+      "category": "Health Complications",
+      "status": "complete",
+      "tips_count": 12,
+      "threads_analyzed": 7,
+      "threads_total": 9,
+      "completed_date": "2025-11-17",
+      "file": "topic_tips/hearing_complications.json"
+    },
+    {
+      "topic_name": "hemoptysis_bleeding",
+      "category": "Health Complications",
+      "status": "complete",
+      "tips_count": 12,
+      "threads_analyzed": 4,
+      "threads_total": 4,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/hemoptysis_bleeding.json"
+    },
+    {
+      "topic_name": "coinfections",
+      "category": "Health Complications",
+      "status": "complete",
+      "tips_count": 18,
+      "threads_analyzed": 13,
+      "threads_total": 61,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/coinfections.json"
+    },
+    {
+      "topic_name": "digestive_issues",
+      "category": "Health Complications",
+      "status": "complete",
+      "tips_count": 12,
+      "threads_analyzed": 8,
+      "threads_total": 23,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/digestive_issues.json"
+    },
+    {
+      "topic_name": "other_complications",
+      "category": "Health Complications",
+      "status": "complete",
+      "tips_count": 10,
+      "threads_analyzed": 15,
+      "threads_total": 97,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/other_complications.json"
+    },
+    {
+      "topic_name": "aerobika_opep",
+      "category": "Airway Clearance",
+      "status": "complete",
+      "tips_count": 12,
+      "threads_analyzed": 11,
+      "threads_total": 32,
+      "completed_date": "2025-01-18",
+      "file": "topic_tips/aerobika_opep.json"
+    },
+    {
+      "topic_name": "sputum_cultures",
+      "category": "Testing & Monitoring",
+      "status": "complete",
+      "tips_count": 13,
+      "threads_analyzed": 12,
+      "threads_total": 30,
+      "completed_date": "2025-11-18",
+      "file": "topic_tips/sputum_cultures.json"
+    },
+    {
+      "topic_name": "imaging_scans",
+      "category": "Testing & Monitoring",
+      "status": "complete",
+      "tips_count": 11,
+      "threads_analyzed": 10,
+      "threads_total": 10,
+      "completed_date": "2025-11-18",
+      "file": "topic_tips/imaging_scans.json"
+    },
+    {
+      "topic_name": "home_iv_care",
+      "category": "Equipment Care",
+      "status": "complete",
+      "tips_count": 10,
+      "threads_analyzed": 1,
+      "threads_total": 1,
+      "completed_date": "2025-11-18",
+      "file": "topic_tips/home_iv_care.json"
+    },
+    {
+      "topic_name": "family_relationships",
+      "category": "Daily Living",
+      "status": "complete",
+      "tips_count": 16,
+      "threads_analyzed": 5,
+      "threads_total": 5,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/family_relationships.json"
+    },
+    {
+      "topic_name": "work_employment",
+      "category": "Daily Living",
+      "status": "complete",
+      "tips_count": 16,
+      "threads_analyzed": 11,
+      "threads_total": 40,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/work_employment.json"
+    },
+    {
+      "topic_name": "exercise_activity",
+      "category": "Daily Living",
+      "status": "complete",
+      "tips_count": 15,
+      "threads_analyzed": 9,
+      "threads_total": 20,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/exercise_activity.json"
+    },
+    {
+      "topic_name": "nutrition_lifestyle",
+      "category": "Daily Living",
+      "status": "complete",
+      "tips_count": 15,
+      "threads_analyzed": 13,
+      "threads_total": 13,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/nutrition_lifestyle.json"
+    },
+    {
+      "topic_name": "travel_equipment",
+      "category": "Equipment Care",
+      "status": "complete",
+      "tips_count": 10,
+      "threads_analyzed": 12,
+      "threads_total": 22,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/travel_equipment.json"
+    },
+    {
+      "topic_name": "newer_antibiotics",
+      "category": "Treatment & Medications",
+      "status": "complete",
+      "tips_count": 20,
+      "threads_analyzed": 10,
+      "threads_total": 25,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/newer_antibiotics.json"
+    },
+    {
+      "topic_name": "surgical_treatment",
+      "category": "Treatment & Medications",
+      "status": "complete",
+      "tips_count": 18,
+      "threads_analyzed": 9,
+      "threads_total": 26,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/surgical_treatment.json"
+    },
+    {
+      "topic_name": "species_specific_treatment",
+      "category": "Treatment & Medications",
+      "status": "complete",
+      "tips_count": 19,
+      "threads_analyzed": 10,
+      "threads_total": 32,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/species_specific_treatment.json"
+    },
+    {
+      "topic_name": "travel_safety",
+      "category": "Safety & Environment",
+      "status": "complete",
+      "tips_count": 20,
+      "threads_analyzed": 12,
+      "threads_total": 42,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/travel_safety.json"
+    },
+    {
+      "topic_name": "resistance_testing",
+      "category": "Testing & Monitoring",
+      "status": "complete",
+      "tips_count": 0,
+      "threads_analyzed": 0,
+      "threads_total": 0,
+      "completed_date": "2025-11-18",
+      "file": "topic_tips/resistance_testing.json",
+      "note": "No threads available for this topic"
+    },
+    {
+      "topic_name": "insurance_costs",
+      "category": "Support & Resources",
+      "status": "complete",
+      "tips_count": 20,
+      "threads_analyzed": 10,
+      "threads_total": 70,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/insurance_costs.json"
+    },
+    {
+      "topic_name": "equipment_maintenance",
+      "category": "Equipment Care",
+      "status": "complete",
+      "tips_count": 20,
+      "threads_analyzed": 11,
+      "threads_total": 123,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/equipment_maintenance.json"
+    },
+    {
+      "topic_name": "patient_stories",
+      "category": "Support & Resources",
+      "status": "complete",
+      "tips_count": 38,
+      "threads_analyzed": 18,
+      "threads_total": 100,
+      "completed_date": "2025-11-19",
+      "file": "topic_tips/patient_stories.json"
+    }
+  ],
+  "statistics": {
+    "total_topics": 40,
+    "completed_topics": 40,
+    "total_tips": 726,
+    "total_threads_analyzed": 495
+  }
+}

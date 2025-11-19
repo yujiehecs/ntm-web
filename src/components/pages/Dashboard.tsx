@@ -104,10 +104,6 @@ export default function Dashboard() {
               <span className="font-semibold text-blue-600">{Object.keys(data?.topics || {}).length}</span>
               <span>Topics</span>
             </div>
-            <div className="flex items-center gap-2">
-              <ClockIcon className="h-4 w-4" />
-              <span>Last updated: {data?.lastUpdated ? new Date(data.lastUpdated).toLocaleDateString() : 'Unknown'}</span>
-            </div>
           </div>
         </div>
 

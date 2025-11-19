@@ -1,0 +1,150 @@
+{
+  "topic_name": "research_trials",
+  "category": "Support & Resources",
+  "threads_reviewed": 12,
+  "threads_total": 107,
+  "thread_list": [
+    "brinsupri-a-beginning-for-the-bronchiectasis-community",
+    "brensocatib-aspen-trial-results-in-nejm",
+    "icon-1-phase-3-trial-of-nebulized-clofazamine-for-ntm-lung-disease-stopped",
+    "arina-1-nebulized-treatment-for-bronchiectasis-update",
+    "calling-continental-us-volunteers-with-clinical-trial-experience",
+    "brinsupribrensocatib-becomes-first-fda-approved-treatment-for-bronchiectasis",
+    "insmed-study-participants-needed",
+    "mac2v3-study-update-summer-2025",
+    "clinical-trial-testimonial",
+    "dr-charles-chuck-daley-speaks-about-brinsupri-brensocatib",
+    "brensocatib-for-bronchiectasis-treatment",
+    "need-volunteers-for-home-study"
+  ],
+  "tips": [
+    {
+      "tip": "BRINSUPRI (brensocatib) is the first FDA-approved drug specifically for bronchiectasis (August 2025), but Dr. McShane emphasizes it's 'not sufficient alone' and requires multi-modal approach with mucoactive agents, airway clearance techniques, and macrolide therapy when appropriate. Clinical trials showed reduced exacerbations vs placebo and 25mg dose slowed FEV1 decline, but improvements typically seen around 6 months and drug stabilizes declining function rather than reversing existing damage. Critical limitation: trial excluded active NTM infection patients, creating uncertainty about effectiveness in broader real-world population. Some very symptomatic patients report 'getting their lives back' after 1-2 months, others experience no change or must discontinue due to side effects.",
+      "cited_threads": [
+        "brinsupri-a-beginning-for-the-bronchiectasis-community",
+        "brinsupribrensocatib-becomes-first-fda-approved-treatment-for-bronchiectasis",
+        "dr-charles-chuck-daley-speaks-about-brinsupri-brensocatib"
+      ],
+      "source_type": "expert",
+      "priority": "high",
+      "notes": "Dr. McShane's editorial in Archivos de Bronconeumología emphasizes multi-modal necessity. Dr. Daley's YouTube presentation explains safety profile and why doesn't suppress immunity - National Jewish will prescribe for NTM patients. Mechanism: DPP-1 inhibitor reducing inflammation from neutrophil over-activation. Dosing: 10mg or 25mg once daily oral. Contraindication: live vaccines should be avoided. Patient expectation management critical - not a magic pill replacement for airway clearance."
+    },
+    {
+      "tip": "BRINSUPRI medication information lists 'gum and tooth-related side effects' requiring dental monitoring, related to Papillon-Lefèvre syndrome (DPP-1 deficiency causing severe periodontitis). Community reports one trial participant lost all teeth requiring dentures (anecdotal). However, published PMC journal study analyzing 24 weeks treatment found NO increased periodontal disease progression vs placebo - hyperkeratosis and periodontitis/gingivitis occurred but 'not at much higher rate' than placebo. Patient reactions vary: some with existing dental issues declining treatment (96-year-old afraid of losing 'great depression teeth'), others with pristine teeth proceeding with monitoring as doctors 'not concerned at all.'",
+      "cited_threads": [
+        "brinsupribrensocatib-becomes-first-fda-approved-treatment-for-bronchiectasis"
+      ],
+      "source_type": "research_evidence",
+      "priority": "high",
+      "notes": "Balance anecdotal severe cases against controlled study data. Risk appears dose-dependent or patient-specific rather than universal. Recommendations: comprehensive dental exam before starting to establish baseline, frank discussion with dentist if existing periodontal disease, maintain rigorous dental hygiene during treatment (brushing, flossing, regular cleanings), request dental monitoring schedule from prescribing doctor. If exacerbations significantly impacting quality of life, dental monitoring may be reasonable tradeoff."
+    },
+    {
+      "tip": "BRINSUPRI costs vary dramatically: $120 copay per 90 days (Aetna Medicare PPO retiree plan) to $1,002 monthly (standard Medicare), with drug costing ~$4,000/month before insurance. Manufacturer Insmed offers InLighten Patient Support Program with copay assistance up to $35,000 for private insurance patients - after using $35k subsidy, cost goes to insurance deductible (~$2,100), then reduced copay (~$36/month post-deductible). Medicare patients often don't qualify for manufacturer assistance due to income restrictions and federal regulations. Major unresolved issue from Insmed August 12 conference call: insurers may only cover patients with 2+ exacerbations/year despite FDA's broad approval label (all NCFB ages 12+), as payors want to match clinical trial population criteria.",
+      "cited_threads": [
+        "dr-charles-chuck-daley-speaks-about-brinsupri-brensocatib",
+        "brinsupribrensocatib-becomes-first-fda-approved-treatment-for-bronchiectasis"
+      ],
+      "source_type": "patient_experience",
+      "priority": "critical",
+      "notes": "Financial access threatens equitable treatment. One patient must wait until January 2026 to start, timing to hit out-of-pocket max ($2,100) right away to optimize costs for rest of year. CT scans, cultures, doctor visits help meet deductible faster. Strategy: enroll in InLighten immediately, ask pharmacy about manufacturer copay cards/pardons, document exacerbation history carefully as insurers may require 2+ exacerbations despite broad FDA label, plan for long-term affordability after subsidies expire. Medicare vs private insurance makes dramatic difference in out-of-pocket costs."
+    },
+    {
+      "tip": "BRINSUPRI clinical trials excluded patients with active NTM infections, yet many bronchiectasis patients have NTM - this creates gap between trial populations and real-world patients. Doctors disagree on prescribing: some pulmonologists won't prescribe for active untreated NTM (concerned about immune effects), while others including National Jewish ID doctor prescribe despite active infection (recommended for 80-year-old not on NTM meds as 'true candidate'). Understanding trial exclusion criteria essential before assuming results apply to your situation. MAC2v3 study demonstrates better real-world representation: enrolled patients with ~40% smear positive, most with bronchiectasis, ~2/3 using airway clearance devices across 22 accessible sites.",
+      "cited_threads": [
+        "brinsupribrensocatib-becomes-first-fda-approved-treatment-for-bronchiectasis",
+        "mac2v3-study-update-summer-2025",
+        "brensocatib-for-bronchiectasis-treatment"
+      ],
+      "source_type": "expert_validated",
+      "priority": "high",
+      "notes": "If you have active NTM infection, discuss with pulmonologist AND infectious disease specialist - get multiple expert opinions. Ask: 'How similar am I to patients in the clinical trial?' to assess applicability. Recognize 'statistically significant' trial results may not translate to 'clinically meaningful' for you if you differ from trial population. Trial results in NEJM or other journals provide detailed population characteristics - review supplement materials. Compassionate use programs typically only available to prior trial participants, not all patients with urgent need."
+    },
+    {
+      "tip": "IcON-1 Phase 3 trial tested nebulized clofazimine for refractory NTM lung disease. After 10 years development and very positive animal studies, trial stopped immediately after interim analysis: zero patients out of first 46 achieved sputum conversion after 6 months. MannKind Corp showed transparency announcing failure immediately rather than hiding negative results. Patient insight: clofazimine repeatedly repositioned (TB → leprosy → MDR-TB → NTM) suggests fundamental limitations - may not penetrate NTM biofilm effectively. Side effect concerns (purple crystal deposits, optic lens effects) deterred enrollment.",
+      "cited_threads": [
+        "icon-1-phase-3-trial-of-nebulized-clofazamine-for-ntm-lung-disease-stopped"
+      ],
+      "source_type": "research_evidence",
+      "priority": "medium",
+      "notes": "Complete failure despite animal model success demonstrates why human trials essential. Key lessons: transparency from companies announcing failures advances science, failed trials eliminate ineffective approaches, question drugs repeatedly repositioned (signals limitations not breakthroughs), animal studies don't predict human results. Community learns from failures to make informed decisions about future trial participation. 0% conversion rate after 6 months led to immediate stop."
+    },
+    {
+      "tip": "ARINA-1 by Renovion Inc. is proprietary nebulized solution for non-CF bronchiectasis with tri-mechanism: thins mucus, reduces inflammation WITHOUT steroid side effects, inhibits harmful bacteria. Phase 2 completed 2024 with promising safety/efficacy - begins working within days. Currently preparing Phase 3 trials targeting mild-moderate NCFBE patients as first-line therapy for symptom management and slowing progression. If approved after Phase 3, would be first non-antibiotic nebulized therapy specifically for bronchiectasis. FDA discussions ongoing about treating symptoms early before exacerbations. Multiple patients requesting notification when Phase 3 enrollment opens.",
+      "cited_threads": [
+        "arina-1-nebulized-treatment-for-bronchiectasis-update"
+      ],
+      "source_type": "research_evidence",
+      "priority": "medium",
+      "notes": "Timeline: Phase 3 and FDA review likely 2-3 years before potential approval. Register at clinicaltrials.gov and NTMIR for trial notifications. Phase 3 participation crucial for drug approvals - BRINSUPRI approved after successful ASPEN Phase 3 results. Non-antibiotic approach addresses antibiotic resistance concerns. CEO Dan Copeland (Renovion) provided update directly to community via Linda Esposito. Early-phase trials help drug development but Phase 3 tests effectiveness in larger populations most similar to real-world patients."
+    },
+    {
+      "tip": "MAC2v3 study at Oregon Health & Science University (Drs. Kevin Winthrop and Emily Henkle) tests whether 2-drug regimen (azithromycin + ethambutol) as effective as Big 3 (adding rifampin) for culture conversion and whether 2 drugs easier to tolerate. Enrollment completed October 2024 with 474 patients (exceeded 466 target) across 22 sites from Hawaii to Texas to Toronto. Final analysis October 2025 - results cannot be reported until data collection complete. If successful, could eliminate rifampin for many patients, dramatically reducing side effect burden (drug interactions, liver issues, GI problems). Study includes patient advisory committee - patients have voice in research design.",
+      "cited_threads": [
+        "mac2v3-study-update-summer-2025"
+      ],
+      "source_type": "research_evidence",
+      "priority": "high",
+      "notes": "Demonstrates gold standard patient-centered trial design: randomized control, 22 accessible sites (not just major centers), representative real-world population (40% smear positive, 2/3 use airway clearance), patient advisory committees throughout. If you're starting Big 3 and struggling with side effects, wait for results in late 2025 to inform whether continuation necessary. Results won't be reported until 12-month data collection completes - researchers maintain scientific integrity despite community eagerness. Whether you participated or not, results will inform treatment decisions about potentially simplifying regimen for thousands."
+    },
+    {
+      "tip": "Insmed market research survey is NOT a clinical trial - it's 40-minute online survey about MAC lung disease patient experiences with compensation provided, ages 45+ with physician-diagnosed MAC/NTM. Purpose is market research to understand healthcare issues and patient needs. Distinction important: market research vs clinical trial participation very different in time commitment, risk, and purpose. Contact: healthresearch@mswresearch.com or 812-759-2502.",
+      "cited_threads": [
+        "insmed-study-participants-needed"
+      ],
+      "source_type": "practical_guidance",
+      "priority": "low",
+      "notes": "Many patients confuse market research surveys with treatment trials. Market research gathers patient feedback on experiences, symptoms, healthcare journey - no medication testing involved. Helps companies understand patient needs for future drug development and support programs. Paid compensation typical for time investment. If seeking actual treatment trials, use clinicaltrials.gov (NIH database) and NTMIR resources instead."
+    },
+    {
+      "tip": "Clinical trial testimonial video projects seek patient volunteers to share trial participation experiences to encourage future enrollment. One project requires: participated in ANY clinical trial (not disease-specific), CANNOT be Insmed-sponsored trial or Insmed product trial, video used in educational/recruitment materials. Contact: ntmmail@ntminfo.org. Demonstrates importance of patient stories in trial recruitment - real experiences help others understand participation process and overcome hesitation.",
+      "cited_threads": [
+        "calling-continental-us-volunteers-with-clinical-trial-experience",
+        "clinical-trial-testimonial"
+      ],
+      "source_type": "practical_guidance",
+      "priority": "low",
+      "notes": "Volunteer opportunities exist for patients with trial experience to help community. Sharing your trial participation story (time commitment, what to expect, pros/cons) valuable for patients considering enrollment. Some projects exclude company-sponsored trials to avoid appearance of bias. Consider volunteering if you've participated and want to give back - your experience helps future patients make informed decisions about trial participation."
+    }
+  ],
+  "key_insights": [
+    "BRINSUPRI represents first-in-class bronchiectasis treatment but adoption complexity demonstrates real-world challenges: trial excluded active NTM patients creating effectiveness uncertainty, periodontal risks balanced against exacerbation reduction (24-week study shows no increased progression but anecdotal severe cases exist), cost varies dramatically by insurance type ($120 to $1,002 monthly copays), insurers may require 2+ exacerbations/year despite broad FDA label, requires multi-modal approach not replacement for airway clearance. Dr. McShane and Dr. Daley emphasize continued need for comprehensive care including mucoactive agents and airway clearance techniques.",
+    "Clinical trial design limitations create gaps between trial populations and real-world patients: BRINSUPRI excluded active infections yet many bronchiectasis patients have NTM, MAC2v3 demonstrates better real-world representation (40% smear positive, 2/3 use airway clearance, 22 accessible sites vs single major centers), understanding exclusion criteria essential before assuming trial results apply to your situation. Doctors disagree on prescribing BRINSUPRI for active NTM - some won't prescribe due to immune concerns, others including National Jewish ID doctors prescribe despite active infection.",
+    "Trial transparency and patient involvement advancing research quality: MannKind announced IcON-1 failure immediately (0% conversion after 6 months) rather than hiding negative results, MAC2v3 includes patient advisory committees giving community voice in design, real-world trial populations more applicable than highly selected populations, multi-site designs improve accessibility (22 sites from Hawaii to Toronto vs requiring travel to single major center), failed trials advance science by eliminating ineffective approaches.",
+    "Drug development pipeline offers hope despite failures: ARINA-1 preparing Phase 3 for non-antibiotic nebulized bronchiectasis therapy (reduces inflammation without steroids, works within days), Phase 3 trials crucial for approvals (BRINSUPRI succeeded after ASPEN Phase 3), failed trials like IcON-1 demonstrate why human testing essential despite positive animal studies (clofazimine may not penetrate NTM biofilm), patients can register for trial notifications via clinicaltrials.gov and NTMIR to participate in future research.",
+    "Financial access challenges threaten equitable treatment adoption: manufacturer copay assistance ($35k) available for private insurance but Medicare patients face severe restrictions, timing drug start to hit out-of-pocket max optimizes annual costs (one patient waiting until January 2026), insurers negotiating coverage criteria potentially more restrictive than FDA label (may require 2+ exacerbations), InLighten Patient Support Program provides assistance information but income cutoffs exist, long-term affordability planning essential after subsidies expire as medication costs ~$4,000/month before insurance."
+  ],
+  "common_questions": [
+    {
+      "question": "Should I take BRINSUPRI if I have active untreated NTM infection?",
+      "answer": "Doctors disagree on this - BRINSUPRI clinical trials excluded patients with active NTM infections, creating uncertainty. Some pulmonologists won't prescribe for active untreated NTM due to immune system concerns, while other doctors including some at National Jewish prescribe despite active infection. One National Jewish ID doctor recommended it for 80-year-old not on NTM meds as 'true candidate.' Get opinions from both your pulmonologist AND infectious disease specialist. Dr. Daley explains in his YouTube presentation why drug is considered safe and doesn't suppress overall immunity. Key consideration: you differ from trial population so effectiveness uncertain in your specific case."
+    },
+    {
+      "question": "Are BRINSUPRI's dental risks worth the exacerbation benefits?",
+      "answer": "Risk/benefit balance depends on your individual situation. Drug info lists 'gum and tooth-related side effects' requiring dental monitoring, related to DPP-1 deficiency syndrome. One trial participant reportedly lost all teeth (anecdotal), scaring some patients. However, published study analyzing 24 weeks treatment found NO increased periodontal disease progression vs placebo - side effects occurred but 'not at much higher rate.' If you have pristine teeth and good hygiene, some doctors not concerned. If you have existing periodontal disease, have frank discussion with dentist. If exacerbations significantly impacting quality of life (some report 'getting their lives back'), dental monitoring may be reasonable tradeoff. Schedule comprehensive dental exam before starting, maintain rigorous hygiene during treatment."
+    },
+    {
+      "question": "How do I find and qualify for clinical trials?",
+      "answer": "Start with clinicaltrials.gov (official NIH database) and NTMIR resources for NTM-specific trials. MAC2v3 study shows trials can be accessible - 22 sites from Hawaii to Texas to Toronto, not just major academic centers. Review exclusion criteria carefully before applying - many trials exclude active infections, specific comorbidities, or patients not meeting disease severity thresholds. BRINSUPRI trials required exacerbation history; compassionate use only available to prior trial participants. Ask potential trial coordinators: 'How similar am I to your target population?' Phase 3 trials test effectiveness in larger populations most similar to real-world patients. Patient advisory committees in some trials give community voice. Register for notifications to hear about opportunities early."
+    },
+    {
+      "question": "What does MAC2v3 study mean for my MAC treatment?",
+      "answer": "MAC2v3 tests whether 2-drug regimen (azithromycin + ethambutol) is as effective as Big 3 (adding rifampin) for culture conversion and whether it's easier to tolerate. If successful when results released October 2025, could allow many patients to eliminate rifampin, dramatically reducing side effect burden (drug interactions, liver issues, GI problems). Study enrolled 474 patients across 22 sites - participants representative of real-world MAC population (most have bronchiectasis, ~40% smear positive, ~2/3 use airway clearance). If you're starting Big 3 and struggling with side effects, wait for results in late 2025 to inform whether continuation necessary. Results can't be reported until 12-month data collection completes. Whether you participated or not, results will inform your doctor's treatment decisions."
+    },
+    {
+      "question": "Why did IcON-1 clofazimine trial fail and what can we learn?",
+      "answer": "IcON-1 tested nebulized clofazimine for refractory NTM lung disease. After 10 years development and very positive animal studies, trial stopped immediately after interim analysis: ZERO patients out of first 46 achieved sputum conversion after 6 months. Complete failure demonstrates why human trials essential despite animal model success. Patient insight: clofazimine repeatedly repositioned (TB → leprosy → MDR-TB → now NTM) suggests fundamental limitations - may not penetrate NTM biofilm effectively. Key lessons: MannKind showed transparency announcing failure immediately vs hiding results, failed trials advance science by eliminating ineffective approaches, question drugs repeatedly repositioned, animal studies don't predict human results, community learns from failures to make informed decisions about future trial participation."
+    },
+    {
+      "question": "How can I afford BRINSUPRI with my insurance?",
+      "answer": "Costs vary dramatically: $120 copay per 90 days (Aetna Medicare PPO retiree plan) to $1,002 monthly (standard Medicare), with drug costing ~$4,000/month before insurance. For PRIVATE INSURANCE: Enroll in Insmed's InLighten Patient Support Program immediately. Manufacturer copay assistance available up to $35,000. After using $35k subsidy, cost goes to insurance deductible (~$2,100), then reduced copay (~$36/month post-deductible). CT scans, cultures, doctor visits help meet deductible faster. For MEDICARE: Copay assistance restricted, income cutoffs for grants. One patient timing start for January 2026 to hit out-of-pocket max ($2,100) right away, optimizing rest of year. Ask pharmacy about manufacturer copay cards/pardons. Insurers may only cover patients with 2+ exacerbations/year despite FDA's broad label - document history carefully. Plan for long-term affordability after subsidies expire."
+    },
+    {
+      "question": "What is ARINA-1 and when will it be available?",
+      "answer": "ARINA-1 is proprietary nebulized solution by Renovion Inc. for non-CF bronchiectasis with tri-mechanism: thins mucus, reduces inflammation WITHOUT steroid side effects, inhibits harmful bacteria. Phase 2 completed 2024 with promising safety/efficacy - begins working within days. Currently preparing Phase 3 trials targeting mild-moderate NCFBE patients as first-line therapy for symptom management and slowing progression. If approved, would be first non-antibiotic nebulized therapy specifically for bronchiectasis (addresses antibiotic resistance concerns). FDA discussions ongoing about treating symptoms early before exacerbations. Timeline: Phase 3 and FDA review likely 2-3 years before potential approval. Register at clinicaltrials.gov and NTMIR for updates. Phase 3 participation crucial for drug approvals - BRINSUPRI approved after successful ASPEN Phase 3."
+    },
+    {
+      "question": "Does BRINSUPRI mean I can stop airway clearance and nebulizers?",
+      "answer": "Absolutely NOT. Dr. McShane's editorial emphasizes BRINSUPRI is 'not sufficient alone' and requires multi-modal strategy including mucoactive agents, airway clearance techniques, and macrolide therapy when appropriate. He states it's 'unrealistic to expect one drug to meet every patient's needs' given bronchiectasis complexity. BRINSUPRI reduces inflammation from neutrophil over-activation (DPP-1 inhibition) but doesn't replace mechanical mucus clearance. Trial results showed reduced exacerbations and slowed FEV1 decline, but drug stabilizes declining function rather than reversing existing damage. Some very symptomatic patients report significant improvement after 1-2 months, others no change or discontinuation. Even with BRINSUPRI, continue nebulizers, vests, saline, and other prescribed therapies - bronchiectasis requires 'equally nuanced approach' as other chronic diseases per Dr. McShane."
+    }
+  ]
+}

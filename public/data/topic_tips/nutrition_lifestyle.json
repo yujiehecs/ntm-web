@@ -1,0 +1,186 @@
+{
+  "topic_name": "nutrition_lifestyle",
+  "category": "Daily Living",
+  "threads_reviewed": 13,
+  "threads_total": 13,
+  "thread_list": [
+    "an-ode-to-kefir",
+    "any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac",
+    "immune-system-boosting",
+    "iron-supplementation",
+    "lack-of-information-on-diet-for-people-with-ntms",
+    "nutritional-drink",
+    "putting-on-weight",
+    "result-of-gaining-weight",
+    "sugar-and-mac",
+    "things-that-made-managing-this-disease-easier-for-me",
+    "weight-loss-1",
+    "weight-loss-with-mac",
+    "weight-loss"
+  ],
+  "tips": [
+    {
+      "tip": "Maintain BMI above 18.5 minimum, ideally 20+ for better outcomes. Studies show BMI below 18.5 carries poor prognosis for bronchiectasis and NTM. Weight provides essential reserves for fighting disease ('insurance policy'), supports immune function, and reduces frailty/wasting effects on mortality. Many patients report feeling significantly better, stronger, sleeping better, and having more energy after reaching BMI 20 compared to 17.5.",
+      "cited_threads": ["putting-on-weight", "result-of-gaining-weight", "weight-loss", "any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac"],
+      "source_type": "expert_validated",
+      "priority": "critical",
+      "notes": "NJH nutritionist Michelle MacDonald emphasizes BMI 20+ as target. Stephanie Burton: went from 107 lbs (BMI 17.5, nearly hospitalized for feeding tube) to 130 lbs (BMI 20), reports dramatic improvement in strength, appetite, energy, sleep, lab results, CT scans. Multiple patients confirm feeling worse at low BMI, better at higher weight. BMI <18.5 associated with increased mortality in BE/NTM patients."
+    },
+    {
+      "tip": "Weight gain requires intentional calorie tracking and structured approach—'eating normally' won't work. Use apps like MyNetDiary Premium (Michelle MacDonald works through this), track every bite, set calorie goals, establish eating schedule. Remove unconscious boundaries around food you established years ago. Add calories everywhere: extra olive oil, avocado, nuts, higher-calorie bread (2 slices not 1), cheese on burgers, beef over fish, peanut butter, desserts. Gain happens slowly—expect 8-9 months to gain 10 pounds even with commitment.",
+      "cited_threads": ["putting-on-weight", "result-of-gaining-weight", "weight-loss"],
+      "source_type": "patient_validated",
+      "priority": "high",
+      "notes": "Anonymous patient: 'Through NJH, I worked with Michelle for a year through MyNetDiary Premium. This app requires every bite morning, noon, night. I was able to gain about 8 pounds, very long year.' Shari Hill discovered she was 'stuck in maintaining weight mode' despite thinking she'd increased calories. Multiple patients emphasize need for intentional calorie density, not just eating more often."
+    },
+    {
+      "tip": "High-calorie Boost/Ensure (500+ calories per 8oz) most effective supplement for severe weight loss, but can reduce appetite for real food. Boost Very High Calorie (Amazon only) provides 500+ calories per serving—drink 2-3 daily adds 1000-1500 calories. However, thickness can fill you up preventing enjoyment of nutritious whole foods. Balance supplementation with real meals. Alternative: make homemade smoothies with protein powder, fruit, ice cream/honey, peanut butter for better nutrient density.",
+      "cited_threads": ["putting-on-weight", "result-of-gaining-weight", "weight-loss", "nutritional-drink"],
+      "source_type": "practical_guidance",
+      "priority": "high",
+      "notes": "Stephanie Burton credits high-calorie Boost for survival when down to 107 lbs. Betty Arndt: '2 per day gives me additional 700 calories and 32g protein.' Anonymous: 'Michelle suggested 2-3 Boost Very High Calorie daily. I was able to drink one—filled me up, left me not being able to enjoy real food.' Homemade smoothies recommended by Jan Lowenthal and Deborah Travis as alternative with better nutrition."
+    },
+    {
+      "tip": "Mirtazapine (atypical antidepressant) highly effective appetite stimulant for weight gain when other methods fail. Multiple patients gained 5-8 pounds and maintained it after years of unsuccessful attempts with diet/supplements alone. Side benefits: improved sleep, slight mood lift. No other significant side effects for most. Michelle MacDonald (NJH nutritionist) frequently recommends this medication.",
+      "cited_threads": ["weight-loss"],
+      "source_type": "expert_validated",
+      "priority": "high",
+      "notes": "Tammy Lakes: prescribed by pain clinic physician, gained 8 lbs after losing 35 lbs despite trying all drinks/boosts/herbs. Mary Jane Childs: 'did the trick for me.' Betsy Glaeser: 'only med which helped me gain 5 pounds and keep it on after years of weight struggles including 9 months feeding tube.' Linda Esposito confirms Michelle MacDonald often mentions this med. Primarily acts as appetite stimulant."
+    },
+    {
+      "tip": "View your body as 'your beautiful baby' you're responsible for nurturing—powerful psychological reframe for overcoming mental barriers to weight gain. Treat weight management as loving care for sick child, not vanity issue. Fighting disease takes enormous caloric energy; adequate weight supports immune system and reduces mortality risk even if you don't consciously 'feel' the benefits.",
+      "cited_threads": ["putting-on-weight", "result-of-gaining-weight"],
+      "source_type": "patient_wisdom",
+      "priority": "medium",
+      "notes": "Lavinia Krufka (mental health professional specializing in weight/eating disorders): 'I treat myself and body as my beautiful baby that I am responsible for caring for and making sure I supply everything to help me thrive. I love her and want the best for her. No one else can do it for me better than I can.' Stephanie Burton: 'crying while I ate but thought of being alive longer to be with grandchildren, told myself each bite was for them.' Addresses psychological barriers many patients face."
+    },
+    {
+      "tip": "Stop exercising temporarily when severely underweight until you regain weight—body using up limited calories rather than storing them. Once BMI improves, resume exercise for overall health benefits. Conversely, focus on building muscle (not just fat) through protein + BCAA amino acids before workouts if maintaining higher weight. Weight distribution (belly gain) common complaint but health takes priority over aesthetics.",
+      "cited_threads": ["putting-on-weight", "result-of-gaining-weight"],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Stephanie Burton: 'I had to stop exercising for couple of months because my body was using up the only 600 calories each day I was consuming.' Shari Hill at 73: taking BCAA amino acids before 2-hour gym sessions every other day, hoping to gain muscle not just fat. Jan Coleman, Sue Woodard, Amy Corneau all report unexpected belly weight gain despite being active—common pattern. Lavinia: 'Addressing BMI realistically does not mean devoting entire life to disease.'"
+    },
+    {
+      "tip": "Homemade kefir provides 50+ billion CFUs probiotics (40-60 species) far exceeding commercial pills, potentially activating lung macrophages to fight NTM. Research shows kefir increases bronchial IgA, macrophage activity, and cytokines (IL-12, IFN-γ) essential for fighting mycobacteria in mice. Super simple: add 25g kefir grains to 1 cup milk, sit 2 days, strain, repeat. May reduce mucus unlike other dairy. Cost-effective but taste 'funky.'",
+      "cited_threads": ["an-ode-to-kefir"],
+      "source_type": "research_evidence",
+      "priority": "medium",
+      "notes": "Samantha Lane cites research: 'Due to increased bronchial IgA and phagocytic activity of pulmonary macrophages after kefir feeding, oral administration could act as natural adjuvant for enhancing specific immune response against respiratory pathogens.' Study: kefiran (from Lactobacillus kefiranofaciens in grains) reduced mucus in artificially-induced asthma mice. Must use homemade from grains (not powder) for kefiran. Yemoos.com resource. Water kefir has fewer species/CFUs."
+    },
+    {
+      "tip": "Avoid iron supplementation if possible—NTM and pseudomonas both thrive in iron-rich environments. Low ferritin common in NTM patients (iron sequestered by mycobacteria or anemia of chronic disease), but supplementation may strengthen bacteria more than immune system. Consult hematologist, rule out GI bleeding first (FIT test, colonoscopy), try dietary iron + vitamin C instead. If supplementing unavoidable, aim for 'sweet spot' maintaining low-normal ferritin, take every other day (not daily) to reduce hepcidin blocking absorption.",
+      "cited_threads": ["iron-supplementation"],
+      "source_type": "expert",
+      "priority": "critical",
+      "notes": "Caroline Nixon: 'specialist prefers to avoid iron supplements if possible. Pseudomonas definitely thrives in iron rich environments and suggestion NTM might too.' Elizabeth Oram: 'NJH recommends no supplementation or IV iron because mycobacteria feeds on it. Hematology felt [my low ferritin] due to iron being sequestered by mycobacteria.' Dr. Gil Solomon analysis: research shows moderate iron benefits host immune function but tipping point feeds bacteria—sweet spot exists but not yet defined in humans. Taking every-other-day improves absorption by avoiding hepcidin increase."
+    },
+    {
+      "tip": "NJH nutrition guidance focuses on nutrient-dense balanced diet supporting immune system, not restrictive 'don't eat' lists. Doctors acknowledge NTM everywhere—more important patients eat nutritiously to fight infection than avoid all exposures and risk emotional consequences. Michelle MacDonald's NTMir YouTube nutrition webinars (multiple videos) provide comprehensive guidance. Available for private consultations: michelle.o.macdonald@gmail.com. NTMir expanding website nutrition section with Michelle, printing pamphlet early 2026.",
+      "cited_threads": ["lack-of-information-on-diet-for-people-with-ntms", "weight-loss", "any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac"],
+      "source_type": "expert",
+      "priority": "high",
+      "notes": "Shari Hill frustrated by lack of clear dietary guidance beyond 'eat healthy.' Amy Leitman (NTMir President): 'Series of webinars on nutrition archived on YouTube, working on expansion of nutrition section with Michelle MacDonald who until recently worked at National Jewish as dietitian seeing NTM/BE patients. Roll out early 2026.' Lavinia Krufka: 'Doctors know NTM everywhere, believe patients have no option but live their lives or risk emotional consequences. At NJH they focus on avoiding highest concentrations supported by data.' Linda Esposito highly recommends scheduling consultation with Michelle."
+    },
+    {
+      "tip": "Vitamin/supplement toxicity real concern—fat-soluble vitamins (A, D, E, K) especially dangerous at high doses. Most supplements lack clinical proof; healthy diet usually best approach with few evidence-based exceptions. Consult physician (not chiropractor) about specific supplements. However, patient experiences vary: some report success with vitamin D, C, A, E, selenium, natural medicines during breaks from antibiotics—body may fight MAC naturally with nutritional support.",
+      "cited_threads": ["any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac"],
+      "source_type": "expert_validated",
+      "priority": "medium",
+      "notes": "Cecilia Peabody: 'Many supplements toxic including vitamins at higher doses, especially fat soluble vitamins A,D,E,K. Most supplements not clinically proven. Consult physician about supplements you're taking, not chiro.' Julie Clarkson: took break from Big 3 (white blood cells low) + 7 weeks IV Amikacin (hearing loss), decided to try vitamins A,D,C,E + selenium + natural meds on chiro advice for 4 months to see if body can fight MAC. Reflects real patient dilemma balancing evidence-based medicine vs alternative approaches during treatment breaks."
+    },
+    {
+      "tip": "Nutritional drinks (Ensure, Kate Farms) contain non-sterilized water creating infection risk dilemma. LifeStraw pitchers designed exclusively for water—thicker liquids clog filters, reduce nutrient content. Can't run through filters. Options: accept calculated risk (Michele Burke: 'honestly don't think will cause harm, can't control everything'), make homemade with boiled water (Carnation Breakfast powder + milk), or use protein powder smoothies with controlled water source.",
+      "cited_threads": ["nutritional-drink"],
+      "source_type": "practical_guidance",
+      "priority": "medium",
+      "notes": "Anonymous contacted LifeStraw: 'pitcher designed exclusively for water. Using thicker liquids could clog filters and impact performance.' Samantha Lane suggested Ensure powder with boiled/cooled water. Carolyn Phelps: 'Can only use water in Lifestraw, can't run tea or hot water, buy Carnation Breakfast Drink Mix powder mix with milk.' Represents real-world challenge balancing weight gain urgency vs water safety precautions."
+    },
+    {
+      "tip": "Digestive issues (constipation, bloating, SIBO) sabotage weight gain—address 'output' not just 'intake.' Eliminating foods (carbs, wheat, fat) causes more weight loss. Chronic constipation creates backed-up system unable to process food regardless of calorie intake. MiraLAX titrated to minimal effective dose can resolve chronic constipation allowing weight gain with fewer (not more) bowel movements paradoxically. Also investigate gluten intolerance (cut completely), food intolerances, GERD, IBS from antibiotics. Hydrogen breath test for SIBO.",
+      "cited_threads": ["putting-on-weight", "result-of-gaining-weight", "weight-loss"],
+      "source_type": "patient_wisdom",
+      "priority": "high",
+      "notes": "Anonymous: 'Problem was not intake/diet. Problem was sluggish output. I kept eliminating foods like carbs or wheat or fat—just caused more weight loss. Now that I'm not chronically constipated I actually have less frequent stools and feel better and gain weight. Surprisingly!' Helen Zhang: find out why can't gain weight—wheat intolerance, milk/oatmeal/banana intolerance. Jan Coleman: bloated despite negative SIBO test, plant-based diet. Tammy Lakes: cutting gluten completely helped digestive issues significantly. Michele Burke: 'many food sensitivities and IBS due to many antibiotics over years.'"
+    },
+    {
+      "tip": "Sugar/chocolate in moderation won't significantly affect MAC—body converts all carbohydrates to sugar anyway. Focus on balanced diet and overall calorie/nutrient intake rather than worrying whether small amounts of sugar feed bacteria. MAC can survive on surfaces for days without food, so dietary sugar unlikely to be growth factor. Dark chocolate has health benefits; enjoy small amounts without guilt, especially if struggling with weight loss.",
+      "cited_threads": ["sugar-and-mac"],
+      "source_type": "patient_wisdom",
+      "priority": "low",
+      "notes": "Anonymous asked if MAC feeds on sugar, worried about eating 'piece of chocolate or 2 once in a while.' Christine Wetzel: 'MAC can sit on surface for days and survive without anything. Use common sense. Geez, if you want to eat couple pieces of chocolate go ahead. Focus on balanced diet.' Loretta Netzer: 'Your body converts carbohydrates to sugar, so little bit of chocolate isn't going to make any difference.' Helen Zhang: 'small piece chocolate esp dark chocolate will only do goodness to health.'"
+    },
+    {
+      "tip": "Pre-antibiotic era TB/immunity research offers natural approaches: (1) Sunshine + sleep increase immune cells (monocytes, NK cells, interferon), (2) Hot/cold hydrotherapy raises immune factors in blood (sauna + ice bath), (3) Forest bathing (2-mile daily walk in nature vs urban) significantly boosts immune cells via Japanese research. Wagner-Jauregg won Nobel Prize curing neurosyphilis by inducing fever. However, airway clearance with saline twice daily remains most critical 'natural' intervention—absolutely essential.",
+      "cited_threads": ["any-success-with-natural-ways-to-build-up-immunity-to-fight-ntm-mac"],
+      "source_type": "research_evidence",
+      "priority": "low",
+      "notes": "Elizabeth Oram did deep dive into pre-antibiotic era TB treatments: 'Doctors sent patients to sanatoriums for sunshine and sleep—we know now from research this increases immune cells. Also discovered hot/cold therapy, hydrotherapy. Immune factors in blood rise significantly after hot sauna followed by ice cold water bath. Study using medical students: forest walkers had significant rises in immune cells vs urban area walkers.' However, Lavinia Krufka and Mamie Balestra both emphasized airway clearance twice daily as THE essential natural intervention before considering other approaches."
+    },
+    {
+      "tip": "Track calories with food diary apps (Cronometer website recommended) to illuminate actual intake vs perceived intake. Weigh yourself consistently (e.g., after dinner with shoes on for reproducibility) to monitor trends. Add calories through oils (olive, avocado) if digestive system sensitive. Eat whenever/wherever—nutrient-dense foods for lung health include specific list found by googling 'Nutrient Dense foods for Lung Health.' Solve underlying problems (food intolerance, acid reflux) blocking weight gain before increasing intake.",
+      "cited_threads": ["result-of-gaining-weight", "putting-on-weight"],
+      "source_type": "practical_guidance",
+      "priority": "medium",
+      "notes": "Jan Hanson: 'Best thing I did was use Cronometer website to put in everything I ate. It illuminated the problem, kept me on track. I finally fill out my size 2 pants. Main way I get extra calories with sensitive digestive system is olive and avocado oil!' Nancy Glasscock: 'Key is eating nutrient dense food, googled Nutrient Dense foods for Lung Health.' Helen Zhang: 'Important to find out why you can't gain weight' before just increasing intake."
+    }
+  ],
+  "key_insights": [
+    "Weight/BMI is 'insurance policy' not vanity—BMI <18.5 associated with poor prognosis, higher mortality, while BMI 20+ provides reserves for fighting disease, supports immune function, reduces frailty effects",
+    "Weight gain paradoxically difficult for underweight NTM patients: 'eating normally won't work'—requires intentional calorie tracking, structured approach, removing unconscious boundaries established years ago, expect 8-9 months for 10 pounds",
+    "Psychological barriers as significant as physical ones: women's indoctrination to stay thin conflicts with health needs, requires reframe ('beautiful baby you're nurturing' not vanity issue), therapeutic support if needed",
+    "High-calorie supplements (Boost 500+) vs homemade smoothies trade-off: commercial drinks effective but reduce appetite for nutritious whole foods, homemade provides better nutrient density but requires effort",
+    "Mirtazapine (atypical antidepressant) breakthrough medication when diet/supplements fail: multiple patients gained 5-8 lbs after years of unsuccessful attempts, side benefits include improved sleep/mood, NJH nutritionist frequently recommends",
+    "Iron supplementation controversial 'sweet spot': low ferritin common (mycobacteria sequester it) but supplementation may feed NTM/pseudomonas more than help immune system—NJH recommends dietary iron only, rule out GI bleeding first, if unavoidable supplement every-other-day targeting low-normal ferritin",
+    "Digestive 'output' problems sabotage weight gain more than inadequate 'intake': chronic constipation, SIBO, IBS from antibiotics, food intolerances (gluten, wheat, dairy) block processing regardless of calories consumed—address root cause before increasing food",
+    "NJH/expert guidance emphasizes nutrient-dense balanced diet over restrictive 'don't eat' lists: doctors acknowledge NTM everywhere, prioritize patients having highly nutritious diet to support immune system vs avoiding all exposures risking emotional consequences",
+    "Probiotics via homemade kefir provide 50+ billion CFUs (40-60 species) far exceeding pills: research shows kefir activates lung macrophages, increases cytokines for fighting mycobacteria in mice—must use grains not powder, super simple but 'funky' taste",
+    "Vitamin/supplement toxicity real (especially fat-soluble A,D,E,K at high doses), most lack clinical proof: consult physician not chiropractor, however patient experiences vary with some reporting success during antibiotic breaks",
+    "Pre-antibiotic era TB research offers natural immunity approaches (sunshine/sleep increase immune cells, hot/cold hydrotherapy, forest bathing) but airway clearance with saline twice daily remains THE essential 'natural' intervention",
+    "Belly weight gain common complaint (never carried there pre-NTM) but health takes priority over aesthetics: weight distribution changes with disease/age, focus on overall BMI not appearance",
+    "Sugar/chocolate moderation won't affect MAC (body converts all carbs to sugar anyway): use common sense, balanced diet more important than worrying about small indulgences, especially when struggling with weight loss",
+    "Commercial nutritional drinks contain non-sterilized water (LifeStraw won't work for thick liquids): calculated risk decision vs homemade options with controlled water, reflects real-world challenge balancing competing concerns"
+  ],
+  "common_questions": [
+    {
+      "question": "What BMI should I aim for with NTM/bronchiectasis?",
+      "answer": "Minimum 18.5, ideally 20+ for better outcomes. Studies show BMI below 18.5 carries poor prognosis. Multiple patients report feeling significantly better (stronger, better sleep, more energy, improved labs/CT scans) after reaching BMI 20 compared to 17.5. Michelle MacDonald (NJH nutritionist) emphasizes BMI 20+ as target. Think of extra weight as 'insurance policy'—provides reserves for fighting disease, supports immune function, reduces frailty/wasting effects on mortality."
+    },
+    {
+      "question": "How do I actually gain weight when 'eating normally' doesn't work?",
+      "answer": "Weight gain requires intentional structured approach: (1) Track every bite with apps like MyNetDiary Premium or Cronometer, (2) Set calorie goals and eating schedule, (3) Remove unconscious boundaries around food you established years ago, (4) Add calories everywhere (extra olive oil, avocado, nuts, 2 slices bread not 1, cheese on burgers, beef over fish, peanut butter, desserts), (5) Consider high-calorie Boost 500+ (2-3 daily adds 1000-1500 calories) or homemade smoothies, (6) If struggling after months, ask doctor about Mirtazapine appetite stimulant. Expect 8-9 months to gain 10 pounds even with commitment. Work with Michelle MacDonald if possible: michelle.o.macdonald@gmail.com."
+    },
+    {
+      "question": "What's Mirtazapine and does it really work for weight gain?",
+      "answer": "Mirtazapine is atypical antidepressant that acts as powerful appetite stimulant. Multiple patients gained 5-8 pounds and maintained it after years of unsuccessful attempts with diet/supplements alone. Side benefits: improved sleep, slight mood lift. No other significant side effects for most. Works when 'only med which helped me gain 5 pounds and keep it on after years of weight struggles including 9 months feeding tube.' NJH nutritionist Michelle MacDonald frequently recommends. Ask your doctor about prescription if other methods failing."
+    },
+    {
+      "question": "Should I take iron supplements for low ferritin with NTM?",
+      "answer": "Avoid if possible—NTM and pseudomonas both thrive in iron-rich environments. Low ferritin common in NTM (iron sequestered by mycobacteria or anemia of chronic disease), but NJH recommends NO supplementation or IV iron because mycobacteria feeds on it. First: rule out GI bleeding (FIT test, colonoscopy), try dietary iron + vitamin C, consult hematologist. If supplementing unavoidable, research suggests 'sweet spot' exists—moderate iron benefits immune function but tipping point feeds bacteria. Take every OTHER day (not daily) to avoid hepcidin blocking absorption, aim for low-normal ferritin range."
+    },
+    {
+      "question": "Is homemade kefir worth trying for immune support?",
+      "answer": "Possibly—research shows kefir increases bronchial IgA, activates lung macrophages, boosts cytokines (IL-12, IFN-γ) essential for fighting mycobacteria in mice. Homemade kefir provides 50+ billion CFUs with 40-60 probiotic species, far exceeding commercial pills. Super simple: add 25g kefir grains to 1 cup milk, sit 2 days, strain, repeat. Must use grains (not powder) for beneficial kefiran compound. May reduce mucus unlike other dairy. Cost-effective but taste 'funky.' Get grains from Yemoos.com. However, airway clearance with saline twice daily remains most essential intervention—add kefir as supplement to (not replacement for) proven treatments."
+    },
+    {
+      "question": "Why am I gaining weight in my belly when I never did before?",
+      "answer": "Common pattern with NTM/BE—many patients report belly gain despite being active, never carrying weight there pre-diagnosis. Causes unclear (possibly hyperinflated lungs, disease effects, age-related changes, medication effects). Multiple patients frustrated: 'gained 14 pounds on purpose, feel like it went to belly, never carried weight there pre-NTM.' However, health takes priority over aesthetics. Focus on reaching BMI 20+ regardless of distribution—your life depends on adequate weight reserves more than appearance. If truly concerning, check for SIBO, constipation, bloating issues; try cutting gluten completely."
+    },
+    {
+      "question": "Will eating sugar or chocolate make my MAC worse?",
+      "answer": "No—use common sense. MAC can survive on surfaces for days without food, so dietary sugar unlikely to be growth factor. Your body converts ALL carbohydrates to sugar anyway, so 'little bit of chocolate isn't going to make any difference.' Focus on balanced diet and overall calorie/nutrient intake rather than worrying about small indulgences. Dark chocolate has health benefits. Especially if struggling with weight loss, enjoy small amounts without guilt. More important to get adequate calories than eliminate every potential risk."
+    },
+    {
+      "question": "Should I stop exercising to gain weight?",
+      "answer": "Yes, temporarily if severely underweight—body using up limited calories rather than storing them. Once BMI improves, resume exercise for overall health. However, if maintaining higher weight, focus on building muscle (not just fat) through protein + BCAA amino acids before workouts. Balance differs per person: some stopped exercising 'couple months because body was using up only 600 calories daily consuming,' others continue 2-hour gym sessions every other day while gaining. Ask your doctor about your specific situation based on current BMI."
+    },
+    {
+      "question": "Where can I find reliable nutrition guidance for NTM/BE?",
+      "answer": "Michelle MacDonald is THE expert—worked at National Jewish Health 12+ years including supervisor role, now runs private consultation business (michelle.o.macdonald@gmail.com). Her NTMir YouTube webinars provide comprehensive nutrition guidance (multiple videos in playlist). NTMir expanding website nutrition section with Michelle, printing pamphlet early 2026. Linda Esposito highly recommends scheduling consultation. Michelle works through MyNetDiary Premium app for year-long tracking/coaching. Focus: nutrient-dense balanced diet supporting immune system, not restrictive 'don't eat' lists."
+    },
+    {
+      "question": "What if I can't gain weight despite trying everything?",
+      "answer": "Address underlying 'output' problems before increasing 'intake': (1) Chronic constipation—try MiraLAX titrated to minimal effective dose (paradoxically gain weight with fewer bowel movements once system unblocked), (2) Food intolerances—cut gluten completely for several weeks, test for wheat/dairy/banana/oatmeal sensitivities, (3) SIBO—hydrogen breath test, (4) IBS from antibiotics, (5) GERD/acid reflux. Eliminating foods (carbs, wheat, fat) causes MORE weight loss if digestive system already compromised. Track with Cronometer to illuminate actual vs perceived intake. If digestive system sensitive, add calories through oils (olive, avocado). Consider Mirtazapine if physical problems resolved but still can't gain."
+    }
+  ]
+}

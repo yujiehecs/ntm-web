@@ -1,0 +1,151 @@
+{
+  "topic_name": "imaging_scans",
+  "category": "Testing & Monitoring",
+  "threads_reviewed": 10,
+  "threads_total": 10,
+  "thread_list": [
+    "cavity-shrinkclose",
+    "if-cavity-wall-thickness-decreases-what-does-it-mean",
+    "what-causes-a-cavitary-mac-disease",
+    "tree-in-buds-on-your-ct-scan",
+    "worse-ct-scan",
+    "hrct-image-viewing-on-mychart-for-local-md",
+    "solid-and-groundglaaa-nodules-in-ct-measuring-up-to-6mm-adenocarcinoma-1",
+    "doctor-visits",
+    "how-long-to-culture-conversion-on-arikayce",
+    "able-to-purchase-vest-without-a-prescription"
+  ],
+  "tips": [
+    {
+      "tip": "Cavities under 1cm have the best chance of closing completely with treatment. One patient's 0.9cm thick-walled cavity completely disappeared after 1 year on the Big 3 antibiotics, even though their doctor warned it 'might never go away.' However, cavity closure is highly variable - some patients see 10% shrinkage in 4 months while others take a full year.",
+      "cited_threads": ["cavity-shrinkclose"],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Smaller cavities (<1cm) have better prognosis than larger ones. Patients report learning to compare their own CT scans over time by locating cavities and measuring size changes, though this should supplement professional radiology interpretation."
+    },
+    {
+      "tip": "Thinning cavity walls indicate healing and increase the likelihood of complete closure. As antibiotics eliminate bacteria causing the infection, inflammation in surrounding lung tissue decreases, allowing cavity walls to thin and lung tissue to heal. Successful cases may resolve completely with minimal scarring, though some patients are left with small thin-walled cysts or residual fibrosis.",
+      "cited_threads": ["if-cavity-wall-thickness-decreases-what-does-it-mean"],
+      "source_type": "patient_validated",
+      "priority": "high",
+      "notes": "This is a positive sign of treatment working even if the cavity hasn't disappeared yet. Patient researched medical literature on how antibiotics reduce cavity wall thickness and shared findings."
+    },
+    {
+      "tip": "Cavitary MAC disease typically develops in patients with pre-existing lung damage like scarring, fibrosis, or bronchiectasis. One patient traced their cavitary disease back to childhood pneumonia from premature birth (36 weeks), which caused pulmonary fibrosis and scar tissue - areas where MAC bacteria more easily colonize and grow. Interestingly, some patients develop cavities during MAC recurrence after being cured, even if they didn't have cavities during initial disease.",
+      "cited_threads": ["what-causes-a-cavitary-mac-disease"],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Surgery to remove bronchiectasis and scar tissue is sometimes discussed as prevention for MAC recurrence, but this is complex and not standard practice. Cavity development during recurrence may relate to antibiotic resistance or other factors doctors are still researching. Gamma knife surgery was mentioned but dismissed as inappropriate for lung infections (used for brain tumors/metastases)."
+    },
+    {
+      "tip": "'Tree-in-bud' pattern on CT scans is a classic finding for MAC lung disease but doesn't always indicate active infection. The pattern appears as small nodules clustered together resembling a budding tree, typically in areas of bronchiolitis. At initial MAC diagnosis, CT scans showing tree-in-bud nodules are usually confirmed by positive sputum cultures. However, many patients continue to show tree-in-bud on subsequent CT scans even after completing treatment - these may represent stable scars rather than active disease.",
+      "cited_threads": ["tree-in-buds-on-your-ct-scan"],
+      "source_type": "expert_validated",
+      "priority": "high",
+      "notes": "One ID doctor stated 'tree & bud goes along with MAC.' One patient had tree-in-bud on 6 CT scans from 2022-2025 with 'more and more every time,' yet doctors considered them 'stable' with no treatment needed. Another patient's initial 2008 CT read as 'tree in bud nodules consistent with MAC' (sputum confirmed), but post-treatment scans read as 'stable scars.' This underscores why sputum cultures remain essential - images alone can't distinguish old scarring from new active infection."
+    },
+    {
+      "tip": "Ground-glass opacities on CT scans are often infectious areas that can completely resolve, especially when small. One patient had a 17cm partial solid ground-glass opacity flagged with 'adenocarcinoma spectrum should be considered' but advised 3-month follow-up CT instead of immediate intervention. At the 3-month scan, the ground-glass opacity had completely disappeared - the most likely cause was an infectious area. However, solid and ground-glass nodules measuring up to 6mm do warrant surveillance CT scans every 6-12 months to ensure they're not adenocarcinoma.",
+      "cited_threads": ["solid-and-groundglaaa-nodules-in-ct-measuring-up-to-6mm-adenocarcinoma-1"],
+      "source_type": "patient_validated",
+      "priority": "medium",
+      "notes": "This is a common finding for people with NTM and bronchiectasis. Infectious ground-glass opacities typically resolve within months, while cancer-related findings persist or grow. The 'adenocarcinoma spectrum should be considered' language on radiology reports means the radiologist is being thorough by considering all possibilities, not making a definitive diagnosis - don't panic at this wording."
+    },
+    {
+      "tip": "CT scans often look 'worse' or unchanged even when treatment is working - symptoms and how you feel matter more than imaging alone. One patient on the Big 3 for 4 months felt 'finally better' after overcoming side effects, but their CT showed more lesions and low lung volume (they also had a cold during the scan). The community consensus: feeling better is most important, CT improvements happen very slowly over a long time, and stability (not getting worse) is success for many patients. The critical 6-month mark is when doctors determine if treatment is going in the right direction.",
+      "cited_threads": ["worse-ct-scan"],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "One experienced patient stated, 'Our CTs won't look very good for a long time. Progress is made very slowly... Stability is the best some of us can expect.' Always bring a sputum sample to appointments if your CT looks worse, and consider blood tests to verify therapeutic antibiotic levels, as many factors (including vitamins) can interfere with medication absorption. One patient was on Big 3 for 18 months, moved to daily therapy due to worse CT, went off therapy 18 months due to side effects, then back on for 3 years - never got a 'looking better' report but maintained stability."
+    },
+    {
+      "tip": "CT scan frequency varies based on disease stability: stable patients may only need annual CTs rather than every 6 months. For newly diagnosed or actively treated patients, doctors typically order CT scans every 6 months initially 'until they have a handle on your case.' Once stable (which may take years), annual CT scans become standard, especially when regular sputum monitoring continues monthly or quarterly. This is 'quite normal' even at NJH, where 10-year patients report annual checkups.",
+      "cited_threads": ["doctor-visits"],
+      "source_type": "expert_validated",
+      "priority": "medium",
+      "notes": "The shift to annual CTs reflects that NTM organisms are slow-growing, and the risks of CT radiation must be weighed against benefits - doctors prescribe the 'minimum necessary based on your condition.' However, patient comfort matters - one patient with unchanged CT but sporadic positive sputum (May, July, December) successfully advocated for maintaining 6-month monitoring rather than yearly when they felt uncomfortable with less frequent surveillance. Self-pay CT scans cost about $250 if you want more frequent monitoring than your doctor recommends."
+    },
+    {
+      "tip": "CT improvement may not correlate with culture conversion or symptom improvement, creating frustrating disconnects. One patient on Arikayce for 3.5 months had all sputum samples turn negative, but their CT scan 'showed no improvement and some areas are getting worse' with underlying bronchiectasis staying stable. It remained unclear whether worsening was due to MAC, Aspergillus, or something else - this is why bronchoscopy cultures become necessary when sputum and imaging tell conflicting stories.",
+      "cited_threads": ["how-long-to-culture-conversion-on-arikayce"],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Another patient's large lung nodule grew over 3 months even though their cavity disappeared after 1 year on antibiotics - doctors chose to 'just monitor' the nodule's growth. The timeline for CT improvement is measured in many months to years, not weeks, even after achieving negative cultures. Arikayce conversion times vary widely: one patient converted in 2 months (April-June 2023), another in less than 3 months but later tested positive again ('NTM is sly!'), and one patient after 9 months still tested positive for abscessus and MAC."
+    },
+    {
+      "tip": "Accessing CT images through MyChart/Epic for local doctors is notoriously problematic, even when both institutions use the same system. Patients repeatedly report that local doctors cannot see NJH CT images via MyChart - they can only see reports but not the actual imaging files. Solutions include: (1) Request a CD from NJH Medical Records (Goodwin Building) - sign form indicating 'urgent' for same-day pick-up before departure; for remote access, sign into NJH MyChart, request medical records, specify test/date and explicitly check 'include images' (report always goes through but images require special request), then CD will be mailed. (2) Ask local radiology department to perform an 'electronic push' of films to NJH when both use Epic.",
+      "cited_threads": ["hrct-image-viewing-on-mychart-for-local-md"],
+      "source_type": "patient_wisdom",
+      "priority": "high",
+      "notes": "Even when both institutions use Epic, image sharing requires technical setup that often fails. Epic licenses differ between private MD offices and hospital systems - radiologists affiliated with hospitals have 'viewer' software but this doesn't help in outpatient office settings. One patient called this 'my pet peeve.' Patients report this is frustrating across all health systems (UPMC, Connecticut hospitals, Pennsylvania hospitals, etc.), not unique to NJH. NJH also cannot see local lab work - local doctors must fax results. NJH has struggled with Epic/MyChart learning curve despite using system since at least October 2024."
+    },
+    {
+      "tip": "Bring your own CD copies of CT scans to all appointments with non-NJH providers for proper comparison. During 15-minute follow-up appointments, it's often unclear whether local pulmonologists truly can't access NJH images or simply don't know how to view them in the system. Without CDs, local doctors may only compare to old local CT scans taken years ago, missing critical changes documented at NJH.",
+      "cited_threads": ["hrct-image-viewing-on-mychart-for-local-md"],
+      "source_type": "practical_guidance",
+      "priority": "high",
+      "notes": "One patient emphasized the importance of comprehensive, coordinated care where 'NJH, local MD, and we the patient' can all review both past and present images together. The technical term for image access issues is that Epic licenses differ between private MD offices and hospital systems. Ironically, one patient noted that 'hackers have no issue getting into my accounts on a regular basis' while legitimate medical image sharing remains difficult."
+    },
+    {
+      "tip": "New areas of involvement on CT scans warrant investigation even when you're on treatment and feel stable. One patient whose pulmonologist said 'you're not yet at the point where you need a vest' but who had 'recent CT scan showed some new areas of involvement' was right to be concerned and seek additional airway clearance options. New areas of disease spreading despite treatment should prompt discussion of whether current antibiotics are working (blood level testing), whether additional cultures are needed to check for resistance or co-infections, and whether airway clearance needs to be intensified.",
+      "cited_threads": ["able-to-purchase-vest-without-a-prescription"],
+      "source_type": "patient_validated",
+      "priority": "medium",
+      "notes": "Context was about vest therapy, but the CT finding drove the patient's appropriate concern. The 6-month evaluation is when doctors make treatment direction decisions. Balance understanding that CT changes happen slowly while also advocating for thorough evaluation when new concerning findings appear. Don't dismiss worsening imaging as 'normal' without investigation, even though some progression during early treatment can be expected."
+    }
+  ],
+  "key_insights": [
+    "CT scan improvement lags far behind culture conversion - negative sputum doesn't predict imaging improvement for months to years. Multiple patients reported negative cultures but unchanged or worsening CT scans, creating frustrating but common disconnects that require bronchoscopy to resolve when sputum and imaging tell conflicting stories.",
+    "Stability on CT scans (not getting worse) is considered treatment success for many patients, not just 'looking better.' The community consensus is stark: 'Our CTs won't look very good for a long time. Progress is made very slowly... Stability is the best some of us can expect.' One patient never got a 'looking better' report despite years of treatment but maintained stability, which doctors considered success.",
+    "Cavity formation indicates advanced disease, typically occurring in patients with pre-existing lung damage from childhood illness, scarring, fibrosis, or bronchiectasis. Smaller cavities (<1cm) have much better odds of complete closure (one 0.9cm cavity disappeared after 1 year) compared to larger cavities. Thinning cavity walls are a positive sign of healing even before size reduction.",
+    "Tree-in-bud pattern persists even after treatment completion and can represent stable scars rather than active infection. One patient had tree-in-bud on 6 consecutive CT scans over several years with increasing findings, yet doctors considered them 'stable' with no treatment needed. CT scans read as 'tree in bud nodules consistent with MAC' at diagnosis later read as 'stable scars' post-treatment - the pattern looks the same but means different things depending on sputum culture correlation.",
+    "Ground-glass opacities often resolve completely when infectious (one 17cm opacity disappeared at 3-month follow-up), but surveillance is needed to rule out adenocarcinoma. The radiologist language 'adenocarcinoma spectrum should be considered' is standard thorough differential diagnosis, not a cancer diagnosis - infectious opacities resolve within months while cancer persists or grows.",
+    "MyChart/Epic image sharing fails between institutions even when both use the same system, due to Epic license differences between private MD offices and hospital systems. The most reliable solutions are physical CD copies (request from NJH Medical Records with 'include images' explicitly checked, as reports auto-send but images require special request) or asking radiology departments to perform 'electronic push' of films. This is a universal healthcare IT problem, not NJH-specific.",
+    "CT scan frequency decreases from 6-month to annual intervals once disease stability is established over years. NJH 10-year patients report annual checkups as standard once stable, especially with continued monthly/quarterly sputum monitoring. The rationale is that NTM organisms are slow-growing and CT radiation risks must be balanced against benefits. However, patient comfort matters - one patient successfully advocated for maintaining 6-month monitoring rather than yearly when uncomfortable with less frequent surveillance.",
+    "Symptoms and how you feel matter more than CT imaging alone for assessing treatment effectiveness in the first several months. One patient felt 'finally better after overcoming side effects' despite CT showing more lesions - the community validated that feeling better is most important. The critical 6-month treatment mark is when doctors evaluate whether treatment direction is correct using the full picture of symptoms, cultures, and imaging stability - not early CT improvements.",
+    "The disconnect between feeling better, culture conversion, and CT improvement creates three independent timelines that don't correlate neatly. One patient converted on Arikayce in 2 months but had no CT improvement at 3.5 months. Another's cavity disappeared after 1 year but a large nodule grew simultaneously. This is why comprehensive evaluation (symptoms + cultures + imaging + blood levels) is essential rather than relying on any single measure.",
+    "Patients successfully learn to compare their own CT scans over time by locating cavities and measuring size changes, asking informed questions like 'I noticed the cavity appears smaller - can you confirm?' This self-education empowers patient engagement while supplementing (not replacing) professional radiology interpretation. However, during appointments, the challenge is distinguishing whether images are truly inaccessible or providers don't know how to access them in the system."
+  ],
+  "common_questions": [
+    {
+      "question": "What does 'tree-in-bud' mean on my CT scan and does it always mean I have active MAC?",
+      "answer": "Tree-in-bud describes small nodules clustered together like a budding tree, typically in areas of bronchiolitis. It's a classic finding for MAC at initial diagnosis when sputum cultures are positive. However, tree-in-bud can persist on CT scans even after completing treatment - representing stable scars rather than active infection. One patient had tree-in-bud on 6 consecutive CT scans over several years with increasing findings, yet doctors considered them 'stable' with no treatment needed. This is why sputum cultures remain essential - images alone can't distinguish old scarring from new active infection. Always correlate CT findings with culture results and symptoms."
+    },
+    {
+      "question": "My cavity is shrinking - does this mean I'm curing?",
+      "answer": "A shrinking cavity is a very positive sign that antibiotics are working, but 'curing' is a long process. Cavities under 1cm have the best chance of complete closure. One patient's 0.9cm cavity completely disappeared after 1 year on the Big 3, though their doctor warned it might never close. Shrinkage rates vary widely - some see 10% in 4 months, others take a full year. Thinning cavity walls (not just size reduction) also indicate healing. Complete resolution may leave minimal scarring or a small thin-walled cyst. Continue treatment as prescribed and monitor with regular CT scans (typically every 6 months during active treatment) and sputum cultures. Your doctor will determine when it's safe to stop antibiotics based on multiple factors, not cavity closure alone."
+    },
+    {
+      "question": "What's the difference between ground-glass and solid nodules, and should I be worried about cancer?",
+      "answer": "Ground-glass opacities appear hazy on CT (like frosted glass) while solid nodules are more dense. In NTM/bronchiectasis patients, ground-glass opacities are often infectious areas that can completely resolve - one patient's 17cm ground-glass opacity (flagged as possible adenocarcinoma) disappeared at 3-month follow-up CT. Radiologists must consider adenocarcinoma spectrum for any nodules, which can be scary to read, but it means they're being thorough, not making a diagnosis. Infectious opacities typically resolve within months, while cancer persists or grows. Surveillance CT scans every 6-12 months help distinguish: if nodules shrink or disappear, they were likely infection-related. Nodules up to 6mm warrant monitoring but don't panic - your pulmonologist will guide appropriate follow-up based on your overall clinical picture."
+    },
+    {
+      "question": "My cultures are negative but my CT looks worse - why is this happening?",
+      "answer": "This frustrating disconnect is surprisingly common and has several possible explanations: (1) CT improvement lags behind culture conversion by many months to years - negative sputum doesn't immediately translate to better imaging; (2) Inflammation and lung damage from past infection takes time to heal even after bacteria are gone; (3) The 'worse' areas might be due to co-infections (Aspergillus, Pseudomonas) or even non-infectious issues, not MAC; (4) If you had a cold or respiratory illness during the CT, temporary changes can appear worse. This is exactly when bronchoscopy becomes valuable - to culture material directly from lungs when sputum and imaging tell different stories. Also verify therapeutic antibiotic blood levels, as absorption issues can make cultures appear negative while infection persists. The critical 6-month treatment mark is when doctors reassess treatment direction - before that, focus on how you feel, not just imaging."
+    },
+    {
+      "question": "How can I get my CT images to my local doctor - they say they can't see NJH scans on MyChart?",
+      "answer": "This is an extremely common problem even when both institutions use Epic/MyChart. Local doctors can usually see CT reports but not actual imaging files. Solutions: (1) At NJH: Visit Medical Records (Goodwin Building), sign release form, mark 'urgent' for same-day CD before you leave; or remotely: sign into NJH MyChart, request medical records, specify test/date, and EXPLICITLY check 'include images' (reports auto-send but images require special request), CD will be mailed. (2) Call your local radiology department AND NJH radiology directly - ask them to perform an 'electronic push' of films when both use Epic. (3) Always bring CD copies to local appointments - in a 15-minute follow-up, it's hard to know if images are truly unavailable or doctor doesn't know how to access them. (4) For NJH to see local labs, have your local doctor fax results - NJH can't see those either. This isn't just an NJH issue - all health systems struggle with image sharing."
+    },
+    {
+      "question": "What causes cavities to form in MAC disease?",
+      "answer": "Cavitary MAC disease typically develops in lungs with pre-existing damage: scar tissue, pulmonary fibrosis, or bronchiectasis. These damaged areas allow MAC bacteria to more easily colonize and grow. One patient traced their cavities back to childhood pneumonia from premature birth (36 weeks) causing lung scarring. Interestingly, cavities can develop during MAC recurrence even if absent during initial disease - possibly related to antibiotic resistance or 'more profound factors' doctors are still researching. Some patients ask about surgery to remove bronchiectasis/scar tissue to prevent recurrence, but this is complex with mixed evidence. Cavitary disease is considered more advanced than nodular (bronchiectasis) form and may require more aggressive or prolonged treatment. The presence of cavities also affects treatment decisions and prognosis."
+    },
+    {
+      "question": "How long until my CT scan shows improvement on treatment?",
+      "answer": "CT improvement is measured in many months to years, not weeks or even early months. One patient on Arikayce for 3.5 months had negative sputum but CT showed no improvement and some worsening areas. Another patient's cavity took a full year to disappear on the Big 3. The community consensus is stark: 'Our CTs won't look very good for a long time. Progress is made very slowly.' The critical 6-month treatment mark is when doctors assess whether treatment is working - not by expecting dramatic CT improvement, but by overall picture of symptoms, cultures, and imaging stability. Many patients on treatment for years never get a 'looking better' report but maintain stability, which is success. Don't judge treatment effectiveness by early CT scans - focus on how you feel, culture results, and preventing progression. Some changes take literally years to resolve even after achieving cure."
+    },
+    {
+      "question": "Should I be worried if my CT scan shows new lesions while I'm on antibiotics?",
+      "answer": "New lesions while on treatment deserve investigation but aren't automatic cause for panic. One patient 4 months into Big 3 had more lesions than before but also had a cold during the CT (causing temporary changes like low lung volume). Doctors evaluate the 6-month mark to determine treatment direction - before that, some CT fluctuation can be normal. However, new areas of involvement warrant: (1) Sputum sample at your next appointment to check for active infection, resistance, or co-infections; (2) Blood testing to verify therapeutic antibiotic levels - many factors including vitamins can interfere with absorption; (3) Discussion of whether current regimen is adequate or needs adjustment; (4) Consideration of intensified airway clearance if mucus clearance is suboptimal. Remember that feeling better is crucial - one patient felt 'finally better after overcoming side effects' despite worse CT. Balance realistic expectations (slow CT improvement) with appropriate clinical concern (investigating new findings, not dismissing them as 'normal')."
+    },
+    {
+      "question": "How often should I get CT scans - my doctor wants to reduce from every 6 months to yearly?",
+      "answer": "CT scan frequency depends on disease stability and treatment status. Initial disease or active treatment typically requires 6-month intervals 'until they have a handle on your case.' Once stable (may take years), annual CT scans become standard, especially with continued monthly/quarterly sputum monitoring - this is 'quite normal' even at NJH for 10-year patients. The rationale: NTM organisms are slow-growing, and CT radiation risks must be balanced against benefits. However, patient comfort matters. One patient with unchanged CT but sporadic positive sputum successfully advocated for keeping 6-month monitoring when yearly felt too infrequent. Factors supporting annual scans: truly stable imaging over time, consistent negative or minimal positive cultures, nodular (not cavitary) disease, good symptom control. If uncomfortable with less frequent monitoring, discuss with your doctor - self-pay CT scans cost about $250 if you want more frequent surveillance than recommended."
+    },
+    {
+      "question": "Can I compare my own CT scans or do I need a radiologist?",
+      "answer": "Many patients successfully learn to locate and measure their cavities or track nodules on sequential CT scans - one patient stated 'I learned from my doctor how to find the cavity in my CTs and am able to compare the shapes/size change in different time periods.' This self-education can be empowering and help you ask informed questions about progression. However, your comparison should supplement, not replace, professional radiology interpretation. Radiologists are trained to identify subtle changes, measure precisely, assess multiple findings simultaneously, and distinguish concerning patterns from benign variations. Bring your observations to appointments: 'I noticed the cavity appears smaller - can you confirm?' or 'This nodule seems new to me - is that accurate?' This collaborative approach ensures you're engaged in your care while benefiting from expert analysis. Always request access to your images (CDs or MyChart when working) so you can review alongside reports."
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "topic_name": "treatment_monitoring",
+  "category": "Treatment & Medications",
+  "threads_reviewed": 24,
+  "threads_total": 101,
+  "thread_list": [
+    "exacerbations",
+    "arikayse-1",
+    "tree-in-buds-on-your-ct-scan",
+    "new-cancer-diagnosis",
+    "mycobacterium-simiae-m-palustre",
+    "drug-side-effects",
+    "exacerbations-1",
+    "washing-neb-cups-in-between-albuterol-and-sodium-chloride",
+    "mac-treatment-and-working-full-time-how-have-you-handled-it",
+    "is-there-any-successful-story-of-mac",
+    "dr-charles-chuck-daley-speaks-about-brinsupri-brensocatib",
+    "wheeze",
+    "water-for-nasal-rinse",
+    "mycobacterium-intracellulare-mai",
+    "new-cavity-despite-testing-negative-for-mac",
+    "ph-impedance-vs-bravo-test",
+    "sputum-sample-1",
+    "blood-work-when-taking-antibiotics",
+    "wabi-sterilizer",
+    "stopping-antibiotics",
+    "big-3-and-progression",
+    "the-big-3-antibiotics",
+    "worse-ct-scan",
+    "why-does-treatment-last-12-months"
+  ],
+  "tips": [
+    {
+      "tip": "Define exacerbation clearly: increased symptoms (cough, shortness of breath, fatigue, sputum production) requiring treatment escalation, typically lasting ≥48 hours and not resolving spontaneously. This is distinct from daily symptom fluctuations.",
+      "cited_threads": [
+        "exacerbations"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Exacerbations are commonly discussed but rarely formally defined in patient forums. Clear definition helps distinguish true exacerbations from normal symptom variability."
+    },
+    {
+      "tip": "Sputum culture frequency during treatment varies widely: monthly cultures are common during active treatment, but some clinics test quarterly or even less frequently. Discuss testing frequency with your physician based on your specific treatment phase.",
+      "cited_threads": [
+        "sputum-sample-1",
+        "mycobacterium-intracellulare-mai"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "No universal standard exists. Testing frequency often depends on clinic protocols, treatment response, and patient stability."
+    },
+    {
+      "tip": "The 6-month mark is a critical evaluation point during treatment. Don't panic if CT scans show minimal improvement or even slight progression in the first 4-6 months—stability is often a positive outcome for many patients.",
+      "cited_threads": [
+        "worse-ct-scan",
+        "tree-in-buds-on-your-ct-scan"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Helps manage expectations about treatment timeline. Many patients feel discouraged by early imaging results."
+    },
+    {
+      "tip": "Blood work frequency varies by medication and treatment phase: IV antibiotics often require weekly monitoring initially, oral Big 3 typically requires monthly CMP and CBC for the first few months, then can extend to quarterly if stable. Always follow your physician's specific protocol.",
+      "cited_threads": [
+        "blood-work-when-taking-antibiotics",
+        "stopping-antibiotics"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Wide variation in monitoring protocols across treatment centers. Blood work primarily monitors liver function (ALT/AST), kidney function (creatinine), and blood counts."
+    },
+    {
+      "tip": "Monitor ALT and AST (liver enzymes) closely during treatment. Current guidelines suggest stopping treatment if levels exceed 3-5x upper limit of normal, though older protocols allowed up to 2x elevation. Some patients cannot tolerate any hepatotoxic treatment.",
+      "cited_threads": [
+        "stopping-antibiotics",
+        "the-big-3-antibiotics"
+      ],
+      "source_type": "patient_experience",
+      "priority": "critical",
+      "notes": "Safety-critical monitoring. Liver damage can be permanent if medications are not stopped when enzymes elevate significantly."
+    },
+    {
+      "tip": "Hearing and vision testing should be performed at baseline and monitored regularly during treatment with ethambutol and aminoglycosides. Changes can be permanent, so early detection is critical.",
+      "cited_threads": [
+        "stopping-antibiotics",
+        "why-does-treatment-last-12-months"
+      ],
+      "source_type": "patient_experience",
+      "priority": "critical",
+      "notes": "Irreversible damage possible. Some patients experience permanent hearing loss even with monitoring. Regular audiometry and vision exams essential."
+    },
+    {
+      "tip": "Tree-in-bud pattern on CT scan is strongly suggestive of active MAC infection, but there is debate about whether imaging findings alone justify starting treatment versus waiting for culture confirmation. Discuss with your physician.",
+      "cited_threads": [
+        "tree-in-buds-on-your-ct-scan"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Some patients remain stable with tree-in-bud patterns for years without treatment. Treatment decisions should be individualized."
+    },
+    {
+      "tip": "The 12-month treatment duration guideline has 'very low certainty in estimates of effect' according to recent evidence reviews. No randomized controlled trials support this specific duration. Korean studies suggest 9 months post-culture-conversion may be adequate for nodular disease.",
+      "cited_threads": [
+        "why-does-treatment-last-12-months"
+      ],
+      "source_type": "research_evidence",
+      "priority": "high",
+      "notes": "Important for informed decision-making about treatment duration. Expert (Richard Lubarsky) conducted extensive literature review showing weak evidence base for 12-month guideline."
+    },
+    {
+      "tip": "Culture conversion typically takes 3-6 months on effective treatment, but can take up to 12 months. Three consecutive negative sputum cultures (usually monthly) are required to declare culture conversion.",
+      "cited_threads": [
+        "mycobacterium-intracellulare-mai",
+        "new-cavity-despite-testing-negative-for-mac",
+        "the-big-3-antibiotics"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Timeline helps set realistic expectations. Some patients achieve early conversion, others require prolonged treatment."
+    },
+    {
+      "tip": "Reinfection is more common than relapse: a 2018 study (Addrizzo-Harris) found 48% of patients who completed treatment and converted cultures experienced recurrence, with most cases being reinfection rather than relapse. This emphasizes the importance of environmental controls even after treatment completion.",
+      "cited_threads": [
+        "the-big-3-antibiotics",
+        "why-does-treatment-last-12-months"
+      ],
+      "source_type": "research_evidence",
+      "priority": "high",
+      "notes": "Critical for patient education. Many patients assume recurrence means treatment failure, but reinfection from environment is the primary cause."
+    },
+    {
+      "tip": "New cavity formation despite negative cultures is concerning and warrants immediate physician consultation. Consider checking antibiotic blood levels to ensure therapeutic dosing, and investigate whether a different mycobacterium or other pathogen may be involved.",
+      "cited_threads": [
+        "new-cavity-despite-testing-negative-for-mac"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Unexpected imaging progression during apparent treatment success requires investigation. Blood levels may reveal inadequate drug absorption."
+    },
+    {
+      "tip": "Side effects often increase over time rather than decreasing. Common patterns include progressive GI issues, increasing fatigue, and worsening neuropathy. Report escalating side effects promptly—medication adjustments or treatment breaks may be necessary.",
+      "cited_threads": [
+        "drug-side-effects",
+        "the-big-3-antibiotics"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Counters common assumption that side effects improve with time. Cumulative toxicity can worsen throughout treatment course."
+    },
+    {
+      "tip": "Secondary infections can develop during Big 3 treatment due to microbiome disruption. Watch for new pathogens like Stenotrophomonas, Pseudomonas, or Haemophilus influenzae, especially if symptoms worsen despite NTM treatment.",
+      "cited_threads": [
+        "the-big-3-antibiotics",
+        "big-3-and-progression"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Broadens differential diagnosis when patients worsen on treatment. Multiple patients reported this complication."
+    },
+    {
+      "tip": "Some patients with asymptomatic MAC and stable imaging choose to defer treatment ('watchful waiting') due to concerns about treatment toxicity versus disease progression. This is a valid option for carefully selected patients under close monitoring.",
+      "cited_threads": [
+        "sputum-sample-1",
+        "tree-in-buds-on-your-ct-scan"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Supports informed decision-making about treatment timing. Not all patients require immediate treatment."
+    },
+    {
+      "tip": "For patients who cannot tolerate standard Big 3 treatment, alternative regimens exist including inhaled antibiotics (Arikayce, BRINSUPRI), IV aminoglycosides, or azithromycin monotherapy for maintenance. Discuss options with NTM specialists.",
+      "cited_threads": [
+        "arikayse-1",
+        "dr-charles-chuck-daley-speaks-about-brinsupri-brensocatib",
+        "stopping-antibiotics"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Provides hope for patients struggling with standard treatment toxicity. Multiple therapeutic options available."
+    },
+    {
+      "tip": "Arikayce (amikacin liposome inhalation suspension) patient assistance programs can help with cost, which exceeds $10,000/month. Contact manufacturer directly or work with specialty pharmacies to access financial support.",
+      "cited_threads": [
+        "arikayse-1"
+      ],
+      "source_type": "practical_guidance",
+      "priority": "medium",
+      "notes": "Addresses major barrier to accessing advanced therapies. Financial toxicity is a real concern for many patients."
+    },
+    {
+      "tip": "BRINSUPRI (ciprofloxacin DPI) is a newer inhaled antibiotic option for refractory MAC. It has a different side effect profile than Arikayce (less ototoxicity reported) but may cause more respiratory irritation initially.",
+      "cited_threads": [
+        "dr-charles-chuck-daley-speaks-about-brinsupri-brensocatib"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Newer treatment option worth discussing with specialists, especially for patients who cannot tolerate or have failed Arikayce."
+    },
+    {
+      "tip": "Working full-time while on Big 3 treatment is possible but challenging. Fatigue is the most commonly reported limiting factor. Many patients reduce hours, work from home, or take medical leave during the most intensive treatment phases.",
+      "cited_threads": [
+        "mac-treatment-and-working-full-time-how-have-you-handled-it"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Quality of life consideration. Helps patients and employers plan for treatment-related limitations."
+    },
+    {
+      "tip": "For bronchiectasis patients with MAC and cystic fibrosis gene mutations (heterozygous), there is theoretical interest in CFTR modulators (Trikafta, Orkambi, Symdeko) but limited data on efficacy for MAC specifically. These medications primarily treat the underlying CF/CFTR dysfunction.",
+      "cited_threads": [
+        "is-there-any-successful-story-of-mac"
+      ],
+      "source_type": "patient_experience",
+      "priority": "low",
+      "notes": "Emerging area of interest for subset of patients. More research needed on MAC-specific outcomes."
+    },
+    {
+      "tip": "Wheezing during NTM treatment may indicate bronchospasm from nebulized medications, progression of bronchiectasis, or development of new infections. Use bronchodilators before nebulized antibiotics and report persistent wheezing to your physician.",
+      "cited_threads": [
+        "wheeze"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Common symptom that may require treatment adjustment or additional therapies (bronchodilators, airway clearance)."
+    },
+    {
+      "tip": "The 2020 ATS/IDSA guidelines update treatment recommendations for NTM lung infections. Key changes include greater emphasis on inhaled antibiotics (Arikayce) for refractory disease and more nuanced guidance on treatment duration based on disease characteristics.",
+      "cited_threads": [
+        "tree-in-buds-on-your-ct-scan"
+      ],
+      "source_type": "research_evidence",
+      "priority": "high",
+      "notes": "Ensures patients are aware of current evidence-based standards. Guidelines updated every 5-7 years as new evidence emerges."
+    },
+    {
+      "tip": "Patients with concurrent cancer diagnoses face complex decisions about NTM treatment timing. Chemotherapy can worsen NTM, but NTM treatment may need to be delayed during active cancer treatment. Multidisciplinary care coordination is essential.",
+      "cited_threads": [
+        "new-cancer-diagnosis"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Highlights need for integrated care planning when patients have multiple serious conditions."
+    },
+    {
+      "tip": "M. simiae is a different mycobacterium species than MAC and may require different treatment approaches. It is often more drug-resistant and may not require treatment if asymptomatic. Consult with NTM specialists for species-specific guidance.",
+      "cited_threads": [
+        "mycobacterium-simiae-m-palustre"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Species identification matters for treatment decisions. M. simiae has different natural history than MAC."
+    },
+    {
+      "tip": "M. intracellulare (one of the MAC species) may have slower culture conversion rates than M. avium. Some studies suggest longer treatment courses may be needed. Discuss species-specific considerations with your physician.",
+      "cited_threads": [
+        "mycobacterium-intracellulare-mai"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Within MAC complex, different species may have different prognoses and treatment responses."
+    },
+    {
+      "tip": "Treatment stopping decisions are complex and individualized. Reasons for stopping include: intolerable side effects, organ toxicity (liver/kidney damage), lack of clinical improvement after 6-12 months, patient preference for quality of life over treatment continuation.",
+      "cited_threads": [
+        "stopping-antibiotics"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Validates difficult decisions patients face. Not all patients can complete full treatment courses, and that's sometimes the right choice."
+    },
+    {
+      "tip": "When stopping treatment prematurely, discuss ongoing monitoring plans with your physician: frequency of sputum cultures to detect recurrence, imaging follow-up schedule, and criteria for restarting treatment if needed.",
+      "cited_threads": [
+        "stopping-antibiotics"
+      ],
+      "source_type": "practical_guidance",
+      "priority": "high",
+      "notes": "Ensures patients who stop treatment aren't lost to follow-up and have clear plan for surveillance."
+    },
+    {
+      "tip": "Nebulizer cup washing frequency is debated: some patients wash after every use, others only after the last treatment of the day. At minimum, rinse with sterile water after each use and thoroughly clean with soap and water at least daily before sterilization.",
+      "cited_threads": [
+        "washing-neb-cups-in-between-albuterol-and-sodium-chloride"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Practical question with no universal standard. More frequent cleaning may reduce biofilm formation."
+    },
+    {
+      "tip": "Use only sterile water for final rinse of nebulizer cups before air-drying. Tap water, even boiled or filtered, can contain NTM and should never be the final rinse. Dr. Joseph Falkinham (NTM expert) emphasizes this repeatedly.",
+      "cited_threads": [
+        "water-for-nasal-rinse"
+      ],
+      "source_type": "expert_validated",
+      "priority": "critical",
+      "notes": "Dr. Falkinham is internationally recognized NTM environmental expert. This is one of his key safety recommendations."
+    },
+    {
+      "tip": "Wabi and other home sterilizers are convenient for nebulizer equipment but must be used correctly: ensure adequate contact time, use appropriate water (distilled/sterile), and replace equipment regularly even with proper sterilization.",
+      "cited_threads": [
+        "wabi-sterilizer"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Addresses common equipment question. Sterilization is only effective if done properly with appropriate parameters."
+    },
+    {
+      "tip": "Whether Big 3 antibiotics slow bronchiectasis progression independent of NTM treatment is unclear. Some patients report subjective improvement in symptoms, but no strong evidence shows antibiotics prevent structural lung damage progression once NTM is cleared.",
+      "cited_threads": [
+        "big-3-and-progression"
+      ],
+      "source_type": "patient_experience",
+      "priority": "low",
+      "notes": "Addresses common patient question about whether NTM treatment helps underlying bronchiectasis. Limited evidence for this expectation."
+    },
+    {
+      "tip": "PH-impedance testing can help diagnose reflux contributing to lung symptoms. Chronic aspiration may worsen bronchiectasis and increase MAC infection risk. Consider if you have symptoms of reflux (heartburn, regurgitation) or unexplained pulmonary exacerbations.",
+      "cited_threads": [
+        "ph-impedance-vs-bravo-test"
+      ],
+      "source_type": "patient_experience",
+      "priority": "low",
+      "notes": "Identifies potential contributing factor to lung disease. Reflux treatment may improve pulmonary outcomes."
+    },
+    {
+      "tip": "Fear of treatment side effects versus disease progression is one of the most common sources of anxiety for newly diagnosed patients. Reading about others' experiences (both positive and negative) can help calibrate expectations, but remember individual responses vary widely.",
+      "cited_threads": [
+        "the-big-3-antibiotics"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Psychological aspect of treatment decision-making. Many patients report being paralyzed by fear when reading about worst-case side effects."
+    },
+    {
+      "tip": "Some patients complete full Big 3 treatment with minimal side effects beyond mild GI upset. Treatment tolerance varies dramatically between individuals—don't assume you'll experience the worst outcomes discussed in forums.",
+      "cited_threads": [
+        "the-big-3-antibiotics"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Provides balanced perspective. Forum discussions can skew toward worst-case experiences, creating selection bias."
+    },
+    {
+      "tip": "If imaging worsens despite feeling better clinically, discuss with your physician whether antibiotic blood levels should be checked. Inadequate drug absorption may result in subtherapeutic levels and treatment failure.",
+      "cited_threads": [
+        "worse-ct-scan"
+      ],
+      "source_type": "practical_guidance",
+      "priority": "high",
+      "notes": "Actionable intervention when treatment response is unclear. Blood level testing can identify dosing issues."
+    },
+    {
+      "tip": "National Jewish Health (NJH) and other specialized NTM centers often have more intensive monitoring protocols than general pulmonologists. If your treatment is complex or failing, consider consultation with an NTM specialist center.",
+      "cited_threads": [
+        "blood-work-when-taking-antibiotics",
+        "tree-in-buds-on-your-ct-scan"
+      ],
+      "source_type": "practical_guidance",
+      "priority": "medium",
+      "notes": "Resource awareness. Specialized centers have more experience managing treatment complications and individualizing protocols."
+    },
+    {
+      "tip": "Treatment breaks or 'drug holidays' are sometimes used when side effects become intolerable but patient wants to continue treatment. This should be done under physician supervision with a clear plan for monitoring during the break and criteria for restarting.",
+      "cited_threads": [
+        "drug-side-effects",
+        "stopping-antibiotics"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Offers middle ground between pushing through severe side effects and completely stopping treatment. Limited evidence but used clinically."
+    },
+    {
+      "tip": "Exacerbations may occur even on treatment, especially in the first few months before culture conversion. This doesn't necessarily mean treatment failure—it may reflect baseline disease severity or other factors like viral respiratory infections.",
+      "cited_threads": [
+        "exacerbations-1",
+        "exacerbations"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Helps manage expectations about treatment timeline. Early exacerbations don't predict ultimate treatment success or failure."
+    },
+    {
+      "tip": "Document your symptoms systematically during treatment (symptom diary, lung function measurements if you have home spirometer) to help distinguish objective improvement/worsening from day-to-day fluctuations. This data helps physicians make informed treatment decisions.",
+      "cited_threads": [
+        "worse-ct-scan",
+        "exacerbations-1"
+      ],
+      "source_type": "practical_guidance",
+      "priority": "medium",
+      "notes": "Empowers patients to contribute objective data to clinical decision-making. Particularly useful when imaging and symptoms diverge."
+    },
+    {
+      "tip": "Genetic testing for cystic fibrosis mutations may be valuable for bronchiectasis patients without known cause, as it may open treatment options (CFTR modulators) and inform family planning decisions.",
+      "cited_threads": [
+        "is-there-any-successful-story-of-mac"
+      ],
+      "source_type": "practical_guidance",
+      "priority": "low",
+      "notes": "Diagnostic consideration for subset of patients. CF carrier status or atypical CF may be underlying cause of bronchiectasis."
+    },
+    {
+      "tip": "After completing treatment, continue rigorous environmental precautions (sterile water use, shower/plumbing maintenance, soil/dust avoidance) indefinitely. The 48% reinfection rate shows that environmental exposure remains the primary risk after treatment.",
+      "cited_threads": [
+        "the-big-3-antibiotics",
+        "why-does-treatment-last-12-months"
+      ],
+      "source_type": "research_evidence",
+      "priority": "high",
+      "notes": "Prevention focus after treatment completion. Environmental controls are lifelong, not just during active treatment."
+    }
+  ],
+  "key_insights": [
+    "Treatment monitoring protocols vary widely between clinics and physicians. Blood work frequency ranges from weekly (IV antibiotics, initial phase) to quarterly (stable oral treatment), with no universal standard. Patients should understand their specific monitoring plan and rationale.",
+    "The 6-month evaluation point is critical for assessing treatment effectiveness. Imaging stability (not necessarily improvement) is often a realistic goal for many patients, especially with advanced disease.",
+    "Reinfection from environmental sources (48% rate) is more common than relapse after successful treatment completion, emphasizing the lifelong importance of environmental precautions including exclusive sterile water use for respiratory equipment.",
+    "The 12-month treatment duration guideline has weak evidence support. Korean studies suggest 9 months post-culture-conversion may be adequate for nodular disease, but optimal duration remains unknown and should be individualized.",
+    "Treatment toxicity is cumulative and often worsens over time rather than improving. Safety monitoring for liver (ALT/AST), kidney (creatinine), hearing (audiometry), and vision (ophthalmology) is essential and potentially life-saving.",
+    "Secondary infections (Stenotrophomonas, Pseudomonas, Haemophilus) can develop during Big 3 treatment due to microbiome disruption, causing clinical deterioration despite NTM treatment. Worsening symptoms warrant investigation for additional pathogens.",
+    "Treatment decisions are highly individualized. Some patients with asymptomatic disease and stable imaging choose watchful waiting; others cannot tolerate standard treatment and require alternative regimens; some stop treatment early due to toxicity. All are valid choices with appropriate medical supervision.",
+    "Tree-in-bud pattern on CT is strongly suggestive of active MAC but debate exists about whether imaging alone justifies treatment initiation versus waiting for culture confirmation. Some patients remain stable with tree-in-bud patterns for years without treatment.",
+    "Culture conversion typically requires 3-6 months but can take up to 12 months. Three consecutive negative monthly cultures are standard for declaring conversion, which starts the clock on treatment duration.",
+    "Working full-time during treatment is challenging primarily due to fatigue. Many patients adjust work schedules, reduce hours, or take medical leave during intensive treatment phases.",
+    "Inhaled antibiotics (Arikayce, BRINSUPRI) offer alternatives for refractory disease or patients intolerant of oral/IV regimens. Patient assistance programs can help with substantial costs.",
+    "Species-specific considerations matter: M. simiae and M. intracellulare may have different treatment responses and duration needs compared to M. avium. Consult NTM specialists for species-specific guidance.",
+    "Exacerbation definition is critical for consistent communication between patients and providers: increased symptoms (cough, dyspnea, sputum, fatigue) lasting ≥48 hours and requiring treatment escalation, distinct from daily fluctuations.",
+    "Patient anxiety about side effects versus disease progression is extremely common and can be paralyzing. Balanced perspective is needed: treatment tolerance varies dramatically (some patients have minimal side effects, others cannot tolerate any treatment), and individual responses are unpredictable from forum discussions.",
+    "Environmental controls (sterile water, equipment sterilization) remain critical even after treatment completion due to high reinfection risk. These are lifelong precautions, not temporary measures during active treatment."
+  ],
+  "common_questions": [
+    {
+      "question": "How often should I have blood work during treatment?",
+      "answer": "Varies widely: weekly for IV antibiotics initially, monthly to quarterly for stable oral treatment—discuss specific plan with your physician"
+    },
+    {
+      "question": "What lab values indicate I need to stop treatment?",
+      "answer": "ALT/AST >3-5x upper limit of normal is concerning for liver toxicity; significant hearing loss or vision changes; rising creatinine indicating kidney damage"
+    },
+    {
+      "question": "When will my CT scan show improvement?",
+      "answer": "6-month mark is key evaluation point; stability is often success; some patients show minimal imaging improvement despite symptom improvement and culture conversion"
+    },
+    {
+      "question": "How often should I get sputum cultures during treatment?",
+      "answer": "Monthly is common during active treatment; quarterly for some stable patients—varies by clinic protocol"
+    },
+    {
+      "question": "What does 'culture conversion' mean exactly?",
+      "answer": "Three consecutive negative monthly sputum cultures; typically takes 3-6 months, occasionally up to 12 months"
+    },
+    {
+      "question": "Why do guidelines say 12 months of treatment after culture conversion?",
+      "answer": "Weak evidence base: 'very low certainty in estimates'; no randomized trials support this duration; 9 months post-conversion may be adequate for nodular disease per Korean studies"
+    },
+    {
+      "question": "Is it normal for side effects to get worse over time?",
+      "answer": "Yes, cumulative toxicity often increases rather than decreases; report escalating side effects promptly"
+    },
+    {
+      "question": "Can I work full-time during treatment?",
+      "answer": "Possible but challenging; fatigue is most limiting factor; many patients reduce hours or take medical leave"
+    },
+    {
+      "question": "What if my CT gets worse but I feel better?",
+      "answer": "Discuss antibiotic blood level testing with physician to ensure adequate drug absorption; 6-month mark is critical evaluation point"
+    },
+    {
+      "question": "Should I treat tree-in-bud findings on CT even without positive cultures?",
+      "answer": "Controversial: some treat based on imaging alone, others wait for culture confirmation; discuss individualized approach with physician"
+    },
+    {
+      "question": "Why did I get reinfected after completing treatment successfully?",
+      "answer": "Reinfection from environmental sources is more common than relapse—48% recurrence rate; emphasizes need for lifelong environmental precautions"
+    },
+    {
+      "question": "What if I can't tolerate the Big 3 antibiotics?",
+      "answer": "Multiple alternatives exist: inhaled antibiotics (Arikayce, BRINSUPRI), IV aminoglycosides, azithromycin maintenance, or watchful waiting for selected patients"
+    },
+    {
+      "question": "Can I stop treatment if side effects are intolerable?",
+      "answer": "Yes, this is sometimes the right decision for quality of life; discuss ongoing monitoring plan and criteria for restarting if needed"
+    },
+    {
+      "question": "How do I know if I'm having an exacerbation versus normal symptom fluctuation?",
+      "answer": "Exacerbation: increased symptoms lasting ≥48 hours requiring treatment escalation, not resolving spontaneously"
+    },
+    {
+      "question": "What water should I use to rinse my nebulizer cups?",
+      "answer": "Only sterile water for final rinse—never tap water, even if boiled or filtered; Dr. Falkinham emphasizes this critical safety measure"
+    }
+  ]
+}

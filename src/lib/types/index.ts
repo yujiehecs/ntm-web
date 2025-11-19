@@ -114,3 +114,49 @@ export interface AppState {
   searchQuery: string;
   filters: FilterOptions;
 }
+
+// Topic Tips types
+export interface Tip {
+  tip: string;
+  cited_threads: string[];
+  source_type: 'expert' | 'expert_validated' | 'patient_experience' | 'patient_validated' | 'patient_wisdom' | 'research_evidence' | 'practical_guidance' | 'community_debate';
+  priority: 'critical' | 'high' | 'medium' | 'low';
+  notes: string;
+}
+
+export interface CommonQuestion {
+  question: string;
+  answer: string;
+}
+
+export interface TopicTips {
+  topic_name: string;
+  category: string;
+  threads_reviewed: number;
+  threads_total: number;
+  thread_list: string[];
+  tips: Tip[];
+  key_insights: string[];
+  common_questions: CommonQuestion[];
+}
+
+export interface TopicTipsIndex {
+  metadata: {
+    project: string;
+    created: string;
+    source_file: string;
+    total_threads_in_source: number;
+    methodology: string;
+    quality_standards: string;
+  };
+  topics: Array<{
+    topic_name: string;
+    category: string;
+    status: string;
+    tips_count: number;
+    threads_analyzed: number;
+    threads_total: number;
+    completed_date: string;
+    file: string;
+  }>;
+}

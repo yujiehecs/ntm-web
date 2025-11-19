@@ -1,0 +1,247 @@
+{
+  "topic_name": "surgical_treatment",
+  "category": "Treatment & Medications",
+  "threads_reviewed": 9,
+  "threads_total": 26,
+  "thread_list": [
+    "is-surgery-a-better-option",
+    "use-of-surgery-to-cure-mac",
+    "surgery-for-cavity-removal",
+    "surgery-to-remove-cavity",
+    "bronchial-artery-embolization",
+    "surgery-at-emory",
+    "anyone-had-a-total-lung-removal-done",
+    "extra-pulmonary-ntm",
+    "surgery-concerns"
+  ],
+  "tips": [
+    {
+      "tip": "Surgery is most effective for localized cavitary disease when antibiotics fail to close cavities after 6+ months, with 95% clearance at 1 year and 87% at 3 years post-surgery",
+      "cited_threads": [
+        "is-surgery-a-better-option",
+        "surgery-for-cavity-removal",
+        "surgery-to-remove-cavity"
+      ],
+      "source_type": "expert_validated",
+      "priority": "critical",
+      "notes": "Cleveland Clinic data cited in thread. Cavities with thick walls prevent antibiotic penetration - surgery removes the bacterial hub. Best outcomes when disease is localized to one area."
+    },
+    {
+      "tip": "Ideal surgical candidates: localized disease, adequate lung function reserve, culture-negative for 12+ months on antibiotics, under age 70, and no significant comorbidities",
+      "cited_threads": [
+        "is-surgery-a-better-option",
+        "use-of-surgery-to-cure-mac",
+        "surgery-for-cavity-removal"
+      ],
+      "source_type": "expert_validated",
+      "priority": "critical",
+      "notes": "Patients describe consulting with NJH surgeons and being evaluated on multiple factors. Surgery often combined with IV antibiotics before/after procedure."
+    },
+    {
+      "tip": "Surgery combined with continued antibiotics for 12 months post-operation - surgery removes bacterial burden but antibiotics still needed to clear remaining bacteria in lungs",
+      "cited_threads": [
+        "is-surgery-a-better-option",
+        "surgery-for-cavity-removal",
+        "anyone-had-a-total-lung-removal-done"
+      ],
+      "source_type": "expert",
+      "priority": "critical",
+      "notes": "Standard protocol includes IV amikacin 2-3 months pre-surgery and continuing oral antibiotics 12 months post-surgery until culture conversion maintained."
+    },
+    {
+      "tip": "Recovery timeline: hospital 3-5 days, return to light activities 2-3 weeks, return to work 2-8 weeks, full recovery 6-12 months depending on procedure extent",
+      "cited_threads": [
+        "is-surgery-a-better-option",
+        "surgery-for-cavity-removal",
+        "anyone-had-a-total-lung-removal-done"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Minimally invasive/robotic surgery has faster recovery (2-3 weeks back to work) vs traditional thoracotomy (2-3 months). Walking immediately post-op speeds recovery."
+    },
+    {
+      "tip": "Common post-surgical complications: nerve pain (resolves in 6 weeks), numbness at incision site (may be permanent), fatigue/low energy for 6-12 months, shortness of breath if extensive resection",
+      "cited_threads": [
+        "surgery-for-cavity-removal",
+        "is-surgery-a-better-option",
+        "anyone-had-a-total-lung-removal-done"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Nerve pain common but temporary. Energy recovery takes longer than physical recovery - stamina building through exercise essential."
+    },
+    {
+      "tip": "Dr. John Mitchell at NJH/University of Colorado and Dr. James Caccitolo in Tyler, TX are most frequently recommended thoracic surgeons for NTM patients",
+      "cited_threads": [
+        "is-surgery-a-better-option",
+        "surgery-for-cavity-removal",
+        "anyone-had-a-total-lung-removal-done"
+      ],
+      "source_type": "patient_wisdom",
+      "priority": "high",
+      "notes": "Dr. McShane (Tyler) only approves Mitchell or Caccitolo for her patients. Dr. Caccitolo uses computer-assisted minimally invasive surgery with excellent outcomes."
+    },
+    {
+      "tip": "Minimally invasive/robotic surgery (VATS) offers faster recovery than traditional thoracotomy - patients walking hospital laps same day, driving within 1-2 weeks",
+      "cited_threads": [
+        "is-surgery-a-better-option",
+        "surgery-for-cavity-removal"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Computer-assisted minimally invasive technique results in dramatically faster recovery - one patient back to work in 23 days, another drove 600 miles within 2 weeks."
+    },
+    {
+      "tip": "Surgery does not guarantee cure - MAC can recur even after successful surgery, but recurrence risk is lower than continued antibiotic-only treatment with persistent cavities",
+      "cited_threads": [
+        "use-of-surgery-to-cure-mac",
+        "surgery-for-cavity-removal",
+        "is-surgery-a-better-option"
+      ],
+      "source_type": "expert_validated",
+      "priority": "critical",
+      "notes": "Multiple patients report 5-20 years disease-free after surgery. Cavities are bacterial reservoirs - removing them plus continued airway clearance reduces reinfection risk significantly."
+    },
+    {
+      "tip": "Wedge resection (small portion) vs segmentectomy vs lobectomy (entire lobe) vs bilobectomy (two lobes) vs pneumonectomy (entire lung) - extent depends on disease location and severity",
+      "cited_threads": [
+        "surgery-for-cavity-removal",
+        "is-surgery-a-better-option",
+        "anyone-had-a-total-lung-removal-done"
+      ],
+      "source_type": "expert",
+      "priority": "high",
+      "notes": "Surgeons aim for minimal resection while removing all diseased tissue. More extensive resections (lobectomy+) have longer recovery but may be necessary for cure."
+    },
+    {
+      "tip": "Pre-surgery IV amikacin protocol controversial - recommended by some centers (NJH requires 6-10 weeks) but not all surgeons require it, especially if patient sensitive/resistant",
+      "cited_threads": [
+        "surgery-for-cavity-removal",
+        "is-surgery-a-better-option"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Some patients refuse IV amikacin due to tinnitus/balance risks. Protocol varies by center - discuss alternatives if drug sensitivity test shows resistance."
+    },
+    {
+      "tip": "Quality of life often improves dramatically post-surgery - reduced cough, fewer exacerbations, no more daily antibiotic side effects, and ability to discontinue toxic medications",
+      "cited_threads": [
+        "surgery-for-cavity-removal",
+        "is-surgery-a-better-option"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Multiple patients report feeling better immediately after surgery, able to clear lungs more effectively, fewer infections, and relief from years of antibiotic burden."
+    },
+    {
+      "tip": "Consider surgery earlier rather than later if cavities don't respond to 6 months antibiotics - Japanese studies show early resection prevents disease progression and improves cure rates",
+      "cited_threads": [
+        "surgery-to-remove-cavity",
+        "is-surgery-a-better-option"
+      ],
+      "source_type": "research_evidence",
+      "priority": "high",
+      "notes": "Waiting too long allows disease progression making surgery more extensive or impossible. Best outcomes when surgery done while patient still has good lung function and localized disease."
+    },
+    {
+      "tip": "Long-term success stories: patients report 13-20 years MAC-free after surgery with diligent airway clearance, though some require maintenance antibiotics for bronchiectasis exacerbations",
+      "cited_threads": [
+        "is-surgery-a-better-option",
+        "surgery-to-remove-cavity",
+        "surgery-for-cavity-removal"
+      ],
+      "source_type": "patient_experience",
+      "priority": "high",
+      "notes": "Two women MAC-free 20 years post-surgery. Another 13+ years post-surgery with no recurrence. Continued airway clearance essential to prevent reinfection."
+    },
+    {
+      "tip": "Bronchial artery embolization is minimally invasive procedure for persistent hemoptysis (coughing blood) - doesn't treat MAC but stops bleeding to allow airway clearance to continue safely",
+      "cited_threads": [
+        "bronchial-artery-embolization"
+      ],
+      "source_type": "expert",
+      "priority": "medium",
+      "notes": "For patients with frequent hemoptysis that prevents airway clearance. Not a cure but symptom management allowing continuation of essential nebulizer/vest therapy."
+    },
+    {
+      "tip": "Pneumonectomy (total lung removal) is rare but sometimes necessary for extensive unilateral disease - patients can live normal lives with one lung but face permanent breathlessness",
+      "cited_threads": [
+        "anyone-had-a-total-lung-removal-done"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "70-year-old patient had successful pneumonectomy by Dr. Mitchell. Recovery difficult, weight/strength hard to regain, persistent shortness of breath, but cultures clear post-surgery."
+    },
+    {
+      "tip": "Stay near hospital 2-4 weeks post-surgery for follow-up appointments - Hyatt Regency across from University of Colorado Hospital recommended by NJH surgical patients",
+      "cited_threads": [
+        "is-surgery-a-better-option"
+      ],
+      "source_type": "practical_guidance",
+      "priority": "low",
+      "notes": "Hyatt has overpass walkway to hospital. Patients book 1 month (cancellable) to ensure availability for any complications requiring extended stay."
+    },
+    {
+      "tip": "Non-pulmonary NTM surgery considerations: extrapulmonary NTM (skin, soft tissue, joints, lymph nodes) requires surgical debridement plus antibiotics - different protocols than lung surgery",
+      "cited_threads": [
+        "extra-pulmonary-ntm"
+      ],
+      "source_type": "patient_experience",
+      "priority": "medium",
+      "notes": "Patient with M. chelonae skin infection required multiple debridement surgeries. Another with MAC shoulder infection had 4 surgeries plus IV antibiotics."
+    },
+    {
+      "tip": "Elective non-lung surgeries safe for MAC patients if proper sterile technique used - get pulmonologist clearance but no evidence MAC spreads to surgical sites with good infection control",
+      "cited_threads": [
+        "surgery-concerns"
+      ],
+      "source_type": "expert_validated",
+      "priority": "low",
+      "notes": "Patients safely had spinal, gynecological, and orthopedic surgeries. Cutaneous NTM typically occurs from environmental exposure (contaminated water/equipment), not internal spread."
+    }
+  ],
+  "key_insights": [
+    "Surgery is potentially curative for localized cavitary MAC disease but must be combined with 12+ months antibiotics post-operatively",
+    "Best outcomes occur when surgery performed early (after 6 months failed antibiotic therapy) while disease still localized and lung function preserved",
+    "Minimally invasive/robotic techniques dramatically reduce recovery time compared to traditional thoracotomy (2-3 weeks vs 2-3 months)",
+    "Specialist surgeon selection critical - Dr. Mitchell (NJH) and Dr. Caccitolo (Tyler) most experienced with NTM patients",
+    "Long-term success depends on continued diligent airway clearance post-surgery to prevent reinfection",
+    "Surgery removes bacterial reservoir (cavity) allowing immune system and antibiotics to work more effectively on remaining bacteria",
+    "Recurrence possible but less likely than with persistent cavities treated with antibiotics alone - many patients achieve 10-20 years disease-free",
+    "Recovery timeline: physical healing 6 weeks, stamina/energy recovery 6-12 months, permanent breathlessness if extensive resection"
+  ],
+  "common_questions": [
+    {
+      "question": "Am I a candidate for surgery?",
+      "answer": "Best candidates have: localized cavitary disease (upper lobe typical), adequate lung function, culture-negative or convertible on antibiotics, cavity that doesn't shrink after 6+ months treatment, no major comorbidities, and ideally under 70 years old."
+    },
+    {
+      "question": "What are the success rates for MAC surgery?",
+      "answer": "Cleveland Clinic reports 95% long-term clearance at 1 year, 87% at 3 years post-surgery when combined with continued antibiotics. Many patients report 10-20 years disease-free. Recurrence possible but less likely than antibiotic-only treatment with persistent cavities."
+    },
+    {
+      "question": "How long is recovery from lung surgery?",
+      "answer": "Hospital stay 3-5 days. Minimally invasive: return to light work 2-3 weeks, full recovery 6 months. Traditional thoracotomy: return to work 2-3 months, full recovery 6-12 months. Energy/stamina takes longer to recover than physical healing."
+    },
+    {
+      "question": "Will I need IV amikacin before surgery?",
+      "answer": "Protocol varies - NJH typically requires 6-10 weeks IV amikacin pre-op, but some surgeons don't require it especially if sensitivity testing shows resistance. Discuss alternatives if you have tinnitus/balance concerns."
+    },
+    {
+      "question": "Can surgery cure my MAC?",
+      "answer": "Surgery removes the bacterial reservoir (cavity/destroyed tissue) but doesn't guarantee cure - residual bacteria remain in lungs. Must continue antibiotics 12 months post-op. Many achieve long-term remission (10-20+ years) with diligent airway clearance, but reinfection remains possible."
+    },
+    {
+      "question": "Should I wait to see if antibiotics close my cavity or have surgery now?",
+      "answer": "Japanese studies recommend surgery if cavity doesn't respond after 6 months antibiotics. Waiting too long allows disease progression, making surgery more extensive/risky. Best outcomes when surgery done early while disease localized and lung function good."
+    },
+    {
+      "question": "What are the major risks of lung surgery?",
+      "answer": "Post-op mortality 0-23%, morbidity 0-50% depending on procedure extent. Common complications: nerve pain (usually temporary), persistent numbness, fatigue, breathlessness if extensive resection, air leaks, infections. Specialist NTM surgeons have lower complication rates."
+    },
+    {
+      "question": "Which surgeon should I choose for NTM lung surgery?",
+      "answer": "Dr. John Mitchell (University of Colorado/NJH) and Dr. James Caccitolo (Tyler, TX) most frequently recommended. Choose high-volume thoracic surgeon experienced specifically with bronchiectasis/NTM patients, not general thoracic surgeon."
+    }
+  ]
+}

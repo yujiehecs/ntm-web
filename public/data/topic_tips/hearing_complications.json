@@ -1,0 +1,185 @@
+{
+  "topic_name": "hearing_complications",
+  "category": "Health Complications",
+  "threads_reviewed": 7,
+  "threads_total": 9,
+  "thread_list": [
+    "hearing-loss",
+    "arikayce-amikacine",
+    "arikayse",
+    "dupixet",
+    "abscessus-treatment",
+    "amikacin-4",
+    "inhaled-amikacin"
+  ],
+  "tips": [
+    {
+      "tip": "Azithromycin hearing loss is NOT permanent if caught and stopped in time. Dr. David Griffith (NJH) confirmed at 2025 NTM/BE conference that azithromycin-induced hearing loss is reversible, unlike amikacin. Switch to clarithromycin as it's less likely to cause hearing loss, though more GI side effects (important for IBS patients).",
+      "cited_threads": [
+        "hearing-loss"
+      ],
+      "source_type": "expert",
+      "priority": "critical",
+      "notes": "Key distinction: azithromycin hearing loss is reversible, amikacin is permanent. Dr. Griffith presented this at May 2025 conference."
+    },
+    {
+      "tip": "Rapid-onset hearing loss from Big 3 (within days to 2 weeks) is ATYPICAL but REAL - don't let doctors dismiss it as eustachian tube issue. If hearing loss occurs within first 2 weeks of starting treatment and reverses within 1 day of stopping, this is likely drug reaction/allergy, not classic ototoxicity. Restart cautiously - may recur immediately.",
+      "cited_threads": [
+        "hearing-loss"
+      ],
+      "source_type": "patient_validated",
+      "priority": "high",
+      "notes": "Patient experienced severe hearing loss 2 days into Big 3, improved next day after stopping, recurred 2 days into restart. ID doctor said never heard of ototoxicity happening this fast - but it does."
+    },
+    {
+      "tip": "Hearing loss from azithromycin can occur YEARS into treatment (2.5-3 years) and progress gradually before becoming unbearable. One patient on daily therapy for 15 months then hearing 'plunged' over last 6 months. Monitor hearing throughout treatment, not just at beginning. Balance issues also common with azithromycin.",
+      "cited_threads": [
+        "hearing-loss",
+        "arikayce-amikacine"
+      ],
+      "source_type": "patient_wisdom",
+      "priority": "high",
+      "notes": "Patient on azithromycin for 18 months, off 18 months (balance affected), back on 3 years - hearing plunged in final 6 months. Got some hearing back after stopping but not complete."
+    },
+    {
+      "tip": "Reduce Arikayce from daily (7x/week) to 3x/week if side effects are intolerable. Mamie Balestra's case: daily Arikayce caused side effects 'as bad as exacerbation' - reduced to 3x/week, side effects disappeared completely, still achieved 12 months negative cultures and remained negative 3+ years post-treatment.",
+      "cited_threads": [
+        "arikayce-amikacine"
+      ],
+      "source_type": "patient_validated",
+      "priority": "high",
+      "notes": "3x/week Arikayce equally effective as 7x/week for MAC cavity treatment in some patients. Part of 2-vs-3 trial with azithromycin + ethambutol."
+    },
+    {
+      "tip": "Tinnitus (ringing in ears) is THE most common side effect of Arikayce/Amikacin, often accompanied by balance issues. Onset typically within first month of treatment. Both azithromycin AND amikacin formulations cause tinnitus - if on both, difficult to determine which is culprit.",
+      "cited_threads": [
+        "arikayse",
+        "arikayce-amikacine"
+      ],
+      "source_type": "patient_wisdom",
+      "priority": "high",
+      "notes": "Rick Stelzer notes tinnitus + balance issues most common. Can persist even after stopping medication."
+    },
+    {
+      "tip": "Switch from IV Amikacin to inhaled (Arikayce or plain nebulized) if hearing loss detected - but know that some patients find inhaled version causes WORSE side effects than IV. Monitor hearing closely during transition. If hearing loss continues on inhaled, must stop all amikacin formulations.",
+      "cited_threads": [
+        "dupixet",
+        "arikayce-amikacine"
+      ],
+      "source_type": "patient_wisdom",
+      "priority": "high",
+      "notes": "Jan stopped IV amikacin April 2024 for hearing loss, switched to Arikayce but had progressively worse symptoms. Betty found nebulized worse than IV after 1 week."
+    },
+    {
+      "tip": "Hearing loss from Big 3 requires STOPPING medications entirely, waiting weeks for hearing to stabilize/restore, then restarting with clarithromycin substituted for azithromycin. Don't power through hearing loss hoping it improves - it will worsen. Untreated ototoxicity becomes permanent.",
+      "cited_threads": [
+        "hearing-loss"
+      ],
+      "source_type": "expert",
+      "priority": "critical",
+      "notes": "Patient's ENT + ID agreed to stop Big 3, wait weeks for hearing restoration, then restart with clarithromycin instead of azithromycin."
+    },
+    {
+      "tip": "Hearing loss manifests as: severe 'full feeling' in ears, dull headache, difficulty hearing speech requiring face-watching and lip-reading, clicking in ears (eustachian tube), high-frequency hearing loss on audiogram, word recognition difficulties. Track these symptoms and report immediately.",
+      "cited_threads": [
+        "hearing-loss"
+      ],
+      "source_type": "patient_wisdom",
+      "priority": "medium",
+      "notes": "Patient described 'really hard to go through' - focusing on faces/mouths when people talked before realizing rapid changes warranted calling doctor."
+    },
+    {
+      "tip": "Audiologist testing for NTM hearing loss includes: (1) Pure tone audiometry (high/low sounds in each ear, indicate when heard), (2) Word recognition test (repeat words through headphones). Word recognition test often more difficult and shows hearing loss severity. Get baseline before starting ototoxic drugs.",
+      "cited_threads": [
+        "hearing-loss"
+      ],
+      "source_type": "patient_wisdom",
+      "priority": "medium",
+      "notes": "Standard audiological battery for monitoring ototoxicity. Pure tone shows which frequencies affected; word recognition shows functional impact."
+    },
+    {
+      "tip": "Partial hearing recovery is common but full restoration rare after medication-induced hearing loss. One patient: 3 years on azithromycin, hearing came back 'but not completely' after several weeks off medication. Tinnitus persists even when some hearing returns.",
+      "cited_threads": [
+        "hearing-loss"
+      ],
+      "source_type": "patient_wisdom",
+      "priority": "medium",
+      "notes": "Jo Ann Kiemen: hearing returned partially after weeks, still has tinnitus. Realistic expectation: improvement but not full restoration."
+    },
+    {
+      "tip": "Severe progressive Arikayce side effects beyond hearing loss can make you housebound. Symptoms: extreme breathlessness with any movement, persistently high heart rate (requiring cardiology + meds), violent coughing leading to pneumothorax (collapsed lung). If Arikayce makes you progressively worse over months, STOP - don't wait for scheduled endpoint.",
+      "cited_threads": [
+        "dupixet"
+      ],
+      "source_type": "patient_wisdom",
+      "priority": "high",
+      "notes": "Jan developed 2 pneumothoraxes from Arikayce-induced coughing, housebound on 24/7 oxygen, stopped ACT to avoid coughing. Improved daily after stopping Arikayce."
+    },
+    {
+      "tip": "If forced off amikacin/Arikayce due to side effects (hearing loss, severe breathlessness), treatment options: (1) Continue Big 3 alone, (2) Add linezolid to Big 3 for abscessus, (3) Consider Dupixent biologic injection to reduce inflammation/exacerbations, (4) Explore clinical trials for newer agents.",
+      "cited_threads": [
+        "dupixet",
+        "arikayce-amikacine"
+      ],
+      "source_type": "patient_wisdom",
+      "priority": "medium",
+      "notes": "Anne Boon stayed on azithro/clofazimine/ethambutol/linezolid after stopping nebulized amikacin. Jan tried Dupixent after stopping Arikayce."
+    }
+  ],
+  "key_insights": [
+    "Azithromycin vs Amikacin hearing loss distinction is CRITICAL: Azithromycin-induced hearing loss is reversible if caught in time (Dr. Griffith, NJH), while amikacin-induced is permanent. This fundamentally changes risk calculus - patients should advocate for clarithromycin switch at first sign of azithromycin hearing loss, while amikacin requires prevention (monthly audiograms).",
+    "Timing of hearing loss varies wildly and defies textbook patterns: Rapid-onset within 2 days (atypical allergic reaction), gradual onset over 2.5 years (azithromycin classic pattern), sudden plunge after 3 years stable (late decompensation). No 'safe window' exists - vigilance required throughout treatment, not just first months.",
+    "Arikayce dose reduction to 3x/week is equally effective for some patients: Mamie's case proves 3x/week achieves 12-month negative cultures and durable cure (3+ years negative post-treatment) while eliminating intolerable daily side effects. Challenge pharmaceutical 7x/week protocol if suffering - this is evidence-based alternative.",
+    "Tinnitus is bellwether symptom: The most common hearing-related side effect, often appearing before measurable hearing loss on audiogram. Accompanied by balance issues. When tinnitus starts, intensify audiogram monitoring - it's early warning system for progressive ototoxicity.",
+    "Inhaled amikacin is NOT automatically safer than IV: Multiple patients report inhaled version causes worse side effects than IV within 1 week of switching. Liposomal delivery (Arikayce) appears more toxic for some patients than plain generic amikacin. Don't assume 'local delivery = less systemic toxicity.'",
+    "Hearing loss decisions are quality-of-life vs longevity tradeoffs: Permanent hearing loss requiring lifelong hearing aids to achieve MAC cure. One patient cleared MAC but now deaf. Patients must weigh functional impact of hearing loss against infection severity - not all cases warrant pushing through to deafness.",
+    "Eustachian tube symptoms mimic ototoxicity: Full feeling in ears, clicking, pressure changes occur with both conditions, making diagnosis difficult. Key differentiator: reversibility within 24 hours suggests allergy/inflammation; progressive worsening despite breaks suggests true ototoxicity.",
+    "Big 3 can manage (not cure) refractory MAC in cavities/BE: Rick Stelzer's insight - MAC in scar tissue, cavities, pleura, or bronchiectasis itself creates chronic condition where Big 3 keeps disease stable but doesn't eradicate. Some patients face lifetime suppressive therapy when surgery not option. Hearing loss risk over decades of treatment is serious concern."
+  ],
+  "common_questions": [
+    {
+      "question": "Is hearing loss from azithromycin permanent or can I get it back if I stop?",
+      "answer": "Dr. David Griffith (NJH) confirmed at May 2025 NTM/BE conference that azithromycin hearing loss is NOT permanent if stopped in time. Switch to clarithromycin which is less likely to cause hearing loss. However, complete restoration is rare - most patients get partial hearing back after several weeks. One patient: 3 years on azithromycin, hearing came back 'but not completely,' still has tinnitus. Key is stopping quickly when you notice changes."
+    },
+    {
+      "question": "Can hearing loss from NTM meds happen really fast, like within days?",
+      "answer": "Yes, though atypical. One patient had severe hearing loss within 2 days of starting Big 3, improved next day after stopping, then recurred within 2 days of restart. ID doctor said she'd 'never heard of ototoxicity happening this fast' but it's real - likely allergic/hypersensitivity reaction rather than classic ototoxicity. Don't let doctors dismiss rapid-onset hearing loss as 'just eustachian tubes.'"
+    },
+    {
+      "question": "How long can I safely take azithromycin before hearing loss becomes a risk?",
+      "answer": "No safe window exists. Hearing loss reported: within days (rare allergic reaction), after 2.5-3 years (gradual onset), and sudden plunge after 3 years of stable treatment. One patient on daily therapy for 15 months then hearing 'plunged' in last 6 months. Monitor hearing throughout treatment, not just at beginning. Get baseline audiogram and regular testing every 3-6 months even if feeling fine."
+    },
+    {
+      "question": "Do I have to take Arikayce daily or can I reduce frequency if side effects are bad?",
+      "answer": "Discuss 3x/week dosing with your doctor. Mamie Balestra reduced from 7x/week to 3x/week because daily caused side effects 'as bad as having an exacerbation' - side effects disappeared, still achieved 12 months negative cultures, and remained negative 3+ years post-treatment. This was part of 2-vs-3 trial. Don't suffer through daily dosing if intolerable - evidence supports less frequent dosing for some patients."
+    },
+    {
+      "question": "What's the difference between tinnitus and actual hearing loss?",
+      "answer": "Tinnitus is ringing/buzzing in ears - it's the MOST common side effect of amikacin/Arikayce, often appearing before measurable hearing loss. Balance issues also common. Hearing loss is reduced ability to hear sounds/understand speech, shown on audiogram. Tinnitus is early warning sign - when it starts, intensify monitoring with audiograms. Both azithromycin AND amikacin cause tinnitus, so if on both it's hard to determine culprit."
+    },
+    {
+      "question": "If I have hearing loss on IV amikacin, should I switch to inhaled Arikayce?",
+      "answer": "Switching to inhaled can prevent further damage but monitor closely - some patients find inhaled version causes WORSE side effects than IV within 1 week. Jan stopped IV amikacin for hearing loss, switched to Arikayce but developed extreme breathlessness, high heart rate, 2 pneumothoraxes. Betty found nebulized worse than IV. If hearing loss continues on inhaled, must stop ALL amikacin formulations."
+    },
+    {
+      "question": "What should I do if I start losing my hearing on the Big 3?",
+      "answer": "STOP medications immediately and contact your doctor. Wait weeks for hearing to stabilize/restore before restarting. Your ID will likely switch azithromycin to clarithromycin (less ototoxic but more GI side effects). Don't try to power through hoping it improves - untreated ototoxicity becomes permanent. One patient's ENT + ID agreed: stop, wait, restart with clarithromycin substitution."
+    },
+    {
+      "question": "How do I know if I'm losing my hearing from NTM meds?",
+      "answer": "Watch for: severe 'full feeling' in ears, dull headache, difficulty hearing speech (needing to watch faces/mouths, focusing on lip reading), clicking in ears, sounds seeming muffled. Audiogram will show high-frequency loss and word recognition difficulties. Track these symptoms - if you find yourself 'thinking should be making a sound' or focusing intensely on faces when people talk, call your doctor immediately for hearing test."
+    },
+    {
+      "question": "What hearing tests will I need while on NTM medications?",
+      "answer": "Audiologist will do: (1) Pure tone audiometry - hear high/low sounds in each ear, indicate when you hear it and which ear. Shows which frequencies affected. (2) Word recognition test - repeat words through headphones. Often more difficult and shows functional hearing loss severity. Get baseline BEFORE starting ototoxic drugs, then repeat every 1-3 months during treatment depending on medication (monthly for IV amikacin, every 3 months for azithromycin)."
+    },
+    {
+      "question": "If I stop Arikayce due to side effects, what are my treatment options?",
+      "answer": "Options include: (1) Continue Big 3 alone (may manage but not cure refractory disease), (2) Add linezolid to Big 3 for abscessus, (3) Consider Dupixent biologic injection to reduce inflammation/exacerbations, (4) Explore clinical trials for newer agents, (5) If severe cavity/disease, discuss surgery (lobectomy, segmentectomy) to remove affected area. Anne stayed on azithro/clofazimine/ethambutol/linezolid after stopping amikacin. Jan tried Dupixent after Arikayce caused pneumothoraxes."
+    },
+    {
+      "question": "Why would MAC need lifetime treatment with Big 3 instead of curing it?",
+      "answer": "MAC can reside in cavities, scar tissue, pleural space, or bronchiectasis itself where antibiotics can't fully penetrate. This creates refractory/chronic condition where Big 3 keeps disease stable and manageable but doesn't eradicate. Arikayce can't reach MAC in pleura. Surgery not always option if multiple BE areas or diffuse disease. CT shows pleural thickening. This is quality-of-life consideration - decades on Big 3 means cumulative hearing loss risk vs accepting stable managed disease."
+    }
+  ]
+}

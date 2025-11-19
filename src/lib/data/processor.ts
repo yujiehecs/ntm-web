@@ -5,9 +5,10 @@ import type {
   TopicCategory,
   TrendingTopic,
   ProcessedData,
-  MonthlyDataPoint
+  MonthlyDataPoint,
+  TopicTips
 } from '@/lib/types';
-import { TOPIC_MAPPINGS, CATEGORIES } from '@/lib/constants';
+import { TOPIC_MAPPINGS, CATEGORIES, EXTERNAL_LINKS } from '@/lib/constants';
 import { groupBy, sortBy, getMonthKey, calculatePercentageChange } from '@/lib/utils';
 
 /**
@@ -419,4 +420,43 @@ function getMockData(): ManualTagsData {
       }
     }
   };
+}
+
+/**
+ * Load topic tips data for a specific topic
+ */
+export async function loadTopicTips(topicName: string): Promise<TopicTips | null> {
+  try {
+    const basePath = process.env.NODE_ENV === 'production' ? '/ntm-web' : '';
+    const dataPath = `${basePath}/data/topic_tips/${topicName}.json`;
+    
+    console.log('Loading topic tips from', dataPath);
+
+    const response = await fetch(dataPath);
+    
+    if (!response.ok) {
+      console.warn(`No topic tips found for ${topicName}`);
+      return null;
+    }
+
+    const data = await response.json() as TopicTips;
+    console.log('Topic tips loaded successfully:', {
+      topic: data.topic_name,
+      tipsCount: data.tips.length,
+      insightsCount: data.key_insights.length,
+      questionsCount: data.common_questions.length
+    });
+
+    return data;
+  } catch (error) {
+    console.error('Error loading topic tips:', error);
+    return null;
+  }
+}
+
+/**
+ * Convert thread slug to full forum URL
+ */
+export function getThreadUrl(threadSlug: string): string {
+  return `${EXTERNAL_LINKS.ntmConnectBase}/discussion/${threadSlug}`;
 }
