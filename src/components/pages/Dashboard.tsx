@@ -55,7 +55,9 @@ function DashboardContent() {
 
           setData(processedData);
         } else if (activeTab === 'glossary') {
-          const response = await fetch('/data/glossary.json');
+          // Use basePath for production GitHub Pages deployment
+          const basePath = process.env.NODE_ENV === 'production' ? '/ntm-web' : '';
+          const response = await fetch(`${basePath}/data/glossary.json`);
           if (!response.ok) {
             throw new Error('Failed to load glossary data');
           }
