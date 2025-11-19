@@ -1,10 +1,10 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "generated_date": "2024-11-19",
   "description": "Patient-friendly glossary for NTM lung disease and bronchiectasis (production-ready)",
   "statistics": {
     "total_terms": 80,
-    "terms_with_manual_definitions": 12,
+    "terms_with_manual_definitions": 80,
     "terms_with_extracted_data": 65,
     "terms_with_examples": 62,
     "categories": {
@@ -272,8 +272,8 @@
           "source": "nodules-disappear_nodules-disappear.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A rapidly growing NTM species that is harder to treat than MAC and often resistant to many antibiotics",
+      "definition_long": "Mycobacterium abscessus (M. abscessus or MAB) is a rapidly growing nontuberculous mycobacterium that causes lung infections, particularly in people with bronchiectasis or cystic fibrosis. It is one of the most difficult NTM infections to treat because it is often resistant to many standard antibiotics, requiring longer treatment courses with multiple medications including intravenous antibiotics."
     },
     "M. avium (Mycobacterium avium)": {
       "title": "M. avium (Mycobacterium avium)",
@@ -323,8 +323,8 @@
           "source": "life-straw-2_Life-straw.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "One of the two main bacteria in MAC, the most common cause of NTM lung infections",
+      "definition_long": "Mycobacterium avium (M. avium) is one of the two bacterial species that make up Mycobacterium avium complex (MAC), along with M. intracellulare. It is found in water, soil, and dust, and is one of the most common causes of NTM lung infections. Treatment typically involves a combination of antibiotics known as the Big Three."
     },
     "M. intracellulare (Mycobacterium intracellulare)": {
       "title": "M. intracellulare (Mycobacterium intracellulare)",
@@ -360,8 +360,8 @@
           "source": "ntm-in-sputum-sample-is-it-really-reliable-for-therapy-monitoring_NTM-in-sputum-sample-is-it-really-reliab.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "One of the two main bacteria in MAC, along with M. avium",
+      "definition_long": "Mycobacterium intracellulare (M. intracellulare) is one of the two bacterial species that make up Mycobacterium avium complex (MAC). Like M. avium, it causes lung infections in people with damaged airways or weakened immune systems. The treatment approach is the same as for M. avium, using the Big Three antibiotics."
     },
     "M. simiae": {
       "title": "M. simiae",
@@ -378,8 +378,8 @@
       "usage_notes": "Less common NTM species; can be present without requiring treatment",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A less common NTM species that can cause lung infections and may be resistant to standard treatments",
+      "definition_long": "Mycobacterium simiae (M. simiae) is a less commonly encountered nontuberculous mycobacterium that can cause pulmonary infections. It tends to be more resistant to standard antibiotics than MAC, making it more challenging to treat. Some strains may require specialized antibiotic combinations."
     },
     "M. kansasii": {
       "title": "M. kansasii",
@@ -413,8 +413,8 @@
       "usage_notes": "Rapidly growing mycobacterium; similar to M. abscessus",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A rapidly growing NTM that typically causes skin and soft tissue infections, less commonly lung infections",
+      "definition_long": "Mycobacterium chelonae (M. chelonae) is a rapidly growing nontuberculous mycobacterium most commonly associated with skin, wound, and catheter-related infections. While it can occasionally cause lung infections, this is less common than with other NTM species. It is related to M. abscessus but generally somewhat easier to treat."
     },
     "Azithromycin": {
       "title": "Azithromycin",
@@ -437,7 +437,7 @@
       "usage_notes": "One of the \"Big Three\" antibiotics for MAC treatment",
       "extracted_definitions": [
         {
-          "text": "In a single center retrospective observational cohort study that evaluated and reported treatment outcomes of patients with nodular/bronchiectatic MAC pulmonary disease, 27 patients received treatment for <12 months and 180 patients for \u226512 months of a clarithromycin or azithromycin-based combination therapy, either daily or 3 times a week",
+          "text": "In a single center retrospective observational cohort study that evaluated and reported treatment outcomes of patients with nodular/bronchiectatic MAC pulmonary disease, 27 patients received treatment for <12 months and 180 patients for ≥12 months of a clarithromycin or azithromycin-based combination therapy, either daily or 3 times a week",
           "source": "why-does-treatment-last-12-months_why-does-treatment-last-12-months.md",
           "expert_score": 7,
           "is_definition": false
@@ -494,7 +494,7 @@
       "usage_notes": "One of the \"Big Three\" antibiotics; known for vision side effects; requires regular eye exams",
       "extracted_definitions": [
         {
-          "text": "New findings have refined these recommendations: * **Initial regimen intensification:** For severe cavitary disease, guidelines recommend adding an injectable aminoglycoside (amikacin or streptomycin) to the standard oral regimen (macrolide, ethambutol, and rifampin) for the first 2\u20133 months",
+          "text": "New findings have refined these recommendations: * **Initial regimen intensification:** For severe cavitary disease, guidelines recommend adding an injectable aminoglycoside (amikacin or streptomycin) to the standard oral regimen (macrolide, ethambutol, and rifampin) for the first 2–3 months",
           "source": "is-surgery-a-better-option_Is-surgery-a-better-option.md",
           "expert_score": 5,
           "is_definition": true
@@ -561,7 +561,7 @@
           "is_definition": false
         },
         {
-          "text": "New findings have refined these recommendations: * **Initial regimen intensification:** For severe cavitary disease, guidelines recommend adding an injectable aminoglycoside (amikacin or streptomycin) to the standard oral regimen (macrolide, ethambutol, and rifampin) for the first 2\u20133 months",
+          "text": "New findings have refined these recommendations: * **Initial regimen intensification:** For severe cavitary disease, guidelines recommend adding an injectable aminoglycoside (amikacin or streptomycin) to the standard oral regimen (macrolide, ethambutol, and rifampin) for the first 2–3 months",
           "source": "is-surgery-a-better-option_Is-surgery-a-better-option.md",
           "expert_score": 5,
           "is_definition": true
@@ -587,7 +587,7 @@
           "source": "ntm-xenopi_NTM-Xenopi.md"
         },
         {
-          "text": "Then I will add the second for 2 weeks and finally add rifampin 2 weeks after that\u2026that process should help me identify how I react to each drug",
+          "text": "Then I will add the second for 2 weeks and finally add rifampin 2 weeks after that…that process should help me identify how I react to each drug",
           "source": "the-big-three-antibiotics_The-big-three-antibiotics.md"
         },
         {
@@ -695,7 +695,7 @@
           "is_definition": true
         },
         {
-          "text": "Teresa, I'm in the middle of a clinical trial using azithromycin, ethambutol, and Arikayce and I'm currently testing negative for MAC \ud83d\ude0a",
+          "text": "Teresa, I'm in the middle of a clinical trial using azithromycin, ethambutol, and Arikayce and I'm currently testing negative for MAC 😊",
           "source": "the-big-3-antibiotics_The-big-3-antibiotics.md",
           "expert_score": 4,
           "is_definition": false
@@ -734,7 +734,7 @@
       "usage_notes": "Alternative to azithromycin in Big Three regimen",
       "extracted_definitions": [
         {
-          "text": "In a single center retrospective observational cohort study that evaluated and reported treatment outcomes of patients with nodular/bronchiectatic MAC pulmonary disease, 27 patients received treatment for <12 months and 180 patients for \u226512 months of a clarithromycin or azithromycin-based combination therapy, either daily or 3 times a week",
+          "text": "In a single center retrospective observational cohort study that evaluated and reported treatment outcomes of patients with nodular/bronchiectatic MAC pulmonary disease, 27 patients received treatment for <12 months and 180 patients for ≥12 months of a clarithromycin or azithromycin-based combination therapy, either daily or 3 times a week",
           "source": "why-does-treatment-last-12-months_why-does-treatment-last-12-months.md",
           "expert_score": 7,
           "is_definition": false
@@ -758,8 +758,8 @@
           "source": "the-big-3-antibiotics_The-big-3-antibiotics.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A macrolide antibiotic, one of the Big Three for MAC treatment, similar to azithromycin",
+      "definition_long": "Clarithromycin (brand name Biaxin) is a macrolide antibiotic and one of the core medications in the Big Three regimen for MAC treatment. It works similarly to azithromycin and is taken daily. Common side effects include metallic taste, nausea, and potential hearing changes. Some patients are prescribed clarithromycin instead of azithromycin as part of their treatment regimen."
     },
     "Rifabutin": {
       "title": "Rifabutin",
@@ -804,8 +804,8 @@
           "source": "e-ntm-of-the-breast_E-NTM-of-the-Breast.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "An alternative to rifampin in the Big Three regimen, with similar action but different side effects",
+      "definition_long": "Rifabutin (brand name Mycobutin) is an antibiotic in the rifamycin family, similar to rifampin. It is sometimes used as an alternative to rifampin in the Big Three regimen for MAC treatment, particularly when drug interactions are a concern or when patients cannot tolerate rifampin. Common side effects include discolored body fluids (orange/brown), joint pain, and eye inflammation (uveitis)."
     },
     "Clofazimine": {
       "title": "Clofazimine",
@@ -862,8 +862,8 @@
           "source": "surgery-for-cavity-removal_Surgery-for-cavity-removal.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "An antibiotic sometimes added to MAC treatment, especially for refractory infections; causes skin discoloration",
+      "definition_long": "Clofazimine is an antibiotic that may be added to MAC treatment regimens, particularly for treatment-refractory or resistant infections, or as part of M. abscessus therapy. Its most notable side effect is orange-brown discoloration of the skin, which is reversible but can take months to years to fade after stopping the medication. It also commonly causes dry skin and GI upset."
     },
     "Amikacin": {
       "title": "Amikacin",
@@ -925,8 +925,8 @@
           "source": "is-surgery-a-better-option_Is-surgery-a-better-option.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "An IV or inhaled antibiotic used for MAC and M. abscessus; can cause hearing loss and kidney damage",
+      "definition_long": "Amikacin is an aminoglycoside antibiotic that can be given intravenously (IV) or as an inhaled formulation (Arikayce/ALIS). It is used for treatment-refractory MAC infections and M. abscessus infections. Because it can cause permanent hearing loss (ototoxicity) and kidney damage, patients require regular monitoring of hearing and kidney function during treatment."
     },
     "Tobramycin": {
       "title": "Tobramycin",
@@ -984,8 +984,8 @@
           "source": "pseudomonas-treatment-1_Pseudomonas-treatment.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "An inhaled antibiotic sometimes used for NTM or pseudomonas lung infections",
+      "definition_long": "Tobramycin is an aminoglycoside antibiotic, similar to amikacin, that is commonly used in inhaled form to treat lung infections. While it is FDA-approved for pseudomonas infections in cystic fibrosis patients, it is sometimes used off-label for NTM infections. Like other aminoglycosides, it requires monitoring for potential hearing and kidney effects."
     },
     "Levofloxacin": {
       "title": "Levofloxacin",
@@ -1031,8 +1031,8 @@
           "source": "levofloxacin-1_Levofloxacin.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A fluoroquinolone antibiotic sometimes used for NTM or other bacterial lung infections",
+      "definition_long": "Levofloxacin (brand name Levaquin) is a fluoroquinolone antibiotic occasionally used in NTM treatment regimens or for other bacterial infections. Like other fluoroquinolones, it can cause tendon rupture, peripheral neuropathy, and other side effects. It is sometimes rotated with other antibiotics in long-term treatment plans."
     },
     "Ciprofloxacin": {
       "title": "Ciprofloxacin",
@@ -1085,8 +1085,8 @@
           "source": "pseudomonas-aeruginosa-2_Pseudomonas-Aeruginosa.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A fluoroquinolone antibiotic sometimes used for NTM or other bacterial infections",
+      "definition_long": "Ciprofloxacin (brand name Cipro) is a fluoroquinolone antibiotic that may be used in some NTM treatment regimens or for other bacterial infections like pseudomonas. Like other fluoroquinolones, it carries risks of tendon problems, nerve damage, and other side effects. It is less commonly used for NTM than moxifloxacin or levofloxacin."
     },
     "Moxifloxacin": {
       "title": "Moxifloxacin",
@@ -1139,8 +1139,8 @@
           "source": "ntm-xenopi_NTM-Xenopi.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A fluoroquinolone antibiotic sometimes added to NTM treatment regimens",
+      "definition_long": "Moxifloxacin (brand name Avelox) is a fluoroquinolone antibiotic that may be added to NTM treatment regimens, particularly for M. abscessus or refractory MAC. Side effects can include tendon problems, nerve damage (peripheral neuropathy), and QT prolongation (heart rhythm changes). It should be used cautiously in older adults."
     },
     "Linezolid": {
       "title": "Linezolid",
@@ -1170,8 +1170,8 @@
           "source": "extrapulmonary-ntm-mac-setback-duke-bound_Extrapulmonary-NTM-MAC-setback-Duke-boun.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A powerful antibiotic sometimes used for resistant NTM infections; can cause nerve damage and low blood counts",
+      "definition_long": "Linezolid (brand name Zyvox) is an oxazolidinone antibiotic that may be used for difficult-to-treat or resistant NTM infections, particularly M. abscessus. It has significant side effects including peripheral neuropathy (nerve damage), bone marrow suppression (low blood counts), and optic neuropathy. Regular blood tests and monitoring are essential during treatment."
     },
     "Tigecycline": {
       "title": "Tigecycline",
@@ -1188,8 +1188,8 @@
       "usage_notes": "IV antibiotic for severe/resistant cases",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "An IV antibiotic sometimes used for M. abscessus infections",
+      "definition_long": "Tigecycline is a glycylcycline antibiotic given intravenously that may be included in treatment regimens for M. abscessus infections. It is related to tetracycline antibiotics but has broader activity. Common side effects include nausea and vomiting. It is typically used as part of multi-drug regimens for resistant infections."
     },
     "Imipenem": {
       "title": "Imipenem",
@@ -1219,8 +1219,8 @@
           "source": "surgery-for-cavity-removal_Surgery-for-cavity-removal.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "An IV carbapenem antibiotic that may be used for M. abscessus infections",
+      "definition_long": "Imipenem is a carbapenem antibiotic given intravenously that has activity against M. abscessus. It is sometimes included in intensive multi-drug IV regimens for M. abscessus lung infections. Like other IV antibiotics, it typically requires placement of a PICC line or central line for administration."
     },
     "Cefoxitin": {
       "title": "Cefoxitin",
@@ -1237,8 +1237,8 @@
       "usage_notes": "IV antibiotic sometimes used for M. abscessus",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "An IV antibiotic sometimes used for M. abscessus treatment",
+      "definition_long": "Cefoxitin is a cephalosporin antibiotic given intravenously that shows activity against M. abscessus. It is sometimes included in multi-drug IV regimens for M. abscessus infections, typically in combination with other antibiotics like amikacin or tigecycline. Treatment courses are usually several weeks to months."
     },
     "Omadacycline": {
       "title": "Omadacycline",
@@ -1290,8 +1290,8 @@
           "source": "surgery-for-cavity-removal_Surgery-for-cavity-removal.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A newer tetracycline antibiotic being studied for NTM infections",
+      "definition_long": "Omadacycline (brand name Nuzyra) is a newer aminomethylcycline antibiotic approved for bacterial pneumonia and skin infections. It is being studied for potential use in NTM treatment, particularly for resistant infections. As a tetracycline-class drug, it may offer an alternative for patients who cannot tolerate or have failed standard therapies."
     },
     "CT Scan": {
       "title": "CT Scan",
@@ -1356,8 +1356,8 @@
           "source": "the-big-three-antibiotics_The-big-three-antibiotics.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A detailed imaging test used to diagnose and monitor NTM lung disease and bronchiectasis",
+      "definition_long": "A CT (computed tomography) scan uses X-rays and computer processing to create detailed cross-sectional images of the lungs. It is the gold standard for diagnosing bronchiectasis and monitoring NTM lung disease. CT scans can show features like tree-in-bud opacities, nodules, cavities, and the extent of bronchiectasis. High-resolution CT (HRCT) provides even finer detail."
     },
     "HRCT": {
       "title": "HRCT",
@@ -1386,8 +1386,8 @@
         }
       ],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "High-resolution CT scan that provides the most detailed images of lung structure",
+      "definition_long": "HRCT (high-resolution computed tomography) is a specialized type of CT scan that uses thinner slices and specific reconstruction techniques to provide extremely detailed images of lung tissue. It is the best imaging test for evaluating bronchiectasis, identifying specific patterns of NTM disease (nodular vs. cavitary), and detecting subtle changes in lung structure."
     },
     "Sputum Culture": {
       "title": "Sputum Culture",
@@ -1449,8 +1449,8 @@
           "source": "the-use-of-surgery-for-treatment-of-mycobacterium-avium-complex_The-use-of-surgery-for-treatment-of-myco.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A lab test where sputum is tested to identify bacteria causing lung infections",
+      "definition_long": "A sputum culture is a laboratory test where a sample of mucus coughed up from the lungs is examined to identify bacteria, including NTM. The sample is placed in special growth media and monitored for several weeks to see if mycobacteria grow. NTM diagnosis typically requires multiple positive sputum cultures. Results can take 6-8 weeks due to the slow-growing nature of mycobacteria."
     },
     "AFB (Acid-Fast Bacilli)": {
       "title": "AFB (Acid-Fast Bacilli)",
@@ -1505,8 +1505,8 @@
           "source": "e-ntm-of-the-breast_E-NTM-of-the-Breast.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A quick microscope test to look for acid-fast bacteria like mycobacteria in sputum",
+      "definition_long": "AFB (acid-fast bacilli) smear is a microscopic examination of sputum or other samples to look for acid-fast bacteria, including mycobacteria like NTM and tuberculosis. It's faster than culture (hours vs. weeks) but less sensitive and cannot distinguish between different species of mycobacteria. A positive AFB smear indicates mycobacteria are present, but culture is needed for species identification."
     },
     "PFT (Pulmonary Function Test)": {
       "title": "PFT (Pulmonary Function Test)",
@@ -1561,8 +1561,8 @@
           "source": "pulmonary-function-test_Pulmonary-Function-Test.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Pulmonary function test that measures how well your lungs work",
+      "definition_long": "PFT (pulmonary function test) or spirometry is a breathing test that measures lung capacity, airflow, and how well lungs transfer oxygen. Key measurements include FEV1 (forced expiratory volume in 1 second) and FVC (forced vital capacity). PFTs help assess disease severity, track progression, and guide treatment decisions in NTM and bronchiectasis patients."
     },
     "FEV1 (Forced Expiratory Volume)": {
       "title": "FEV1 (Forced Expiratory Volume)",
@@ -1579,8 +1579,8 @@
       "usage_notes": "Key metric in pulmonary function tests",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Forced expiratory volume in 1 second - a key measure of how much air you can forcefully exhale",
+      "definition_long": "FEV1 (forced expiratory volume in 1 second) is a measurement from pulmonary function tests that indicates how much air you can forcefully blow out in the first second of exhalation. It is expressed as a percentage of the predicted normal value for your age, height, and sex. Declining FEV1 indicates worsening lung function and is used to track disease progression in NTM and bronchiectasis."
     },
     "FVC (Forced Vital Capacity)": {
       "title": "FVC (Forced Vital Capacity)",
@@ -1597,8 +1597,8 @@
       "usage_notes": "Measures total amount of air exhaled",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Forced vital capacity - the total amount of air you can forcefully exhale after a full breath",
+      "definition_long": "FVC (forced vital capacity) is a pulmonary function test measurement that shows the total volume of air you can forcefully exhale after taking the deepest breath possible. Along with FEV1, it helps assess lung capacity and function. The ratio of FEV1 to FVC helps distinguish between obstructive and restrictive lung diseases."
     },
     "Bronchoscopy": {
       "title": "Bronchoscopy",
@@ -1638,8 +1638,8 @@
           "source": "ntm-and-chest-painbreathing_NTM-and-chest-painbreathing.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A procedure where a thin scope is inserted into the airways to collect samples or examine the lungs",
+      "definition_long": "Bronchoscopy is a medical procedure where a thin, flexible tube with a camera (bronchoscope) is inserted through the nose or mouth into the airways. It allows doctors to visually examine the airways, collect samples of mucus or tissue, and perform bronchoalveolar lavage (washing out part of the lung to collect cells and secretions). It may be done when sputum samples are hard to obtain or to investigate suspicious findings on imaging."
     },
     "Tree-in-bud": {
       "title": "Tree-in-bud",
@@ -1747,8 +1747,8 @@
           "source": "surgery-for-cavity-removal_Surgery-for-cavity-removal.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Small round spots seen on lung imaging, can be caused by NTM or other conditions",
+      "definition_long": "Nodules are small, round opacities (spots) seen on CT scans or X-rays. In NTM disease, nodules are typically multiple, small (a few millimeters), and scattered throughout the lungs, often in a tree-in-bud pattern. Not all nodules indicate NTM - they can also be caused by old infections, inflammation, or other lung conditions. Tracking nodules over time helps assess treatment response."
     },
     "Cavities": {
       "title": "Cavities",
@@ -1775,7 +1775,7 @@
           "is_definition": false
         },
         {
-          "text": "New findings have refined these recommendations: * **Initial regimen intensification:** For severe cavitary disease, guidelines recommend adding an injectable aminoglycoside (amikacin or streptomycin) to the standard oral regimen (macrolide, ethambutol, and rifampin) for the first 2\u20133 months",
+          "text": "New findings have refined these recommendations: * **Initial regimen intensification:** For severe cavitary disease, guidelines recommend adding an injectable aminoglycoside (amikacin or streptomycin) to the standard oral regimen (macrolide, ethambutol, and rifampin) for the first 2–3 months",
           "source": "is-surgery-a-better-option_Is-surgery-a-better-option.md",
           "expert_score": 5,
           "is_definition": true
@@ -1809,8 +1809,8 @@
           "source": "is-surgery-a-better-option_Is-surgery-a-better-option.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Holes or air-filled spaces in the lung tissue, indicating severe infection or tissue damage",
+      "definition_long": "Cavities are hollow, air-filled spaces within the lung tissue caused by destruction of lung tissue from infection. In NTM disease, cavities indicate more severe, cavitary MAC infection which is harder to treat than nodular MAC. Cavitary disease is more common in older men, smokers, and those with pre-existing lung disease. Treatment success rates are lower with cavitary disease, and it carries a higher risk of complications like hemoptysis."
     },
     "Infiltrates": {
       "title": "Infiltrates",
@@ -1827,8 +1827,8 @@
       "usage_notes": "Areas of inflammation or infection on imaging",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Abnormal substances or fluids in lung tissue seen on imaging, indicating infection or inflammation",
+      "definition_long": "Infiltrates are areas on chest X-rays or CT scans where lung tissue appears denser than normal due to accumulation of fluid, cells, or other material. In NTM disease, infiltrates indicate areas of active infection or inflammation. The term is a general radiologic descriptor and doesn't specify the cause - further evaluation is needed to determine what's causing the infiltrates."
     },
     "Ground Glass Opacities": {
       "title": "Ground Glass Opacities",
@@ -1848,8 +1848,8 @@
       "usage_notes": "Hazy areas on CT; can indicate hypersensitivity pneumonitis from Arikayce",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Hazy areas on CT scans indicating inflammation or infection while blood vessels remain visible",
+      "definition_long": "Ground glass opacities (GGO) are hazy, increased density areas on CT scans that look like frosted glass. Unlike consolidation, blood vessels and airways are still visible through the opacity. In NTM disease, ground glass opacities suggest active inflammation, infection, or sometimes allergic reactions. They can appear and disappear with disease activity and treatment."
     },
     "Upper Lobe Disease": {
       "title": "Upper Lobe Disease",
@@ -1867,8 +1867,8 @@
       "usage_notes": "Disease in upper parts of lungs; associated with cavitary MAC",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "NTM or tuberculosis affecting primarily the upper portions of the lungs",
+      "definition_long": "Upper lobe disease refers to infection concentrated in the upper portions (lobes) of the lungs. This pattern is typical of cavitary MAC and tuberculosis, especially in patients with prior lung damage or smoking history. Upper lobe cavitary disease is generally more difficult to treat than nodular disease in the middle/lower lobes and carries higher risk of complications."
     },
     "Right Middle Lobe": {
       "title": "Right Middle Lobe",
@@ -1926,8 +1926,8 @@
           "source": "the-use-of-surgery-for-treatment-of-mycobacterium-avium-complex_The-use-of-surgery-for-treatment-of-myco.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "The middle section of the right lung, commonly affected in nodular MAC",
+      "definition_long": "The right middle lobe (RML) is the middle of three lobes in the right lung. It is commonly affected in nodular bronchiectatic MAC (Lady Windermere Syndrome), along with the lingula. The RML has a relatively narrow bronchus that is prone to compression and poor drainage, making it susceptible to infection and bronchiectasis. RML involvement is characteristic of the nodular MAC pattern."
     },
     "Lingula": {
       "title": "Lingula",
@@ -1966,8 +1966,8 @@
           "source": "the-use-of-surgery-for-treatment-of-mycobacterium-avium-complex_The-use-of-surgery-for-treatment-of-myco.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "The tongue-like portion of the left lung, commonly affected in nodular MAC",
+      "definition_long": "The lingula is a tongue-shaped region in the left lung that corresponds anatomically to the right middle lobe. Like the RML, it is commonly affected in nodular bronchiectatic MAC disease. The lingula and right middle lobe together form the classic distribution pattern seen in Lady Windermere Syndrome. Poor drainage in this area contributes to mucus accumulation and infection."
     },
     "Hemoptysis": {
       "title": "Hemoptysis",
@@ -2026,8 +2026,8 @@
           "source": "bringing-up-blood_Bringing-up-Blood.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Coughing up blood or blood-streaked mucus from the lungs",
+      "definition_long": "Hemoptysis is the medical term for coughing up blood or blood-tinged sputum from the respiratory tract. In NTM and bronchiectasis patients, it can range from small streaks of blood in mucus to larger amounts. It occurs due to inflammation and damage to blood vessels in the airways. While small amounts are common and not usually dangerous, significant bleeding requires immediate medical attention. Cavitary disease carries a higher risk of major hemoptysis."
     },
     "Sputum": {
       "title": "Sputum",
@@ -2087,8 +2087,8 @@
           "source": "the-big-three-antibiotics_The-big-three-antibiotics.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Mucus and other material coughed up from the lungs and airways",
+      "definition_long": "Sputum is the medical term for mucus, phlegm, and other substances coughed up from the respiratory tract. Examining sputum is crucial for diagnosing and monitoring NTM - samples are sent for culture to identify bacteria and assess treatment response. Sputum characteristics (amount, color, thickness) provide information about infection and airway inflammation. Producing adequate sputum samples can be challenging and may require induced sputum techniques or bronchoscopy."
     },
     "Nebulizer": {
       "title": "Nebulizer",
@@ -2149,8 +2149,8 @@
           "source": "masks-and-other-preventative-measures-how-much-are-you-willing-to-do_MASKS-AND-OTHER-PREVENTATIVE-MEASURES-HO.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A device that converts liquid medication into a fine mist for inhalation into the lungs",
+      "definition_long": "A nebulizer is a medical device that converts liquid medication into a fine mist or aerosol that can be breathed directly into the lungs. NTM and bronchiectasis patients commonly use nebulizers to deliver saline, bronchodilators, or antibiotics like Arikayce. Treatment sessions typically take 5-20 minutes depending on the medication and type of nebulizer."
     },
     "Aerobika": {
       "title": "Aerobika",
@@ -2207,8 +2207,8 @@
           "source": "bringing-up-blood_Bringing-up-Blood.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "An oscillating PEP device that helps clear mucus from the lungs using vibrations and pressure",
+      "definition_long": "The Aerobika is an oscillating positive expiratory pressure (OPEP) device that helps mobilize and clear mucus from the airways. When you exhale through it, it creates vibrations and gentle pressure that help loosen mucus and keep airways open. It's drug-free, easy to use, and commonly prescribed for bronchiectasis and NTM patients as part of their daily airway clearance routine."
     },
     "Acapella": {
       "title": "Acapella",
@@ -2243,8 +2243,8 @@
           "source": "mycobacterium-abcessus_Mycobacterium-Abcessus.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A handheld device similar to Aerobika that uses vibrations to help clear mucus",
+      "definition_long": "The Acapella is another oscillating PEP device used for airway clearance, working similarly to the Aerobika. It creates vibrations and positive pressure during exhalation to loosen and mobilize mucus. It comes in different resistance levels (green for higher flow rates, blue for lower) to match individual lung function. Many patients use it 2-3 times daily as part of their airway clearance regimen."
     },
     "Vest": {
       "title": "Vest",
@@ -2305,8 +2305,8 @@
           "source": "fitting-of-hill-rom-vest_Fitting-of-hill-rom-vest.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "An inflatable vest that vibrates the chest wall to help loosen and clear mucus from the lungs",
+      "definition_long": "The vest, also called HFCWC (high-frequency chest wall compression) or by brand names like SmartVest or Hill-Rom Vest, is an inflatable garment connected to an air compressor that delivers rapid vibrations to the chest wall. These vibrations help loosen mucus in the airways. Treatment sessions typically last 20-30 minutes and are done 1-2 times daily. While effective, vests are expensive and not always covered by insurance."
     },
     "Airway Clearance": {
       "title": "Airway Clearance",
@@ -2414,8 +2414,8 @@
         }
       ],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Using gravity and specific body positions to help drain mucus from different parts of the lungs",
+      "definition_long": "Postural drainage is a technique where you position your body in specific ways to use gravity to help drain mucus from different parts of the lungs toward the larger airways where it can be coughed out. Different positions target different lung areas. It's often combined with chest percussion or vibration and other airway clearance techniques. Many patients now use devices like Aerobika instead of or in addition to postural drainage."
     },
     "Chest Percussion": {
       "title": "Chest Percussion",
@@ -2476,8 +2476,8 @@
           "source": "use-of-percussion-for-airway-clearance-works-well_Use-of-percussion-for-airway-clearance-W.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Rhythmic clapping or tapping on the chest to help loosen mucus",
+      "definition_long": "Chest percussion (also called chest physical therapy or CPT) involves rhythmic clapping or tapping on the chest wall over different lung areas to help loosen and mobilize mucus. It was traditionally performed manually by a caregiver or therapist using cupped hands. While still used, many patients now prefer mechanical devices like vests or handheld oscillating devices (Aerobika, Acapella) that are easier to use independently."
     },
     "Huff Cough": {
       "title": "Huff Cough",
@@ -2537,8 +2537,8 @@
           "source": "producing-sputum-samples_Producing-Sputum-samples.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A controlled coughing technique that helps bring up mucus without causing airway collapse",
+      "definition_long": "Huff coughing is a forced expiration technique (FET) used to mobilize and clear mucus. Instead of a traditional forceful cough, you take a medium-sized breath and exhale forcefully while keeping your throat open, making a \"huff\" sound. This is less exhausting than regular coughing and helps prevent airway collapse. It's typically done after using airway clearance devices to help bring up loosened mucus."
     },
     "Saline": {
       "title": "Saline",
@@ -2598,8 +2598,8 @@
           "source": "bringing-up-blood_Bringing-up-Blood.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Salt water solution nebulized into the lungs to help thin and mobilize mucus",
+      "definition_long": "Nebulized saline (usually hypertonic saline at 3% or 7% concentration) is salt water that is converted to a mist and inhaled to help thin mucus, making it easier to cough up. It draws water into the airways and helps hydrate thick secretions. Many NTM and bronchiectasis patients nebulize saline 1-2 times daily, often before airway clearance sessions. Some people experience temporary coughing or airway irritation, which can be reduced by using a bronchodilator first."
     },
     "Hypertonic Saline": {
       "title": "Hypertonic Saline",
@@ -2655,8 +2655,8 @@
           "source": "trouble-tolerating-7-saline_Trouble-tolerating-7-saline.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Concentrated salt water (3% or 7%) nebulized to help thin and clear mucus",
+      "definition_long": "Hypertonic saline is concentrated salt water (typically 3% or 7% sodium chloride concentration, compared to 0.9% normal saline) that is nebulized and inhaled. It works by drawing water into the airways, helping to hydrate and thin mucus, making it easier to cough up. Many NTM and bronchiectasis patients use it daily before airway clearance. It can cause temporary coughing or throat irritation, often reduced by pre-treating with a bronchodilator like albuterol."
     },
     "Albuterol": {
       "title": "Albuterol",
@@ -2714,8 +2714,8 @@
           "source": "ntm-and-albuterol_NTM-and-Albuterol.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A bronchodilator that opens airways and reduces wheezing, often used before other treatments",
+      "definition_long": "Albuterol (brand names Proventil, Ventolin) is a short-acting beta-agonist bronchodilator that relaxes airway muscles, opening the airways and making breathing easier. NTM and bronchiectasis patients often use it before nebulizing saline or doing airway clearance to prevent airway spasm and coughing. It provides quick relief of wheezing and breathlessness lasting 4-6 hours."
     },
     "Colonization": {
       "title": "Colonization",
@@ -2773,8 +2773,8 @@
           "source": "the-big-3-antibiotics_The-big-3-antibiotics.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "When NTM bacteria are present in the lungs but not actively causing infection or symptoms",
+      "definition_long": "Colonization refers to the presence of NTM bacteria in sputum cultures without active infection or disease progression. Patients who are colonized have bacteria present but may not have symptoms, worsening CT findings, or declining lung function. Not all colonization requires treatment - the decision to treat depends on multiple factors including symptoms, imaging changes, and overall clinical picture. Close monitoring is important as colonization can progress to active disease."
     },
     "Refractory MAC": {
       "title": "Refractory MAC",
@@ -2822,8 +2822,8 @@
           "source": "is-surgery-a-better-option_Is-surgery-a-better-option.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "MAC infection that doesn't improve with standard antibiotic treatment",
+      "definition_long": "Refractory MAC (also called treatment-refractory or resistant MAC) refers to MAC lung disease that does not respond adequately to standard Big Three antibiotic therapy. This may mean persistent positive cultures, worsening symptoms or imaging despite treatment, or recurrence after initial improvement. Refractory cases may require additional antibiotics like Arikayce, clofazimine, or IV medications, longer treatment courses, or alternative treatment strategies."
     },
     "Exacerbation": {
       "title": "Exacerbation",
@@ -2884,8 +2884,8 @@
           "source": "the-big-3-for-mac_The-Big-3-for-MAC.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A flare-up or worsening of symptoms requiring increased treatment",
+      "definition_long": "An exacerbation (also called flare or flare-up) is a period of worsening symptoms in bronchiectasis or NTM disease. Signs include increased cough, more or thicker mucus, change in mucus color, increased fatigue, fever, or worsening shortness of breath. Exacerbations may be caused by new bacterial infections, viral illnesses, or progression of underlying disease. Treatment may include antibiotics, increased airway clearance, or other interventions."
     },
     "Culture Conversion": {
       "title": "Culture Conversion",
@@ -2997,8 +2997,8 @@
           "source": "uab-ntm-clinic_UAB-NTM-clinic.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Monitoring NTM colonization without starting antibiotics, delaying treatment until disease progresses",
+      "definition_long": "Watch and wait (also called watchful waiting) is a management approach where NTM is monitored with regular sputum cultures and imaging rather than immediately starting antibiotic treatment. This may be appropriate for asymptomatic patients with stable disease, minimal symptoms, or when risks of treatment outweigh benefits. The decision requires careful consideration of disease activity, patient symptoms, and individual risk factors, with close monitoring for progression."
     },
     "Biofilm": {
       "title": "Biofilm",
@@ -3057,8 +3057,8 @@
           "source": "dr-falkinham-i-hope-you-can-weigh-in-on-this_Dr-Falkinham-I-Hope-You-Can-Weigh-In-On-.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A protective layer bacteria create that makes them harder to kill with antibiotics",
+      "definition_long": "A biofilm is a slimy, protective layer that bacteria, including NTM, create around themselves. Bacteria in biofilms are much more resistant to antibiotics and immune defenses than free-floating bacteria. In damaged airways and bronchiectasis, NTM can form biofilms on airway walls, contributing to chronic infection and treatment difficulty. This is one reason why NTM infections require such long antibiotic courses - to penetrate and eliminate biofilms."
     },
     "Nodular MAC": {
       "title": "Nodular MAC",
@@ -3077,8 +3077,8 @@
       "usage_notes": "Most common form; often treated 3x/week; better prognosis than cavitary",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A form of MAC infection characterized by small nodules and tree-in-bud pattern on CT scans",
+      "definition_long": "Nodular MAC (also called nodular bronchiectatic MAC or Lady Windermere Syndrome) is the most common form of MAC lung disease. It is characterized by multiple small nodules and tree-in-bud opacities on CT scans, primarily affecting the middle lobe and lingula. It typically occurs in slender, older women without obvious risk factors. Treatment success rates are generally higher than cavitary MAC."
     },
     "Cavitary MAC": {
       "title": "Cavitary MAC",
@@ -3097,7 +3097,7 @@
       "usage_notes": "More severe form; requires 7 days/week treatment; worse prognosis",
       "extracted_definitions": [
         {
-          "text": "New findings have refined these recommendations: * **Initial regimen intensification:** For severe cavitary disease, guidelines recommend adding an injectable aminoglycoside (amikacin or streptomycin) to the standard oral regimen (macrolide, ethambutol, and rifampin) for the first 2\u20133 months",
+          "text": "New findings have refined these recommendations: * **Initial regimen intensification:** For severe cavitary disease, guidelines recommend adding an injectable aminoglycoside (amikacin or streptomycin) to the standard oral regimen (macrolide, ethambutol, and rifampin) for the first 2–3 months",
           "source": "is-surgery-a-better-option_Is-surgery-a-better-option.md",
           "expert_score": 5,
           "is_definition": true
@@ -3137,8 +3137,8 @@
           "source": "surgery-for-cavity-removal_Surgery-for-cavity-removal.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A more severe form of MAC with cavities in the lungs, harder to treat than nodular MAC",
+      "definition_long": "Cavitary MAC is a more aggressive form of MAC lung disease characterized by cavities (holes) in the lung tissue, particularly in the upper lobes. It typically occurs in older men with a history of smoking or pre-existing lung disease. It is harder to treat than nodular MAC, with lower cure rates and higher risk of complications like hemoptysis. More intensive or prolonged treatment may be needed."
     },
     "Lady Windermere Syndrome": {
       "title": "Lady Windermere Syndrome",
@@ -3157,8 +3157,8 @@
       "usage_notes": "Classic NTM pattern in older women; right middle lobe and lingula involvement",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Nodular MAC infection typically affecting thin, older women with no obvious risk factors",
+      "definition_long": "Lady Windermere Syndrome is a term historically used to describe nodular MAC lung disease in slender, older women without traditional risk factors like smoking or chronic lung disease. The name comes from a hypothesis (now disputed) that voluntary cough suppression in proper ladies led to inadequate mucus clearance. It typically affects the right middle lobe and lingula. The term is less commonly used now, with \"nodular bronchiectatic MAC\" being preferred."
     },
     "Ototoxicity": {
       "title": "Ototoxicity",
@@ -3219,8 +3219,8 @@
           "source": "the-use-of-surgery-for-treatment-of-mycobacterium-avium-complex_The-use-of-surgery-for-treatment-of-myco.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Hearing loss or balance problems caused by certain antibiotics, particularly aminoglycosides",
+      "definition_long": "Ototoxicity refers to damage to the inner ear caused by certain medications, particularly aminoglycoside antibiotics like amikacin, streptomycin, and tobramycin. It can cause permanent hearing loss (especially high frequencies), tinnitus (ringing in the ears), and balance problems. NTM patients on aminoglycosides require regular hearing tests (audiograms) to monitor for ototoxicity. Hearing loss can be permanent, so early detection and dose adjustments are important."
     },
     "Hypersensitivity Pneumonitis": {
       "title": "Hypersensitivity Pneumonitis",
@@ -3257,8 +3257,8 @@
         }
       ],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Lung inflammation from an allergic reaction to inhaled substances like mold or bird droppings",
+      "definition_long": "Hypersensitivity pneumonitis (HP), also called extrinsic allergic alveolitis, is lung inflammation caused by an allergic immune response to inhaled organic particles like mold, bird proteins, or bacteria. It can be acute (sudden onset with flu-like symptoms) or chronic (gradual lung scarring). HP is relevant to NTM patients because: 1) both can cause similar CT findings, 2) some NTM patients have concurrent HP, and 3) similar exposures (water, environment) may be involved. Treatment focuses on identifying and avoiding the trigger."
     },
     "Neuropathy": {
       "title": "Neuropathy",
@@ -3288,8 +3288,8 @@
           "source": "e-ntm-of-the-breast_E-NTM-of-the-Breast.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Nerve damage causing numbness, tingling, or pain in hands and feet, a side effect of some antibiotics",
+      "definition_long": "Peripheral neuropathy is damage to the peripheral nerves (outside the brain and spinal cord) causing numbness, tingling, burning pain, or weakness, typically in the hands and feet. Several NTM antibiotics can cause this, including linezolid, fluoroquinolones, and ethambutol. Symptoms may improve after stopping the offending medication but can sometimes be permanent. Patients should report new numbness or tingling to their doctor immediately."
     },
     "Vision Changes": {
       "title": "Vision Changes",
@@ -3312,8 +3312,8 @@
           "source": "the-big-3-antibiotics_The-big-3-antibiotics.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Vision problems including color blindness or blurriness, a side effect of ethambutol requiring monitoring",
+      "definition_long": "Vision changes, particularly optic neuritis (inflammation of the optic nerve), can be caused by ethambutol, one of the Big Three antibiotics. This can cause vision loss, color blindness (especially red-green), or blind spots. Patients on ethambutol require regular eye exams including color vision testing to screen for this complication. If caught early by stopping ethambutol, vision changes are often reversible, but delayed recognition can lead to permanent vision loss."
     },
     "Water Heater Temperature": {
       "title": "Water Heater Temperature",
@@ -3321,7 +3321,7 @@
       "canonical": "Water Heater Temperature",
       "variants": [
         "Hot water temperature",
-        "130\u00b0F water"
+        "130°F water"
       ],
       "type": "Prevention measure",
       "related_terms": [
@@ -3329,7 +3329,7 @@
         "NTM",
         "Showerhead Cleaning"
       ],
-      "usage_notes": "Raising to 130\u00b0F kills NTM; takes 8-10 days to clear plumbing system",
+      "usage_notes": "Raising to 130°F kills NTM; takes 8-10 days to clear plumbing system",
       "extracted_definitions": [
         {
           "text": "Yes, by raising the water heater temperature to 130 F, the contribution of the increase in numbers of NTM in the water heater disappears and one is left with the number of NTM in the cold water",
@@ -3339,8 +3339,8 @@
         }
       ],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Keeping water heaters at 140°F or higher may help kill NTM bacteria in household water",
+      "definition_long": "NTM bacteria thrive in lukewarm water (86-113°F) but are killed by temperatures above 131°F. Setting water heaters to 140°F or higher may help reduce NTM bacteria in household water systems. However, this creates a scalding risk, especially for elderly people or children. Some experts recommend this for NTM patients, while others question whether the benefit outweighs the burn risk. If implemented, anti-scald devices should be installed at faucets."
     },
     "Showerhead Cleaning": {
       "title": "Showerhead Cleaning",
@@ -3358,8 +3358,8 @@
       "usage_notes": "Monthly 30-minute vinegar soak recommended to prevent biofilm",
       "extracted_definitions": [],
       "extracted_examples": [],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Regular cleaning or replacement of showerheads to reduce NTM bacterial growth",
+      "definition_long": "Showerhead cleaning involves regularly cleaning, disinfecting, or replacing showerheads to reduce buildup of bacteria including NTM. NTM thrive in warm, damp environments like showerhead biofilms and can be aerosolized during showering. Recommended practices include soaking showerheads in bleach solution or vinegar monthly, replacing them periodically, and using metal showerheads (which harbor less bacteria than plastic). While not proven to prevent NTM infection, it's a common-sense precaution for NTM patients."
     },
     "HEPA Filter": {
       "title": "HEPA Filter",
@@ -3390,8 +3390,8 @@
           "source": "nebulizer-7_Nebulizer.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A high-efficiency air filter that removes particles like mold and bacteria from indoor air",
+      "definition_long": "HEPA (high-efficiency particulate air) filters are air purifiers that can remove 99.97% of particles 0.3 micrometers or larger, including mold spores, bacteria, and dust. While they cannot remove NTM bacteria from water sources (the main route of exposure), they may help reduce mold exposure (like Aspergillus) and improve overall indoor air quality. Some lung disease patients use HEPA filters in bedrooms or living areas."
     },
     "IV Antibiotics": {
       "title": "IV Antibiotics",
@@ -3450,8 +3450,8 @@
           "source": "the-big-3-antibiotics_The-big-3-antibiotics.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Antibiotics delivered directly into the bloodstream through an IV line",
+      "definition_long": "IV (intravenous) antibiotics are medications delivered directly into the bloodstream through a vein, typically via a PICC line or central line for long-term use. IV antibiotics are commonly used for M. abscessus treatment (amikacin, tigecycline, imipenem, cefoxitin) and sometimes for severe or refractory MAC. Treatment courses typically last weeks to months. Patients can often receive IV antibiotics at home with proper training and support, avoiding prolonged hospitalization."
     },
     "PICC Line": {
       "title": "PICC Line",
@@ -3505,8 +3505,8 @@
           "source": "picc-line-for-iv-amikacin_PICC-line-for-IV-amikacin.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A long, thin tube inserted into an arm vein and threaded to near the heart, used for IV medications",
+      "definition_long": "A PICC (peripherally inserted central catheter) line is a long, thin, flexible tube inserted through a vein in the upper arm and threaded through to a large vein near the heart. It's used for long-term IV antibiotics, particularly for M. abscessus treatment requiring weeks to months of IV medications. PICC lines require careful care to prevent infection and blood clots. They allow patients to receive IV antibiotics at home rather than staying hospitalized."
     },
     "Pseudomonas": {
       "title": "Pseudomonas",
@@ -3554,8 +3554,8 @@
           "source": "frequent-utis-and-ntm_Frequent-UTIs-and-NTM.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A common bacteria that infects damaged airways, often found alongside NTM and bronchiectasis",
+      "definition_long": "Pseudomonas aeruginosa (P. aeruginosa) is a common bacteria that frequently infects damaged airways in bronchiectasis patients. It can occur alongside or independently of NTM. Pseudomonas infections cause increased mucus production, airway inflammation, and may accelerate lung function decline. Treatment includes antibiotics (oral, inhaled, or IV) like fluoroquinolones, aztreonam, or tobramycin. Chronic pseudomonas colonization is common in advanced bronchiectasis."
     },
     "GERD": {
       "title": "GERD",
@@ -3593,7 +3593,7 @@
       ],
       "extracted_examples": [
         {
-          "text": "It\u2019s difficult to eradicate but can be managed w airway clearance, other precautions if she has GERD",
+          "text": "It’s difficult to eradicate but can be managed w airway clearance, other precautions if she has GERD",
           "source": "mycobacterium-abcessus_Mycobacterium-Abcessus.md"
         },
         {
@@ -3601,7 +3601,7 @@
           "source": "ntm-and-chest-painbreathing_NTM-and-chest-painbreathing.md"
         },
         {
-          "text": "\u2b50\ufe0fIf you have GERD, you might take a few bites of bread before the visit",
+          "text": "⭐️If you have GERD, you might take a few bites of bread before the visit",
           "source": "dentist-1_Dentist.md"
         },
         {
@@ -3613,8 +3613,8 @@
           "source": "ntm-in-sputum-sample-is-it-really-reliable-for-therapy-monitoring_NTM-in-sputum-sample-is-it-really-reliab.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Acid reflux that may worsen bronchiectasis and NTM by allowing stomach contents to reach the airways",
+      "definition_long": "GERD (gastroesophageal reflux disease) or acid reflux occurs when stomach acid flows back into the esophagus. In lung disease patients, small amounts can be aspirated into the airways (microaspiration), causing inflammation and worsening bronchiectasis. GERD is common in NTM and bronchiectasis patients and may contribute to disease progression. Treatment includes lifestyle changes, acid-reducing medications (PPIs), and sometimes surgical intervention."
     },
     "Aspiration": {
       "title": "Aspiration",
@@ -3637,8 +3637,8 @@
           "source": "life-straw-2_Life-straw.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Accidentally breathing food, liquid, or stomach contents into the lungs",
+      "definition_long": "Aspiration is the accidental inhalation of foreign material (food, liquid, saliva, or stomach contents) into the airways and lungs. Chronic microaspiration (repeated small aspirations, often unnoticed) may contribute to bronchiectasis development and progression. Risk factors include GERD, swallowing problems, and certain anatomical issues. Aspiration can introduce bacteria into the lungs and cause inflammation."
     },
     "Immunocompromised": {
       "title": "Immunocompromised",
@@ -3679,8 +3679,8 @@
           "source": "cdc-recommends-second-covid-vaccine_CDC-recommends-second-COVID-vaccine.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Having a weakened immune system that makes infections more likely or harder to fight",
+      "definition_long": "Being immunocompromised means having a weakened immune system that cannot effectively fight infections. This can result from medical conditions (HIV, cancer, autoimmune diseases), medications (immunosuppressants, chemotherapy, high-dose steroids), or organ transplants. Immunocompromised individuals have a higher risk of NTM infections and may experience more severe or difficult-to-treat disease. Management requires balancing infection treatment with addressing underlying immune issues."
     },
     "Cystic Fibrosis": {
       "title": "Cystic Fibrosis",
@@ -3734,8 +3734,8 @@
           "source": "putting-on-weight_Putting-on-weight.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "A genetic disease causing thick mucus buildup in lungs and other organs, increasing infection risk",
+      "definition_long": "Cystic fibrosis (CF) is a genetic disease that causes production of thick, sticky mucus that clogs the airways and traps bacteria, leading to recurrent infections and progressive lung damage. CF patients have a much higher risk of NTM infections, particularly M. abscessus. NTM treatment in CF is more challenging due to already compromised lung function and multiple other respiratory infections. CF patients require specialized care at CF centers."
     },
     "Probiotics": {
       "title": "Probiotics",
@@ -3793,8 +3793,8 @@
           "source": "the-big-three-antibiotics_The-big-three-antibiotics.md"
         }
       ],
-      "definition_short": null,
-      "definition_long": null
+      "definition_short": "Beneficial bacteria supplements that may help reduce antibiotic-related digestive side effects",
+      "definition_long": "Probiotics are live beneficial bacteria (like Lactobacillus or Bifidobacterium) taken as supplements to support gut health. Many NTM patients take probiotics during antibiotic treatment to help prevent or reduce antibiotic-associated diarrhea and restore healthy gut bacteria. While evidence is mixed, probiotics are generally safe and may provide modest benefit. They should be taken several hours apart from antibiotics to avoid interference."
     }
   },
   "search_index": [
@@ -5689,18 +5689,18 @@
       "definition_long": null,
       "variants": [
         "Hot water temperature",
-        "130\u00b0F water"
+        "130°F water"
       ],
       "related_terms": [
         "Biofilm",
         "NTM",
         "Showerhead Cleaning"
       ],
-      "usage_notes": "Raising to 130\u00b0F kills NTM; takes 8-10 days to clear plumbing system",
+      "usage_notes": "Raising to 130°F kills NTM; takes 8-10 days to clear plumbing system",
       "search_keywords": [
         "water heater temperature",
         "hot water temperature",
-        "130\u00b0f water"
+        "130°f water"
       ]
     }
   ]
