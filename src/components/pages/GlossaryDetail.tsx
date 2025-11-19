@@ -26,7 +26,10 @@ export function GlossaryDetail({ term, termTitle, allTerms }: GlossaryDetailProp
       <div className="max-w-4xl mx-auto">
         {/* Back Button */}
         <button
-          onClick={() => window.location.href = '/?tab=glossary'}
+          onClick={() => {
+            const basePath = process.env.NODE_ENV === 'production' ? '/ntm-web' : '';
+            window.location.href = `${basePath}/?tab=glossary`;
+          }}
           className="flex items-center gap-2 text-blue-600 hover:text-blue-700 mb-6 transition-colors"
         >
           <ArrowLeftIcon className="w-4 h-4" />
@@ -121,7 +124,10 @@ export function GlossaryDetail({ term, termTitle, allTerms }: GlossaryDetailProp
                 return (
                   <button
                     key={relatedTermTitle}
-                    onClick={() => window.location.href = `/glossary/${slug}`}
+                    onClick={() => {
+                      const basePath = process.env.NODE_ENV === 'production' ? '/ntm-web' : '';
+                      window.location.href = `${basePath}/glossary/${slug}`;
+                    }}
                     className="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors text-sm font-medium"
                   >
                     {relatedTerm.canonical}
