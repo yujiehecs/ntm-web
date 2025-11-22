@@ -8,24 +8,27 @@ import { ClockIcon } from '@heroicons/react/24/outline';
 import { loadManualTagsData, processManualTagsData } from '@/lib/data/processor';
 import type { ProcessedData } from '@/lib/types';
 import type { GlossaryData } from '@/lib/types/glossary';
+import type { TimelinesData } from '@/lib/types/timeline';
 import { formatNumber } from '@/lib/utils';
 import { APP_CONFIG } from '@/lib/constants';
 import { GlossaryView } from './GlossaryView';
+import { TimelineView } from './TimelineView';
 
-type TabType = 'topics' | 'glossary';
+type TabType = 'topics' | 'glossary' | 'timelines';
 
 function DashboardContent() {
   const searchParams = useSearchParams();
   const [activeTab, setActiveTab] = useState<TabType>('topics');
   const [data, setData] = useState<ProcessedData | null>(null);
   const [glossaryData, setGlossaryData] = useState<GlossaryData | null>(null);
+  const [timelinesData, setTimelinesData] = useState<TimelinesData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   // Initialize tab from URL
   useEffect(() => {
     const tab = searchParams.get('tab');
-    if (tab === 'glossary' || tab === 'topics') {
+    if (tab === 'glossary' || tab === 'topics' || tab === 'timelines') {
       setActiveTab(tab);
     }
   }, [searchParams]);
@@ -67,6 +70,19 @@ function DashboardContent() {
             totalTerms: glossary.statistics.total_terms
           });
           setGlossaryData(glossary);
+        } else if (activeTab === 'timelines') {
+          // Load timeline data
+          const basePath = process.env.NODE_ENV === 'production' ? '/ntm-web' : '';
+          const response = await fetch(`${basePath}/data/timelines.json`);
+          if (!response.ok) {
+            throw new Error('Failed to load timeline data');
+          }
+          const timelines = await response.json();
+          console.log('Dashboard: Timeline data loaded:', {
+            version: timelines.version,
+            totalTimelines: timelines.total_timelines
+          });
+          setTimelinesData(timelines);
         }
       } catch (err) {
         const errorMessage = err instanceof Error ? err.message : 'Failed to load data';
@@ -88,7 +104,7 @@ function DashboardContent() {
           <div className="text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
             <p className="text-gray-600">
-              Loading {activeTab === 'topics' ? 'community insights' : 'glossary'}...
+              Loading {activeTab === 'topics' ? 'community insights' : activeTab === 'glossary' ? 'glossary' : 'patient timelines'}...
             </p>
           </div>
         </div>
@@ -96,7 +112,7 @@ function DashboardContent() {
     );
   }
 
-  if (error || (activeTab === 'topics' && !data) || (activeTab === 'glossary' && !glossaryData)) {
+  if (error || (activeTab === 'topics' && !data) || (activeTab === 'glossary' && !glossaryData) || (activeTab === 'timelines' && !timelinesData)) {
     return (
       <Layout>
         <div className="text-center py-16">
@@ -153,6 +169,19 @@ function DashboardContent() {
             >
               Glossary
             </button>
+            <button
+              onClick={() => {
+                setActiveTab('timelines');
+                window.history.pushState({}, '', '/?tab=timelines');
+              }}
+              className={`px-6 py-2 rounded-lg font-medium transition-all ${
+                activeTab === 'timelines'
+                  ? 'bg-blue-600 text-white shadow-md'
+                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+              }`}
+            >
+              Patient Timelines
+            </button>
           </div>
 
           {/* Stats for Topics tab */}
@@ -190,6 +219,28 @@ function DashboardContent() {
               </div>
             </div>
           )}
+
+          {/* Stats for Timelines tab */}
+          {activeTab === 'timelines' && timelinesData && (
+            <div className="flex items-center justify-center gap-8 text-sm text-gray-500">
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-blue-600">{timelinesData.total_timelines}</span>
+                <span>Patient Journeys</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-blue-600">
+                  {timelinesData.timelines.filter(t => t.outcome.category === 'sustained_negative').length}
+                </span>
+                <span>Success Stories</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-blue-600">
+                  {Math.round(timelinesData.timelines.reduce((sum, t) => sum + (t.timeline.duration_months || 0), 0) / timelinesData.timelines.length)}
+                </span>
+                <span>Avg Months</span>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Content based on active tab */}
@@ -215,6 +266,19 @@ function DashboardContent() {
             </h2>
 
             <GlossaryView data={glossaryData} />
+          </section>
+        )}
+
+        {activeTab === 'timelines' && timelinesData && (
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+              📅 Patient Treatment Timelines
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Explore real patient journeys through NTM treatment. Each timeline shows diagnosis, treatment progression, and outcomes.
+            </p>
+
+            <TimelineView timelines={timelinesData.timelines} />
           </section>
         )}
       </div>

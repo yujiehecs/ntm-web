@@ -1,0 +1,2914 @@
+{
+  "version": "1.0-ui",
+  "description": "Anonymized, UI-optimized patient timeline data for web interface",
+  "extraction_date": "2025-11-22",
+  "total_timelines": 22,
+  "data_notes": "All patient names anonymized. Locations generalized to state/country only. Events simplified for UI consumption.",
+  "timelines": [
+    {
+      "id": "PT001",
+      "patient_label": "Patient #1",
+      "demographics": {
+        "age_group": "adult",
+        "location": "Knoxville, USA",
+        "diagnosis_year": "~2022 (estimated, started Arikayce April 2023 after Big 3 failure)"
+      },
+      "disease": {
+        "species": "MAC (Mycobacterium avium complex)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "moderate-severe (refractory to Big 3, required Arikayce addition)",
+        "comorbidities": [
+          "bronchiectasis"
+        ]
+      },
+      "outcome": {
+        "category": "sustained_negative",
+        "description": "",
+        "months_since_completion": 11
+      },
+      "classification": {
+        "story_types": [
+          "success_story",
+          "rapid_responder"
+        ],
+        "complexity": "simple",
+        "educational_value": "high",
+        "common_pattern": true
+      },
+      "timeline": {
+        "duration_months": 23.4,
+        "event_count": 6,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "treatment_start",
+            "date": "2023-04-19",
+            "description": "Started Arikayce (inhaled amikacin) after refractory MAC on oral antibiotics",
+            "medications": [
+              "Arikayce (started)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Arikayce added for refractory MAC (implied by context of thread asking about refractory cases)"
+          },
+          {
+            "event_number": 2,
+            "event_type": "clinical_milestone",
+            "date": "2023-06-09",
+            "description": "Culture conversion achieved - sputum cultures became negative",
+            "medications": [],
+            "culture_result": "negative",
+            "side_effects": [],
+            "notes": "Very fast conversion - only 1.7 months after starting Arikayce"
+          },
+          {
+            "event_number": 3,
+            "event_type": "clinical_milestone",
+            "date": "+12mo",
+            "description": "Remained culture negative throughout treatment",
+            "medications": [],
+            "culture_result": "negative",
+            "side_effects": [],
+            "notes": "Sustained negative cultures for 12 months post-conversion"
+          },
+          {
+            "event_number": 4,
+            "event_type": "treatment_stop",
+            "date": "2024-06-09",
+            "description": "Completed full Arikayce treatment course (12 months post-conversion)",
+            "medications": [
+              "Arikayce (stopped)"
+            ],
+            "culture_result": "negative",
+            "side_effects": [],
+            "notes": "Followed standard protocol: 12 months of treatment after culture conversion"
+          },
+          {
+            "event_number": 5,
+            "event_type": "monitoring",
+            "date": "2025-04",
+            "description": "Post-treatment monitoring - still culture negative",
+            "medications": [],
+            "culture_result": "negative",
+            "side_effects": [],
+            "notes": "10 months post-treatment, still negative - good long-term outcome"
+          },
+          {
+            "event_number": 6,
+            "event_type": "monitoring",
+            "date": "2025-05",
+            "description": "Transitioning to quarterly (every 3 months) sputum monitoring",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Reduced monitoring frequency indicates stable post-treatment status"
+          }
+        ]
+      },
+      "key_insight": "Remained culture negative 11 months post-treatment as of May 2025. Transitioning to quarterly monitoring, indicating stable long-term outcome.",
+      "source": {
+        "thread_slug": "how-long-to-culture-conversion-on-arikayce",
+        "original_id": "TL001_laurel_eiler_arikayce",
+        "thread_url": "https://connect.ntminfo.org/discussion/how-long-to-culture-conversion-on-arikayce"
+      }
+    },
+    {
+      "id": "PT002",
+      "patient_label": "Patient #2",
+      "demographics": {
+        "age_group": "adult",
+        "location": "not specified",
+        "diagnosis_year": "~2020 (started Arikayce June 2020)"
+      },
+      "disease": {
+        "species": "NTM (species not specified)",
+        "species_short": "NTM",
+        "disease_type": "pulmonary",
+        "severity": "moderate",
+        "comorbidities": [
+          "bronchiectasis",
+          "pseudomonas aeruginosa"
+        ]
+      },
+      "outcome": {
+        "category": "sustained_negative",
+        "description": "",
+        "months_since_completion": 46
+      },
+      "classification": {
+        "story_types": [
+          "success_story",
+          "dosing_modification"
+        ],
+        "complexity": "simple",
+        "educational_value": "high",
+        "common_pattern": true
+      },
+      "timeline": {
+        "duration_months": 13.0,
+        "event_count": 5,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "treatment_start",
+            "date": "2020-06",
+            "description": "Started Arikayce treatment",
+            "medications": [
+              "Arikayce (started)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Start date"
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_change",
+            "date": "2020-09",
+            "description": "Reduced Arikayce frequency from daily to 3 times per week",
+            "medications": [
+              "Arikayce (dose_changed)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Frequency reduction due to family caregiving needs, not side effects"
+          },
+          {
+            "event_number": 3,
+            "event_type": "clinical_milestone",
+            "date": null,
+            "description": "Achieved culture conversion (timing not precisely stated)",
+            "medications": [],
+            "culture_result": "negative",
+            "side_effects": [],
+            "notes": "Conversion achieved despite reducing to 3x/week. Exact timing unclear."
+          },
+          {
+            "event_number": 4,
+            "event_type": "treatment_stop",
+            "date": "2021-07",
+            "description": "Completed Arikayce treatment",
+            "medications": [
+              "Arikayce (stopped)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Total treatment duration: 13 months"
+          },
+          {
+            "event_number": 5,
+            "event_type": "monitoring",
+            "date": "2025-05",
+            "description": "Long-term post-treatment follow-up - remains NTM negative",
+            "medications": [],
+            "culture_result": "negative",
+            "side_effects": [],
+            "notes": "Excellent long-term outcome - nearly 4 years post-treatment, no recurrence"
+          }
+        ]
+      },
+      "key_insight": "Remains NTM negative nearly 4 years (46 months) after completing Arikayce. Continues maintenance therapy for bronchiectasis and pseudomonas.",
+      "source": {
+        "thread_slug": "how-long-to-culture-conversion-on-arikayce",
+        "original_id": "TL002_inga_b_arikayce",
+        "thread_url": "https://connect.ntminfo.org/discussion/how-long-to-culture-conversion-on-arikayce"
+      }
+    },
+    {
+      "id": "PT003",
+      "patient_label": "Patient #3",
+      "demographics": {
+        "age_group": "adult",
+        "location": "Washington, USA",
+        "diagnosis_year": "unknown"
+      },
+      "disease": {
+        "species": "NTM (species not specified)",
+        "species_short": "NTM",
+        "disease_type": "pulmonary",
+        "severity": "moderate (achieved culture conversion in 3 months)",
+        "comorbidities": []
+      },
+      "outcome": {
+        "category": "recurrence",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "treatment_uncertainty",
+          "recurrence"
+        ],
+        "complexity": "simple",
+        "educational_value": "high",
+        "common_pattern": true
+      },
+      "timeline": {
+        "duration_months": null,
+        "event_count": 2,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "clinical_milestone",
+            "date": "+3mo",
+            "description": "Achieved culture conversion 3 months after starting treatment",
+            "medications": [],
+            "culture_result": "negative",
+            "side_effects": [],
+            "notes": "Initial conversion achieved relatively quickly"
+          },
+          {
+            "event_number": 2,
+            "event_type": "clinical_milestone",
+            "date": "+4mo",
+            "description": "Became culture positive again after 4 months of negative cultures",
+            "medications": [],
+            "culture_result": "positive",
+            "side_effects": [],
+            "notes": "Loss of culture negativity - unclear if this represents treatment failure, reinfection, or lab artifact"
+          }
+        ]
+      },
+      "key_insight": "Converted to negative at 3 months but tested positive again 4 months later. Unclear if one-off test or sustained recurrence. Status as of post date un",
+      "source": {
+        "thread_slug": "how-long-to-culture-conversion-on-arikayce",
+        "original_id": "TL003_charlotte_hart_arikayce",
+        "thread_url": "https://connect.ntminfo.org/discussion/how-long-to-culture-conversion-on-arikayce"
+      }
+    },
+    {
+      "id": "PT004",
+      "patient_label": "Patient #4",
+      "demographics": {
+        "age_group": "adult",
+        "location": "Australia",
+        "diagnosis_year": "2021 (October 19, 2021)"
+      },
+      "disease": {
+        "species": "MAI (Mycobacterium avium intracellulare)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "moderate (responded well to treatment, achieved cure then recurrence)",
+        "comorbidities": []
+      },
+      "outcome": {
+        "category": "recurrence",
+        "description": "",
+        "months_since_completion": 15
+      },
+      "classification": {
+        "story_types": [
+          "success_story",
+          "recurrence"
+        ],
+        "complexity": "simple",
+        "educational_value": "high",
+        "common_pattern": true
+      },
+      "timeline": {
+        "duration_months": 44.1,
+        "event_count": 8,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": "2021-10-19",
+            "description": "Initial diagnosis of NTM Intracellulare",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Diagnosis confirmed"
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": "2022-12-10",
+            "description": "Started daily airway clearance with nebulized hypertonic saline",
+            "medications": [
+              "6% hypertonic saline"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Airway clearance started before antibiotic treatment"
+          },
+          {
+            "event_number": 3,
+            "event_type": "treatment_start",
+            "date": "2023-01-24",
+            "description": "Started Big 3 antibiotic treatment (Azithromycin, Ethambutol, Clofazimine)",
+            "medications": [
+              "Azithromycin",
+              "Ethambutol",
+              "Clofazimine"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Standard Big 3 treatment with clofazimine instead of rifamycin"
+          },
+          {
+            "event_number": 4,
+            "event_type": "clinical_milestone",
+            "date": "+12mo",
+            "description": "Achieved culture conversion - 12 consecutive months negative (36 total samples, 3/month)",
+            "medications": [],
+            "culture_result": "negative for 12 months",
+            "side_effects": [],
+            "notes": "Rigorous monitoring: 3 sputum samples per month required 12 months all negative to stop treatment"
+          },
+          {
+            "event_number": 5,
+            "event_type": "treatment_stop",
+            "date": "2024-03-12",
+            "description": "Completed antibiotic treatment after 12 months negative cultures",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Total treatment duration: 14.2 months"
+          },
+          {
+            "event_number": 6,
+            "event_type": "decision_point",
+            "date": "2025-03",
+            "description": "Environmental exposure during Cyclone Alfred - unable to nebulize for 5 days, repeated outdoor exposure in wind and rain",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Possible reinfection trigger - extreme environmental exposure"
+          },
+          {
+            "event_number": 7,
+            "event_type": "post_treatment",
+            "date": "2025-03-14",
+            "description": "First positive culture post-treatment - scanty positive for MAI",
+            "medications": [],
+            "culture_result": "scanty positive",
+            "side_effects": [],
+            "notes": "12 months post-treatment, first positive culture"
+          },
+          {
+            "event_number": 8,
+            "event_type": "post_treatment",
+            "date": "2025-06-21",
+            "description": "Recurrence confirmed - all 3 samples positive, one smear-positive",
+            "medications": [],
+            "culture_result": "all 3 samples positive, 1 smear-positive",
+            "side_effects": [],
+            "notes": "Full recurrence 15 months post-treatment. Question: reinfection vs relapse?"
+          }
+        ]
+      },
+      "key_insight": "Achieved 24 months total negative cultures (12 on treatment + 12 post-treatment), but recurred 12 months after stopping antibiotics. Possible environm",
+      "source": {
+        "thread_slug": "mycobacterium-intracellulare-mai",
+        "original_id": "TL004_jenny_godfrey_mai_recurrence",
+        "thread_url": "https://connect.ntminfo.org/discussion/mycobacterium-intracellulare-mai"
+      }
+    },
+    {
+      "id": "PT005",
+      "patient_label": "Patient #5",
+      "demographics": {
+        "age_group": "adult",
+        "location": "USA",
+        "diagnosis_year": "unknown"
+      },
+      "disease": {
+        "species": "Mycobacterium abscessus (both species and subspecies)",
+        "species_short": "M. abscessus",
+        "disease_type": "pulmonary",
+        "severity": "severe (required IV therapy every 6 hours, treatment failure at U of MN, success at Mayo)",
+        "comorbidities": [
+          "MAC Intracellulare (new infection post-abscessus treatment)"
+        ]
+      },
+      "outcome": {
+        "category": "sustained_negative",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "treatment_failure",
+          "success_story",
+          "side_effect_challenge"
+        ],
+        "complexity": "complex",
+        "educational_value": "high",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": null,
+        "event_count": 8,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "treatment_start",
+            "date": "+0mo",
+            "description": "Started first M. abscessus treatment regimen at University of Minnesota",
+            "medications": [
+              "IV infusions (unspecified)",
+              "Inhaled amikacin"
+            ],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "side_effect": "Hair thinning",
+                "severity": "significant",
+                "onset": null,
+                "resolution": null,
+                "management": null
+              }
+            ],
+            "notes": "Initial treatment attempt at U of Minnesota"
+          },
+          {
+            "event_number": 2,
+            "event_type": "side_effect",
+            "date": "+8mo",
+            "description": "Life-threatening health crisis - treatment failure, medical team stopped communicating",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "side_effect": "Severe illness/near death",
+                "severity": "life-threatening",
+                "onset": "month 8",
+                "resolution": "after treatment change",
+                "management": "stopped treatment for 3 months"
+              }
+            ],
+            "notes": "Critical turning point - required treatment center change"
+          },
+          {
+            "event_number": 3,
+            "event_type": "treatment_change",
+            "date": "+0mo",
+            "description": "Switched to Mayo Clinic - treatment stopped for 3-month recovery period",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Recovery period required before restarting treatment"
+          },
+          {
+            "event_number": 4,
+            "event_type": "treatment_start",
+            "date": "+3mo",
+            "description": "Restarted M. abscessus treatment at Mayo with new regimen - IV infusions every 6 hours + inhaled amikacin",
+            "medications": [
+              "IV infusions (unspecified)",
+              "Inhaled amikacin"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "New treatment plan at Mayo Clinic after recovery"
+          },
+          {
+            "event_number": 5,
+            "event_type": "treatment_stop",
+            "date": "+30mo",
+            "description": "Completed M. abscessus treatment - total 2.5 years including all treatment attempts",
+            "medications": [],
+            "culture_result": "negative (implied - cleared M. abscessus)",
+            "side_effects": [],
+            "notes": "Successfully cleared M. abscessus after 30 months total treatment"
+          },
+          {
+            "event_number": 6,
+            "event_type": "clinical_milestone",
+            "date": null,
+            "description": "Post-treatment recovery - regained 7 of 20+ pounds lost, health stabilizing",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Slow recovery with partial weight restoration"
+          },
+          {
+            "event_number": 7,
+            "event_type": "diagnosis",
+            "date": "2025",
+            "description": "New diagnosis - MAC Intracellulare (different from previous M. abscessus)",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "New NTM infection after clearing M. abscessus"
+          },
+          {
+            "event_number": 8,
+            "event_type": "treatment_start",
+            "date": "2025-10",
+            "description": "Started treatment for MAC Intracellulare - much easier regimen than M. abscessus",
+            "medications": [
+              "3 antibiotic pills (unspecified)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Dramatic contrast to M. abscessus treatment intensity"
+          }
+        ]
+      },
+      "key_insight": "Successfully cleared M. abscessus after 30 months of intensive treatment (failed at U of MN, succeeded at Mayo Clinic). Required 3-month recovery afte",
+      "source": {
+        "thread_slug": "interesting-possible-drug-side-effect",
+        "original_id": "TL005_diana_olson_m_abscessus",
+        "thread_url": "https://connect.ntminfo.org/discussion/interesting-possible-drug-side-effect"
+      }
+    },
+    {
+      "id": "PT006",
+      "patient_label": "Patient #6",
+      "demographics": {
+        "age_group": "adult (age 45 at diagnosis)",
+        "location": "Denver, USA",
+        "diagnosis_year": "2024 (March 2024)"
+      },
+      "disease": {
+        "species": "MAC (Mycobacterium avium complex)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "moderate (bronchiectasis, refractory to Big 3, considering Arikayce)",
+        "comorbidities": [
+          "likely hEDS (hypermobile Ehlers-Danlos) or HSD (hypermobile spectrum disorder)",
+          "epilepsy (diagnosed 2022)",
+          "perimenopause/menopause"
+        ]
+      },
+      "outcome": {
+        "category": "ongoing_treatment",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "treatment_failure",
+          "refractory_case"
+        ],
+        "complexity": "moderate",
+        "educational_value": "high",
+        "common_pattern": true
+      },
+      "timeline": {
+        "duration_months": null,
+        "event_count": 5,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": "2024-03",
+            "description": "Diagnosed with MAC and bronchiectasis",
+            "medications": [],
+            "culture_result": "positive for MAC",
+            "side_effects": [],
+            "notes": "Diagnosed at National Jewish Health"
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": "+0mo",
+            "description": "Started 3-drug regimen (Big 3)",
+            "medications": [
+              "Ethambutol",
+              "Azithromycin",
+              "Rifamycin"
+            ],
+            "culture_result": "smear-negative at baseline",
+            "side_effects": [],
+            "notes": "Baseline: smear-negative"
+          },
+          {
+            "event_number": 3,
+            "event_type": "clinical_milestone",
+            "date": "+7mo",
+            "description": "Treatment failure - progressed from smear-negative to smear-positive despite 7 months on Big 3",
+            "medications": [],
+            "culture_result": "smear-positive (worsened)",
+            "side_effects": [],
+            "notes": "Clear treatment failure - disease progression on therapy"
+          },
+          {
+            "event_number": 4,
+            "event_type": "treatment_change",
+            "date": "+0mo",
+            "description": "Added Arikayce to regimen after Big 3 failure",
+            "medications": [
+              "Arikayce (amikacin liposome inhalation suspension)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Treatment escalation after failure of Big 3 alone"
+          },
+          {
+            "event_number": 5,
+            "event_type": "monitoring",
+            "date": "+12mo",
+            "description": "12+ months on Ethambutol with regular ophthalmology monitoring - no vision issues",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Despite hEDS concern, no Ethambutol optic neuritis at 12+ months"
+          }
+        ]
+      },
+      "key_insight": "Treatment escalated to Arikayce after Big 3 failure at 7 months (progressed from smear-negative to smear-positive). Currently 2 months into Arikayce t",
+      "source": {
+        "thread_slug": "connective-tissue-disorder",
+        "original_id": "TL006_nell_conti_big3_failure_arikayce",
+        "thread_url": "https://connect.ntminfo.org/discussion/connective-tissue-disorder"
+      }
+    },
+    {
+      "id": "PT007",
+      "patient_label": "Patient #7",
+      "demographics": {
+        "age_group": "adult",
+        "location": "Canada",
+        "diagnosis_year": "2018 (September 2018)"
+      },
+      "disease": {
+        "species": "MAC (Mycobacterium avium complex)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "moderate (bronchiectasis, achieved cure but developed pseudomonas post-treatment)",
+        "comorbidities": [
+          "Pseudomonas aeruginosa (developed post-MAC treatment, resistant to azithromycin and tobramycin)"
+        ]
+      },
+      "outcome": {
+        "category": "sustained_negative",
+        "description": "",
+        "months_since_completion": 12
+      },
+      "classification": {
+        "story_types": [
+          "success_story",
+          "cautionary_tale"
+        ],
+        "complexity": "moderate",
+        "educational_value": "high",
+        "common_pattern": true
+      },
+      "timeline": {
+        "duration_months": 36.0,
+        "event_count": 8,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": "2021",
+            "description": "Diagnosed with bronchiectasis",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Bronchiectasis diagnosed first"
+          },
+          {
+            "event_number": 2,
+            "event_type": "diagnosis",
+            "date": "+6mo",
+            "description": "Diagnosed with MAC 6 months after bronchiectasis diagnosis",
+            "medications": [],
+            "culture_result": "positive for MAC",
+            "side_effects": [],
+            "notes": "MAC diagnosed mid-2021 or early 2022"
+          },
+          {
+            "event_number": 3,
+            "event_type": "treatment_start",
+            "date": "+0mo",
+            "description": "Started Big 3 antibiotic treatment for MAC",
+            "medications": [
+              "Big 3 (Azithromycin, Ethambutol, Rifamycin)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Started treatment around mid-2021 or early 2022"
+          },
+          {
+            "event_number": 4,
+            "event_type": "clinical_milestone",
+            "date": "+18mo",
+            "description": "Culture conversion achieved - clear bronchoscopy after 18 months treatment",
+            "medications": [],
+            "culture_result": "negative (clear bronchoscopy)",
+            "side_effects": [],
+            "notes": "Achieved culture conversion after 18 months on Big 3"
+          },
+          {
+            "event_number": 5,
+            "event_type": "treatment_stop",
+            "date": "+18mo",
+            "description": "Completed Big 3 treatment after 18 months (including time after culture conversion)",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Total treatment duration: 18 months"
+          },
+          {
+            "event_number": 6,
+            "event_type": "post_treatment",
+            "date": "+12mo",
+            "description": "Post-treatment monitoring - nearly 1 year symptom-free",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Approximately 12 months negative post-treatment"
+          },
+          {
+            "event_number": 7,
+            "event_type": "diagnosis",
+            "date": "2024",
+            "description": "New diagnosis - Pseudomonas aeruginosa (not MAC recurrence)",
+            "medications": [],
+            "culture_result": "positive for Pseudomonas aeruginosa",
+            "side_effects": [],
+            "notes": "New infection, not MAC recurrence - antibiotic-resistant pseudomonas"
+          },
+          {
+            "event_number": 8,
+            "event_type": "treatment_start",
+            "date": "2024",
+            "description": "Current management - airway clearance only (no antibiotics for resistant pseudomonas)",
+            "medications": [
+              "3% hypertonic saline"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Specialist has no further antibiotic options for resistant pseudomonas"
+          }
+        ]
+      },
+      "key_insight": "Successfully cleared MAC after 18 months on Big 3, remained culture-negative and symptom-free for 12+ months post-treatment. Subsequently developed NE",
+      "source": {
+        "thread_slug": "sharing-thoughts-of-my-local-pulmonologist",
+        "original_id": "TL007_paula_watterworth_big3_success_pseudomonas",
+        "thread_url": "https://connect.ntminfo.org/discussion/sharing-thoughts-of-my-local-pulmonologist"
+      }
+    },
+    {
+      "id": "PT008",
+      "patient_label": "Patient #8",
+      "demographics": {
+        "age_group": "adult",
+        "location": "not specified",
+        "diagnosis_year": "unknown"
+      },
+      "disease": {
+        "species": "MAC (Mycobacterium avium complex)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "moderate (cavitary disease with 0.9cm thick-walled cavity, multiple nodules, achieved cavity closure)",
+        "comorbidities": []
+      },
+      "outcome": {
+        "category": "ongoing_treatment",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "success_story",
+          "medical_milestone"
+        ],
+        "complexity": "simple",
+        "educational_value": "high",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": null,
+        "event_count": 4,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": null,
+            "description": "Diagnosed with MAC lung disease. CT scan showed 0.9cm thick-walled cavity and numerous nodules.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Doctor warned cavity might never go away"
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": null,
+            "description": "Started Big 3 antibiotics",
+            "medications": [
+              "Azithromycin",
+              "Ethambutol",
+              "Rifamycin"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Started Big 3 promptly after diagnosis"
+          },
+          {
+            "event_number": 3,
+            "event_type": "clinical_milestone",
+            "date": null,
+            "description": "Cavity completely disappeared on CT scan",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Pleasantly surprised - cavity closed after exactly 1 year of treatment despite initial pessimistic prognosis"
+          },
+          {
+            "event_number": 4,
+            "event_type": "monitoring",
+            "date": null,
+            "description": "New concern: large lung nodule grew over 3 months",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Doctors monitoring growth for now. Patient concerned but no immediate intervention planned."
+          }
+        ]
+      },
+      "key_insight": "Achieved major milestone: 0.9cm thick-walled cavity completely closed after exactly 12 months of Big 3 treatment, despite initial pessimistic prognosi",
+      "source": {
+        "thread_slug": "cavity-shrinkclose",
+        "original_id": "TL008_anonymous_cavity_closure",
+        "thread_url": "https://connect.ntminfo.org/discussion/cavity-shrinkclose"
+      }
+    },
+    {
+      "id": "PT009",
+      "patient_label": "Patient #9",
+      "demographics": {
+        "age_group": "adult",
+        "location": "not specified",
+        "diagnosis_year": "unknown"
+      },
+      "disease": {
+        "species": "NTM (likely MAC, species not specified)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "moderate (severe Arikayce side effects requiring dosing reduction)",
+        "comorbidities": []
+      },
+      "outcome": {
+        "category": "sustained_negative",
+        "description": "",
+        "months_since_completion": 36
+      },
+      "classification": {
+        "story_types": [
+          "success_story",
+          "dosing_modification"
+        ],
+        "complexity": "moderate",
+        "educational_value": "high",
+        "common_pattern": true
+      },
+      "timeline": {
+        "duration_months": null,
+        "event_count": 6,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "treatment_start",
+            "date": null,
+            "description": "Arikayce added to oral antibiotic regimen at 7 days/week",
+            "medications": [
+              "Arikayce"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Already on oral antibiotics before Arikayce added"
+          },
+          {
+            "event_number": 2,
+            "event_type": "side_effect",
+            "date": null,
+            "description": "Severe side effects from Arikayce - felt as bad as exacerbation",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "symptom": "Feeling severely ill",
+                "severity": "severe",
+                "description": "As bad as having an exacerbation"
+              }
+            ],
+            "notes": "Patient felt extremely sick from Arikayce side effects, comparable to disease exacerbation. No PFT taken at this time but patient confident it would show decline."
+          },
+          {
+            "event_number": 3,
+            "event_type": "treatment_change",
+            "date": null,
+            "description": "Reduced Arikayce dosing from 7x/week to 3x/week after consulting with pulmonologist",
+            "medications": [
+              "Arikayce"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Dosing modification event type"
+          },
+          {
+            "event_number": 4,
+            "event_type": "clinical_milestone",
+            "date": null,
+            "description": "Sputum sample submitted after dosing reduction",
+            "medications": [],
+            "culture_result": "pending",
+            "side_effects": [],
+            "notes": "Sample collected in May 2021, timing suggests shortly after dosing reduction"
+          },
+          {
+            "event_number": 5,
+            "event_type": "clinical_milestone",
+            "date": null,
+            "description": "First negative sputum culture - culture conversion achieved",
+            "medications": [],
+            "culture_result": "negative",
+            "side_effects": [],
+            "notes": "First negative result achieved AFTER reducing Arikayce to 3x/week. Patient credits Arikayce despite reduced dosing."
+          },
+          {
+            "event_number": 6,
+            "event_type": "post_treatment",
+            "date": null,
+            "description": "Sustained culture negativity - samples remained negative",
+            "medications": [],
+            "culture_result": "negative",
+            "side_effects": [],
+            "notes": "At least 3 years of sustained negativity following conversion. Timeline from June 2021 to June 2024 post."
+          }
+        ]
+      },
+      "key_insight": "Exemplary case demonstrating successful dosing modification strategy. Started Arikayce 7x/week with severe intolerable side effects (felt as bad as ex",
+      "source": {
+        "thread_slug": "arikayce-caused-drop-in-fev1",
+        "original_id": "TL009_mamie_balestra_arikayce_dosing",
+        "thread_url": "https://connect.ntminfo.org/discussion/arikayce-caused-drop-in-fev1"
+      }
+    },
+    {
+      "id": "PT010",
+      "patient_label": "Patient #10",
+      "demographics": {
+        "age_group": "adult (40s)",
+        "location": "Jersey City, USA",
+        "diagnosis_year": "2020 (estimated, 5+ years of treatment by Aug 2025)"
+      },
+      "disease": {
+        "species": "MAC (Mycobacterium avium complex)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "moderate (cavitary disease with 1.8cm upper right lobe cavity, normal lung function, considering surgery after 1 year medical therapy)",
+        "comorbidities": []
+      },
+      "outcome": {
+        "category": "ongoing_treatment",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "decision_dilemma",
+          "surgical_case",
+          "treatment_failure"
+        ],
+        "complexity": "complex",
+        "educational_value": "high",
+        "common_pattern": true
+      },
+      "timeline": {
+        "duration_months": null,
+        "event_count": 9,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": null,
+            "description": "MAC diagnosed with 1.8cm cavity in upper right lobe",
+            "medications": [],
+            "culture_result": "positive for MAC",
+            "side_effects": [],
+            "notes": "Patient in 40s, normal lung function at diagnosis. Cavity located in upper right lobe."
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": null,
+            "description": "Started antibiotic treatment (oral antibiotics, details unspecified)",
+            "medications": [
+              "Oral antibiotics (unspecified)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Started oral antibiotic treatment shortly after diagnosis"
+          },
+          {
+            "event_number": 3,
+            "event_type": "treatment_change",
+            "date": null,
+            "description": "Added Arikayce for 3 months trial",
+            "medications": [
+              "Arikayce"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Arikayce added because cavity was not shrinking as expected with oral antibiotics alone"
+          },
+          {
+            "event_number": 4,
+            "event_type": "side_effect",
+            "date": null,
+            "description": "Experienced brain fog from Arikayce",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "symptom": "Brain fog",
+                "severity": "significant enough to discontinue drug",
+                "description": "Cognitive impairment during Arikayce use"
+              }
+            ],
+            "notes": "Side effect significant enough to contribute to discontinuation decision"
+          },
+          {
+            "event_number": 5,
+            "event_type": "clinical_milestone",
+            "date": null,
+            "description": "Cavity showed no shrinkage during Arikayce trial",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Despite 3 months of Arikayce, cavity size remained unchanged at 1.8cm"
+          },
+          {
+            "event_number": 6,
+            "event_type": "treatment_change",
+            "date": null,
+            "description": "Switched from Arikayce back to inhaled Amikacin",
+            "medications": [
+              "Amikacin inhaled"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Returned to previously effective medication after Arikayce failure"
+          },
+          {
+            "event_number": 7,
+            "event_type": "clinical_milestone",
+            "date": null,
+            "description": "Historical data: inhaled Amikacin previously achieved 20% cavity shrinkage",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Patient has history of positive response to inhaled Amikacin (cavity reduced from ~2.2cm to 1.8cm, representing 20% shrinkage). This influenced decision to return to inhaled Amikacin after Arikayce failure."
+          },
+          {
+            "event_number": 8,
+            "event_type": "decision_point",
+            "date": null,
+            "description": "Surgical consultation - weighing options after 1 year of antibiotics with insufficient cavity shrinkage",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "NYU ID doctor says most patients cured after surgery. NJH recommended IV Amikacin (patient not sensitive to it). Patient considering posterior segment resection. Concerned about IV Amikacin side effects (hearing loss, fungal infections, gut/liver/kidney effects). Strong candidate for surgery but hesitant."
+          },
+          {
+            "event_number": 9,
+            "event_type": "decision_point",
+            "date": null,
+            "description": "Decision to continue medical management through end of 2025 before surgical decision",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Patient decided to complete 18 months of antibiotics (through end of 2025) and reassess cavity size before making final decision on surgery."
+          }
+        ]
+      },
+      "key_insight": "Patient at critical decision point after 12 months of treatment with suboptimal cavity response. 1.8cm cavity persists despite oral antibiotics + inha",
+      "source": {
+        "thread_slug": "use-of-surgery-to-cure-mac",
+        "original_id": "TL010_shuyin_zhang_cavitary_surgery",
+        "thread_url": "https://connect.ntminfo.org/discussion/use-of-surgery-to-cure-mac"
+      }
+    },
+    {
+      "id": "PT011",
+      "patient_label": "Patient #11",
+      "demographics": {
+        "age_group": "not specified",
+        "location": "Location withheld",
+        "diagnosis_year": "2007"
+      },
+      "disease": {
+        "species": "Mycobacterium abscessus (subspecies abscessus with erm41 resistance gene)",
+        "species_short": "M. abscessus",
+        "disease_type": "pulmonary",
+        "severity": "moderate (pneumonia, successfully treated with 9 months intensive therapy)",
+        "comorbidities": []
+      },
+      "outcome": {
+        "category": "sustained_negative",
+        "description": "",
+        "months_since_completion": 156
+      },
+      "classification": {
+        "story_types": [
+          "success_story",
+          "long_term_outcome"
+        ],
+        "complexity": "complex",
+        "educational_value": "high",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": 24.0,
+        "event_count": 6,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": "2007",
+            "description": "Diagnosed with pneumonia caused by Mycobacterium abscessus",
+            "medications": [],
+            "culture_result": "positive for M. abscessus",
+            "side_effects": [],
+            "notes": "Initial diagnosis of M. abscessus pneumonia"
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": "2009",
+            "description": "Started intensive 9-month treatment: 5 months IV + oral, then 4 months oral + nebulized",
+            "medications": [
+              "IV antibiotics (2 drugs, unspecified)",
+              "Oral antibiotic (1 drug, unspecified)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Intensive M. abscessus treatment with IV phase followed by oral/nebulized phase"
+          },
+          {
+            "event_number": 3,
+            "event_type": "treatment_change",
+            "date": "+5mo",
+            "description": "Transitioned from IV to oral + nebulized antibiotics after 5 months",
+            "medications": [
+              "Oral antibiotic (continued, unspecified)",
+              "Nebulized antibiotic (unspecified)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Stepped down from IV to less intensive oral + nebulized regimen"
+          },
+          {
+            "event_number": 4,
+            "event_type": "treatment_stop",
+            "date": "+9mo",
+            "description": "Completed 9-month M. abscessus treatment course",
+            "medications": [],
+            "culture_result": "negative (assumed)",
+            "side_effects": [],
+            "notes": "Successfully completed intensive M. abscessus treatment protocol"
+          },
+          {
+            "event_number": 5,
+            "event_type": "post_treatment",
+            "date": "+156mo",
+            "description": "Long-term follow-up: 13+ years without M. abscessus recurrence (2009-2022+)",
+            "medications": [],
+            "culture_result": "negative (sustained)",
+            "side_effects": [],
+            "notes": "Exceptional long-term success for M. abscessus. Patient maintains strict environmental precautions."
+          },
+          {
+            "event_number": 6,
+            "event_type": "monitoring",
+            "date": "+156mo",
+            "description": "Ongoing environmental precautions to prevent reinfection",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Patient takes proactive environmental precautions: Pall filters on all water sources, avoids tap water, makes travel decisions based on NTM risk. Chose Cabo over Hawaii due to lower NTM incidence."
+          }
+        ]
+      },
+      "key_insight": "Exceptional long-term M. abscessus success story: 13+ years (2009-2022+) without recurrence after 9-month intensive treatment. Patient completed 5 mon",
+      "source": {
+        "thread_slug": "mycobacterium-abscessus-susp-abscessus-erm41",
+        "original_id": "TL011_ann_aylwin_abscessus_13yr_success",
+        "thread_url": "https://connect.ntminfo.org/discussion/mycobacterium-abscessus-susp-abscessus-erm41"
+      }
+    },
+    {
+      "id": "PT012",
+      "patient_label": "Patient #12",
+      "demographics": {
+        "age_group": "not specified",
+        "location": "Location withheld",
+        "diagnosis_year": "2013"
+      },
+      "disease": {
+        "species": "Mycobacterium abscessus erm41 (initial infection, highly drug-resistant variant), later recurrence with different M. abscessus variant (2025)",
+        "species_short": "M. abscessus",
+        "disease_type": "pulmonary",
+        "severity": "moderate to severe (bronchiectasis, recurrent infections despite treatment)",
+        "comorbidities": [
+          "Bronchiectasis",
+          "Permanent hearing loss (amikacin-induced)"
+        ]
+      },
+      "outcome": {
+        "category": "recurrence",
+        "description": "",
+        "months_since_completion": 96
+      },
+      "classification": {
+        "story_types": [
+          "treatment_complications",
+          "recurrence_story",
+          "side_effects_severe"
+        ],
+        "complexity": "very_complex",
+        "educational_value": "high",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": 0.0,
+        "event_count": 8,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": "+-144mo",
+            "description": "M. abscessus erm41 (highly drug-resistant) diagnosed via bronchoscopy",
+            "medications": [],
+            "culture_result": "positive for M. abscessus erm41",
+            "side_effects": [],
+            "notes": "Initial diagnosis of highly drug-resistant M. abscessus erm41 variant via bronchoscopy. Treatment delayed by 4 years."
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": "+-96mo",
+            "description": "Started intensive M. abscessus treatment: 3 oral drugs + 2 IV drugs (PICC line)",
+            "medications": [
+              "Doxycycline",
+              "Oral antibiotic 2 (unspecified)",
+              "Oral antibiotic 3 (unspecified)",
+              "Amikacin (IV)",
+              "IV antibiotic 2 (unspecified)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Complex M. abscessus treatment with 5 simultaneous antibiotics (3 oral + 2 IV). PICC line placed for IV administration at home. Weekly then bi-weekly bloodwork required. Weekly clinic visits for PICC line maintenance. Patient and family trained to administer IV drugs at home."
+          },
+          {
+            "event_number": 3,
+            "event_type": "treatment_change",
+            "date": "+4mo",
+            "description": "Stopped doxycycline due to adverse side effects",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "medication": "Doxycycline",
+                "side_effect": "Adverse side effects (unspecified)",
+                "severity": "severe",
+                "action_taken": "Medication discontinued after 4 months"
+              }
+            ],
+            "notes": "First medication discontinuation due to intolerable side effects"
+          },
+          {
+            "event_number": 4,
+            "event_type": "treatment_change",
+            "date": null,
+            "description": "Stopped amikacin IV due to hearing loss",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "medication": "Amikacin (IV)",
+                "side_effect": "Permanent hearing loss",
+                "severity": "severe",
+                "action_taken": "Medication discontinued, now requires hearing aids"
+              }
+            ],
+            "notes": "CRITICAL ADVERSE EVENT: Permanent hearing loss from amikacin IV. Patient emphasizes this was preventable with better monitoring. Now requires hearing aids permanently. This represents a major quality-of-life impact that patient attributes to insufficient medical oversight."
+          },
+          {
+            "event_number": 5,
+            "event_type": "treatment_continuation",
+            "date": "+13mo",
+            "description": "Continued remaining protocol (2 oral drugs only) for 9 more months after stopping amikacin",
+            "medications": [
+              "Oral antibiotic 2 (unspecified)",
+              "Oral antibiotic 3 (unspecified)"
+            ],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "medication": "General medication effects",
+                "side_effect": "Very dark tan skin color",
+                "severity": "moderate",
+                "action_taken": "Tolerated"
+              },
+              {
+                "medication": "General medication effects",
+                "side_effect": "Eye color change",
+                "severity": "moderate",
+                "action_taken": "Tolerated"
+              },
+              {
+                "medication": "General medication effects",
+                "side_effect": "Orange tears and urine",
+                "severity": "mild",
+                "action_taken": "Tolerated"
+              }
+            ],
+            "notes": "Patient completed treatment with reduced regimen (oral antibiotics only) after stopping both doxycycline and amikacin. Notable cosmetic side effects: dark tan skin, eye color change, orange bodily fluids. Treatment required significant lifestyle restrictions: couldn't leave town for entire treatment period due to IV infusions, weekly clinic visits, bloodwork requirements."
+          },
+          {
+            "event_number": 6,
+            "event_type": "treatment_stop",
+            "date": "+-96mo",
+            "description": "Completed M. abscessus treatment course (~13 months total, reduced from original plan)",
+            "medications": [],
+            "culture_result": "negative (abscessus gone)",
+            "side_effects": [],
+            "notes": "SURPRISING OUTCOME: Despite stopping 2 of 5 medications early (doxycycline at 4mo, amikacin timing unclear), M. abscessus was completely cleared. Patient notes this was unexpected - goal was suppression, not eradication. Demonstrates that even incomplete/modified M. abscessus regimens can occasionally achieve cure."
+          },
+          {
+            "event_number": 7,
+            "event_type": "recurrence",
+            "date": "2025",
+            "description": "M. abscessus recurrence ~8 years post-treatment, different variant than original erm41",
+            "medications": [],
+            "culture_result": "positive for M. abscessus (different variant)",
+            "side_effects": [],
+            "notes": "Recurrence after ~8 years with DIFFERENT M. abscessus variant (not original erm41). Patient is asymptomatic/minimally symptomatic: active physically and socially, minimal cough, minimal sputum. No lesions. This represents likely reinfection rather than relapse since it's a different variant."
+          },
+          {
+            "event_number": 8,
+            "event_type": "monitoring",
+            "date": "2025",
+            "description": "Watchful waiting - managing without treatment, delaying retreatment",
+            "medications": [],
+            "culture_result": "positive (different M. abscessus variant)",
+            "side_effects": [],
+            "notes": "Patient REFUSING treatment despite positive cultures. Rationale: severe previous side effects (especially permanent hearing loss), currently asymptomatic. Managing with airway clearance, saline nebulization, staying active. This represents informed patient decision to prioritize quality of life over aggressive treatment when asymptomatic. Medical team has not identified environmental source despite two separate M. abscessus infections ('the doc says because I've had abscessus twice there must be a susceptability but we've not been able to determine the specific source')."
+          }
+        ]
+      },
+      "key_insight": "COMPLEX RECURRENCE CASE with critical clinical lessons. Initial treatment (2017-2018): M. abscessus erm41 treated with 5 antibiotics (3 oral + 2 IV). ",
+      "source": {
+        "thread_slug": "mycobacter-abscessus",
+        "original_id": "TL012_patricia_dupuis_abscessus_recurrence",
+        "thread_url": "https://connect.ntminfo.org/discussion/mycobacter-abscessus"
+      }
+    },
+    {
+      "id": "PT013",
+      "patient_label": "Patient #13",
+      "demographics": {
+        "age_group": "not specified",
+        "location": "Location withheld",
+        "diagnosis_year": "unknown (pre-RLL surgery, timeline unclear)"
+      },
+      "disease": {
+        "species": "Multiple species (sequential/concurrent): Pseudomonas, MAC (Mycobacterium avium complex), Mycobacterium abscessus, Aspergillus",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "severe (progressive multi-species infections, recurrent cavitary disease, declining PFTs despite aggressive treatment, considering lung transplant)",
+        "comorbidities": [
+          "Bronchiectasis (extensive)",
+          "Type I collagen genetic defect (familial, daughter also affected)",
+          "Osteoporosis",
+          "Compression fracture (T6 vertebra)",
+          "Levofloxacin-induced tendon injury (2019)"
+        ]
+      },
+      "outcome": {
+        "category": "treatment_failure",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "treatment_complications",
+          "disease_progression",
+          "multiple_infections"
+        ],
+        "complexity": "very_complex",
+        "educational_value": "high",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": 10.0,
+        "event_count": 10,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": null,
+            "description": "Diagnosed with Pseudomonas + MAC + M. abscessus + cavitary disease",
+            "medications": [],
+            "culture_result": "positive for Pseudomonas, MAC, and M. abscessus",
+            "side_effects": [],
+            "notes": "Triple-species infection at diagnosis with cavitary disease"
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": null,
+            "description": "Started PICC line with 2 IV medications + oral omadacycline",
+            "medications": [
+              "IV medication 1 (unspecified)",
+              "IV medication 2 (unspecified)",
+              "Omadacycline (Nuzyra)"
+            ],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "medication": "Omadacycline (Nuzyra)",
+                "side_effect": "Severe nausea",
+                "severity": "severe",
+                "action_taken": "Prescribed Zofran (ondansetron) to be taken 1+ hour before Nuzyra"
+              }
+            ],
+            "notes": "Initial aggressive treatment with PICC line for multi-species infection. Omadacycline caused severe nausea requiring anti-nausea medication."
+          },
+          {
+            "event_number": 3,
+            "event_type": "surgery",
+            "date": "2023-2024",
+            "description": "Right lower lobe (RLL) wedge resection to remove cavity thought to be causing M. abscessus",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Surgical intervention targeting M. abscessus source cavity"
+          },
+          {
+            "event_number": 4,
+            "event_type": "treatment_change",
+            "date": null,
+            "description": "PICC line removed after achieving stability, started clofazimine + Arikayce (continued omadacycline)",
+            "medications": [
+              "Clofazimine",
+              "Arikayce (amikacin liposome inhalation)",
+              "Omadacycline (continued)"
+            ],
+            "culture_result": "M. abscessus negative",
+            "side_effects": [
+              {
+                "medication": "Clofazimine",
+                "side_effect": "Tan skin that became scaly (giraffe-like appearance)",
+                "severity": "moderate",
+                "action_taken": "Tolerated"
+              }
+            ],
+            "notes": "Post-surgery stabilization achieved. M. abscessus cleared from cultures. Transitioned from IV to oral/nebulized regimen."
+          },
+          {
+            "event_number": 5,
+            "event_type": "diagnosis",
+            "date": "+7mo",
+            "description": "Aspergillus discovered in LEFT lung (new cavity), galactomannan levels elevated",
+            "medications": [],
+            "culture_result": "positive for Aspergillus, also MAC detected",
+            "side_effects": [],
+            "notes": "NEW COMPLICATION: Despite treating original infections, aspergillus emerged in OPPOSITE lung with new cavity. Bronchoscopy couldn't determine cavity etiology but galactomannan levels warranted aspergillus treatment. MAC also detected but prioritized aspergillus treatment."
+          },
+          {
+            "event_number": 6,
+            "event_type": "treatment_escalation",
+            "date": "2024",
+            "description": "Added voriconazole for aspergillus treatment",
+            "medications": [
+              "Voriconazole"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Treatment escalation to address aspergillus. Now on 4+ medications: voriconazole, clofazimine, Arikayce, omadacycline"
+          },
+          {
+            "event_number": 7,
+            "event_type": "treatment_escalation",
+            "date": "2024-10",
+            "description": "Added Big 3 components (clarithromycin + ethambutol) for MAC treatment",
+            "medications": [
+              "Clarithromycin",
+              "Ethambutol"
+            ],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "medication": "Clarithromycin",
+                "side_effect": "Metallic taste",
+                "severity": "mild",
+                "action_taken": "Tolerated"
+              }
+            ],
+            "notes": "MASSIVE TREATMENT ESCALATION: Now on 6+ simultaneous medications for multiple species (aspergillus, MAC, preventing M. abscessus recurrence): 1) Voriconazole (aspergillus), 2) Omadacycline, 3) Arikayce, 4) Clofazimine, 5) Clarithromycin (MAC), 6) Ethambutol (MAC). Managing nausea with Zofran."
+          },
+          {
+            "event_number": 8,
+            "event_type": "post_treatment",
+            "date": "2024-11",
+            "description": "One year post-surgery: M. abscessus negative but MAC + aspergillus persist, continuing to develop new cavities, worsening PFTs",
+            "medications": [],
+            "culture_result": "M. abscessus negative, MAC positive, Aspergillus positive",
+            "side_effects": [],
+            "notes": "MIXED OUTCOME: Surgery successfully cleared M. abscessus (negative cultures for 1 year), but disease progressed with MAC and aspergillus persisting. NEW CAVITIES continue to form despite aggressive 6-drug regimen. PFTs declining."
+          },
+          {
+            "event_number": 9,
+            "event_type": "monitoring",
+            "date": "2024-11",
+            "description": "Referred for lung transplant evaluation",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "CRITICAL ESCALATION: Disease progression despite aggressive treatment has led to transplant evaluation. Patient pessimistic about eligibility due to: 1) M. abscessus history (contraindication), 2) Age, 3) Osteoporosis (with T6 compression fracture), 4) Type I collagen genetic defect (familial mutation, increases infection susceptibility). Patient hopeful for brensocatib (new bronchiectasis drug pending FDA approval Aug 2025)."
+          },
+          {
+            "event_number": 10,
+            "event_type": "monitoring",
+            "date": "2024-10",
+            "description": "Compression fracture T6 vertebra discovered on CT (for bronchoscopy navigation)",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "ADDITIONAL COMPLICATION: Compression fracture T6 discovered (osteoporosis-related). This further complicates transplant eligibility and overall health status."
+          }
+        ]
+      },
+      "key_insight": "EXCEPTIONAL CASE demonstrating multi-species progression despite aggressive treatment. TIMELINE: Initial diagnosis with Pseudomonas + MAC + M. abscess",
+      "source": {
+        "thread_slug": "anyone-had-a-total-lung-removal-done",
+        "original_id": "TL013_julia_venuti_multiple_species_transplant",
+        "thread_url": "https://connect.ntminfo.org/discussion/anyone-had-a-total-lung-removal-done"
+      }
+    },
+    {
+      "id": "PT014",
+      "patient_label": "Patient #14",
+      "demographics": {
+        "age_group": "adult",
+        "location": "New York City, USA",
+        "diagnosis_year": "prior to 2017"
+      },
+      "disease": {
+        "species": "MAI (Mycobacterium avium intracellulare subspecies chimaera)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "severe (drug-resistant, multiple treatment failures requiring surgery)",
+        "comorbidities": []
+      },
+      "outcome": {
+        "category": "treatment_failure",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "drug_resistance",
+          "surgical_intervention",
+          "treatment_complications",
+          "side_effects"
+        ],
+        "complexity": "very_complex",
+        "educational_value": "high (drug-resistant MAC management, surgical decision-making after failed medical therapy, serious medication side effects including clofazimine eye crystals, newer drug regimens including bedaquiline/tedizolid, treatment discontinuation due to intolerable side effects, phage therapy as last resort)",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": null,
+        "event_count": 7,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 3,
+            "event_type": "surgical_intervention",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 4,
+            "event_type": "side_effect",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 5,
+            "event_type": "treatment_modification",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 6,
+            "event_type": "treatment_cessation",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 7,
+            "event_type": "current_status",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          }
+        ]
+      },
+      "key_insight": "HIGHLY EDUCATIONAL CASE demonstrating: 1) DRUG-RESISTANT MAI management challenges (macrolide-resistant strain requiring alternative regimens), 2) NEW",
+      "source": {
+        "thread_slug": "is-surgery-a-better-option, fwd-clofazamine-side-effect",
+        "original_id": "TL014_karen_gold_drug_resistant_surgery",
+        "thread_url": "https://connect.ntminfo.org/discussion/is-surgery-a-better-option, https://connect.ntminfo.org/discussion/fwd-clofazamine-side-effect"
+      }
+    },
+    {
+      "id": "PT015",
+      "patient_label": "Patient #15",
+      "demographics": {
+        "age_group": "adult (teacher planning retirement Aug 2025)",
+        "location": "Ronda, USA",
+        "diagnosis_year": "December 2024"
+      },
+      "disease": {
+        "species": "MAC (Mycobacterium avium complex)",
+        "species_short": "MAC",
+        "disease_type": "extrapulmonary (shoulder joint, post-surgical infection)",
+        "severity": "severe (persistent infection requiring 4 surgeries, wound complications, persistent drainage, pain requiring ER visit)",
+        "comorbidities": [
+          "suspected rheumatoid arthritis (later ruled out - markers low, attributed to infection)",
+          "immobile shoulder"
+        ]
+      },
+      "outcome": {
+        "category": "treatment_ongoing",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "extrapulmonary_disease",
+          "post_surgical_infection",
+          "treatment_complications",
+          "multiple_surgeries"
+        ],
+        "complexity": "very_complex",
+        "educational_value": "very_high (RARE extrapulmonary MAC case - <5% of MAC infections, post-surgical infection acquisition, persistent infection despite multiple debridement surgeries, wound management challenges including wound vac, rifampin intolerance requiring PICC line amikacin, secondary infections complicating treatment, care coordination challenges across multiple specialties, systemic healthcare navigation issues, caregiver burden, early retirement due to treatment demands)",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": null,
+        "event_count": 14,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "surgery_non_ntm",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 2,
+            "event_type": "surgical_debridement",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 3,
+            "event_type": "surgical_debridement",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 4,
+            "event_type": "diagnosis",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 5,
+            "event_type": "surgical_debridement",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 6,
+            "event_type": "treatment_modification",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 7,
+            "event_type": "wound_management",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 8,
+            "event_type": "care_coordination_challenge",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 9,
+            "event_type": "wound_management",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 10,
+            "event_type": "disability_retirement",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 11,
+            "event_type": "secondary_infection",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 12,
+            "event_type": "severe_pain_episode",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 13,
+            "event_type": "treatment_escalation",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 14,
+            "event_type": "referral_specialist_center",
+            "date": null,
+            "description": "",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          }
+        ]
+      },
+      "key_insight": "HIGHLY EDUCATIONAL RARE CASE demonstrating: 1) EXTRAPULMONARY MAC INFECTION (<5% of MAC cases, usually in immunocompromised or post-surgical patients)",
+      "source": {
+        "thread_slug": "extra-pulmonary-ntm, wound-vac, extrapulmonary-ntm-mac-setback-duke-bound",
+        "original_id": "TL015_extrapulmonary_mac_shoulder",
+        "thread_url": "https://connect.ntminfo.org/discussion/extra-pulmonary-ntm, https://connect.ntminfo.org/discussion/wound-vac, https://connect.ntminfo.org/discussion/extrapulmonary-ntm-mac-setback-duke-bound"
+      }
+    },
+    {
+      "id": "PT016",
+      "patient_label": "Patient #16",
+      "demographics": {
+        "age_group": "not specified",
+        "location": "Location withheld",
+        "diagnosis_year": "~2023 (estimated, started treatment early 2024)"
+      },
+      "disease": {
+        "species": "Mycobacterium abscessus subspecies abscessus (erm41 - highly drug resistant)",
+        "species_short": "M. abscessus",
+        "disease_type": "pulmonary",
+        "severity": "severe (required 9 weeks inpatient intensive IV phase, 84 weeks total treatment)",
+        "comorbidities": []
+      },
+      "outcome": {
+        "category": "sustained_negative",
+        "description": "",
+        "months_since_completion": "0 (just completed treatment March 2025)"
+      },
+      "classification": {
+        "story_types": [
+          "success_story",
+          "long_term_outcome"
+        ],
+        "complexity": "very_complex",
+        "educational_value": "high",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": 4.5,
+        "event_count": 8,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": "+0mo",
+            "description": "Diagnosed with Mycobacterium abscessus subspecies abscessus (erm41 - highly drug resistant)",
+            "medications": [],
+            "culture_result": "positive for M. abscessus subsp. abscessus erm41",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": "+-21mo",
+            "description": "Hospitalized for 9-week intensive IV phase for M. abscessus treatment",
+            "medications": [
+              "IV antibiotics (intensive phase) (started)",
+              "rifabutin (started)",
+              "azithromycin (started)",
+              "clofazimine (started)",
+              "inhaled amikacin (started)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 3,
+            "event_type": "treatment_complication",
+            "date": "+3mo",
+            "description": "ALT liver enzyme elevation to 420 on rifabutin, requiring medication hold and switch",
+            "medications": [
+              "rifabutin (stopped)",
+              "all antibiotics (held)"
+            ],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "side_effect_type": "hepatotoxicity",
+                "severity": "severe",
+                "medication_suspected": "rifabutin",
+                "action_taken": "medication discontinued, treatment held temporarily",
+                "resolution": "liver enzymes recovered after stopping rifabutin"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "event_number": 4,
+            "event_type": "medication_change",
+            "date": "+3mo",
+            "description": "Restarted treatment with bedaquiline replacing rifabutin",
+            "medications": [
+              "bedaquiline (started)",
+              "azithromycin (restarted)",
+              "clofazimine (restarted)",
+              "inhaled amikacin (restarted)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 5,
+            "event_type": "clinical_milestone",
+            "date": "2024-11",
+            "description": "Week 58 continuation phase - maintaining excellent exercise tolerance",
+            "medications": [
+              "Current regimen (continued)"
+            ],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "side_effect_type": "skin_discoloration",
+                "severity": "mild",
+                "medication_suspected": "clofazimine",
+                "action_taken": "continued medication",
+                "resolution": "ongoing (expected clofazimine effect)"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "event_number": 6,
+            "event_type": "clinical_milestone",
+            "date": "2024-12-12",
+            "description": "Week 70 continuation phase - noticed unusual hair texture change",
+            "medications": [
+              "Current regimen (continued)"
+            ],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "side_effect_type": "hair_texture_change",
+                "severity": "mild",
+                "medication_suspected": "clofazimine or combination effect",
+                "action_taken": "continued medication (not problematic)",
+                "resolution": "ongoing (tight finger curls developed)"
+              },
+              {
+                "side_effect_type": "skin_discoloration",
+                "severity": "mild",
+                "medication_suspected": "clofazimine",
+                "action_taken": "continued medication",
+                "resolution": "ongoing (clofazimine tan)"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "event_number": 7,
+            "event_type": "clinical_milestone",
+            "date": "2024-12-21",
+            "description": "Week 70 update - treatment team planning approximately 6 more months of treatment",
+            "medications": [
+              "Current regimen (continued)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 8,
+            "event_type": "treatment_completion",
+            "date": "2025-03-19",
+            "description": "Preparing to conclude treatment after 84 weeks total, meeting with medical team to discuss stopping protocol",
+            "medications": [
+              "All antibiotics (planned_stop)"
+            ],
+            "culture_result": "12 months culture-negative (standard for M. abscessus treatment completion)",
+            "side_effects": [],
+            "notes": ""
+          }
+        ]
+      },
+      "key_insight": "EXCEPTIONAL M. ABSCESSUS SUCCESS STORY demonstrating: 1) SUCCESSFUL TREATMENT of highly drug-resistant M. abscessus subspecies abscessus erm41 (one of",
+      "source": {
+        "thread_slug": "bedaquelene, abscessus-treatment, finishing-treatment, interesting-possible-drug-side-effect",
+        "original_id": "TL016_sarah_simpson_abscessus_84wk_completion",
+        "thread_url": "https://connect.ntminfo.org/discussion/bedaquelene"
+      }
+    },
+    {
+      "id": "PT017",
+      "patient_label": "Patient #17",
+      "demographics": {
+        "age_group": "not specified",
+        "location": "Location withheld",
+        "diagnosis_year": "2022 (initial MAI diagnosis)"
+      },
+      "disease": {
+        "species": "Mycobacterium avium complex - MAI (intracellulare)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "severe (recurrent infection, antibiotic resistance development, growing cavity 4.4cm, treatment failure)",
+        "comorbidities": [
+          "COPD (Emphysema)",
+          "Pseudomonas aeruginosa co-infection (2024, required 2 rounds IV antibiotics)"
+        ]
+      },
+      "outcome": {
+        "category": "treatment_ongoing",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "treatment_failure",
+          "disease_progression",
+          "recurrence_story"
+        ],
+        "complexity": "very_complex",
+        "educational_value": "high",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": 55.0,
+        "event_count": 8,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": "2021",
+            "description": "Diagnosed with Mycobacterium avium-intracellulare (MAI) via bronchoscopy",
+            "medications": [],
+            "culture_result": "positive for MAI (intracellulare)",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": "2022",
+            "description": "Enrolled in Arikayce clinical trial (placebo group), started Big 3 antibiotics",
+            "medications": [
+              "Big 3 (azithromycin, ethambutol, rifampin) (started)",
+              "Arikayce placebo (started)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 3,
+            "event_type": "culture_conversion",
+            "date": "2023",
+            "description": "Achieved negative cultures for MAI, stopped Big 3",
+            "medications": [
+              "Big 3 (stopped)"
+            ],
+            "culture_result": "negative for MAI",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 4,
+            "event_type": "new_infection",
+            "date": "2024",
+            "description": "Developed antibiotic-resistant Pseudomonas aeruginosa infection requiring IV antibiotics",
+            "medications": [
+              "IV antibiotics for pseudomonas (started)"
+            ],
+            "culture_result": "positive for antibiotic-resistant Pseudomonas aeruginosa",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 5,
+            "event_type": "recurrence",
+            "date": "2024",
+            "description": "MAI recurrence detected during pseudomonas treatment (sputum cultures positive again)",
+            "medications": [
+              "Big 3 (restarted)"
+            ],
+            "culture_result": "positive for MAI (recurrence after being negative in 2023)",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 6,
+            "event_type": "medication_change",
+            "date": null,
+            "description": "Attempted Arikayce (inhaled amikacin) for refractory MAI but unable to tolerate",
+            "medications": [
+              "Arikayce (inhaled amikacin) (started_then_stopped)"
+            ],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "side_effect_type": "intolerance",
+                "severity": "severe (unable to continue)",
+                "medication_suspected": "Arikayce",
+                "action_taken": "medication discontinued",
+                "resolution": "stopped Arikayce"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "event_number": 7,
+            "event_type": "treatment_failure",
+            "date": "2025-08",
+            "description": "Treatment failure on Big 3 after 1 year - cavity growing to 4.4cm, developed antibiotic resistance",
+            "medications": [
+              "Big 3 (continued)"
+            ],
+            "culture_result": "presumed positive (persistent infection)",
+            "side_effects": [
+              {
+                "side_effect_type": "GI_side_effects",
+                "severity": "moderate",
+                "medication_suspected": "Big 3",
+                "action_taken": "continued medication with management strategies",
+                "resolution": "ongoing (manages with probiotics, yogurt, buttermilk, kefir, times medications around work schedule)"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "event_number": 8,
+            "event_type": "referral",
+            "date": "2025-08",
+            "description": "Referred by pulmonologist to tertiary center (Dr. Flume at MUSC) for refractory MAI",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          }
+        ]
+      },
+      "key_insight": "IMPORTANT TREATMENT FAILURE CASE demonstrating: 1) RECURRENT MAI despite initial culture conversion (negative 2023, recurred 2024), 2) ANTIBIOTIC RESI",
+      "source": {
+        "thread_slug": "mycobacterium-intracellulare-mai",
+        "original_id": "TL017_kelley_mcclung_mai_resistant_growing_cavity",
+        "thread_url": "https://connect.ntminfo.org/discussion/mycobacterium-intracellulare-mai"
+      }
+    },
+    {
+      "id": "PT018",
+      "patient_label": "Patient #18",
+      "demographics": {
+        "age_group": "not specified",
+        "location": "Location withheld",
+        "diagnosis_year": "~2021 (estimated, started Big 3 January 2023)"
+      },
+      "disease": {
+        "species": "MAC (Mycobacterium avium complex)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "moderate-severe (persistent broncocele despite 18+ months treatment, culture reversion after negatives)",
+        "comorbidities": [
+          "Bronchiectasis",
+          "Fatigue (significant, limits travel to clinical trial center)"
+        ]
+      },
+      "outcome": {
+        "category": "treatment_decision_pending",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "treatment_failure",
+          "surgical_consideration"
+        ],
+        "complexity": "complex",
+        "educational_value": "high",
+        "common_pattern": true
+      },
+      "timeline": {
+        "duration_months": 28.0,
+        "event_count": 7,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": "+0mo",
+            "description": "Diagnosed with pulmonary MAC and bronchiectasis with small broncocele in right upper lung",
+            "medications": [],
+            "culture_result": "positive for MAC",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": "+0mo",
+            "description": "Started Big 3 antibiotics thrice weekly for pulmonary MAC",
+            "medications": [
+              "Big 3 (azithromycin, ethambutol, rifampicin) (started)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 3,
+            "event_type": "medication_change",
+            "date": "2023-01",
+            "description": "Treatment escalation: increased to daily dosing, dropped rifampicin due to continued positive cultures",
+            "medications": [
+              "rifampicin (stopped)",
+              "azithromycin (frequency_increased)",
+              "ethambutol (frequency_increased)"
+            ],
+            "culture_result": "continued positive (prompting escalation)",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 4,
+            "event_type": "culture_conversion",
+            "date": null,
+            "description": "Achieved culture conversion after treatment escalation - extended period of negative cultures",
+            "medications": [
+              "azithromycin + ethambutol daily (continued)"
+            ],
+            "culture_result": "negative for MAC (sustained for extended period)",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 5,
+            "event_type": "recurrence",
+            "date": "2024-10",
+            "description": "Culture reversion to MAC positive after extended negative period, despite 18+ months continuous treatment",
+            "medications": [
+              "azithromycin + ethambutol (continued)"
+            ],
+            "culture_result": "positive for MAC (recurrence/reinfection)",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 6,
+            "event_type": "treatment_decision_point",
+            "date": "2024-10",
+            "description": "Surgical consultation recommended for broncocele removal after 18+ months treatment failure",
+            "medications": [],
+            "culture_result": "MAC positive",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 7,
+            "event_type": "treatment_decision_point",
+            "date": "2025-05",
+            "description": "Offered enrollment in ICoN-1 Phase 3 trial (inhaled clofazimine) as alternative to surgery",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          }
+        ]
+      },
+      "key_insight": "IMPORTANT SURGICAL DECISION CASE demonstrating: 1) PERSISTENT BRONCOCELE despite 18+ months intensive daily antibiotics (MAC treatment failure pattern",
+      "source": {
+        "thread_slug": "surgery-for-a-broncochele, phase-3-clinical-trial-of-inhaled-clofazimine",
+        "original_id": "TL018_robert_townsend_mac_surgical_decision",
+        "thread_url": "https://connect.ntminfo.org/discussion/surgery-for-a-broncochele"
+      }
+    },
+    {
+      "id": "PT019",
+      "patient_label": "Patient #19",
+      "demographics": {
+        "age_group": "not specified",
+        "location": "Location withheld",
+        "diagnosis_year": "2024 (March 2024)"
+      },
+      "disease": {
+        "species": "MAC (Mycobacterium avium complex)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "moderate (bronchiectasis + MAC diagnosed March 2024)",
+        "comorbidities": [
+          "Bronchiectasis",
+          "Severe medication-induced muscle weakness and balance issues"
+        ]
+      },
+      "outcome": {
+        "category": "treatment_stopped",
+        "description": "",
+        "months_since_completion": 5
+      },
+      "classification": {
+        "story_types": [
+          "side_effects_severe",
+          "treatment_complications"
+        ],
+        "complexity": "very_complex",
+        "educational_value": "high",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": 11.1,
+        "event_count": 5,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": "2024-03",
+            "description": "Diagnosed with bronchiectasis and MAC",
+            "medications": [],
+            "culture_result": "positive for MAC",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": "2024-03",
+            "description": "Started Big 3 antibiotics for MAC",
+            "medications": [
+              "Big 3 (azithromycin, ethambutol, rifampin) (started)"
+            ],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "side_effect_type": "muscle_weakness",
+                "severity": "significant",
+                "medication_suspected": "Big 3",
+                "action_taken": "medication changes attempted",
+                "resolution": "worsened with additional medications"
+              },
+              {
+                "side_effect_type": "balance_issues",
+                "severity": "significant",
+                "medication_suspected": "Big 3",
+                "action_taken": "medication changes attempted",
+                "resolution": "worsened with additional medications"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "event_number": 3,
+            "event_type": "medication_change",
+            "date": null,
+            "description": "ID doctor attempted medication adjustments, eventually added Arikayce",
+            "medications": [
+              "Different medications (not specified) (changed)",
+              "Arikayce (inhaled amikacin liposome) (added)"
+            ],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "side_effect_type": "complete_loss_of_walking_ability",
+                "severity": "life_threatening",
+                "medication_suspected": "Arikayce (amikacin)",
+                "action_taken": "complete medication stop",
+                "resolution": "slowly recovered after 5 weeks off all meds"
+              },
+              {
+                "side_effect_type": "severe_vestibular_dysfunction",
+                "severity": "life_threatening",
+                "medication_suspected": "Arikayce",
+                "action_taken": "complete medication stop, neurology referral",
+                "resolution": "slowly improved after medication cessation"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "event_number": 4,
+            "event_type": "treatment_complication",
+            "date": "2024-09",
+            "description": "Emergency medication stop due to severe adverse effects, referred to neurology for myasthenia gravis workup",
+            "medications": [
+              "All MAC medications (Big 3, Arikayce, others) (stopped)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 5,
+            "event_type": "symptom_recurrence",
+            "date": "2025-02",
+            "description": "Muscle weakness and balance issues returning 5 months after stopping all medications - WITHOUT being on any MAC medications",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          }
+        ]
+      },
+      "key_insight": "CRITICAL SEVERE ADVERSE EFFECTS case demonstrating the MOST SEVERE end of NTM treatment side effect spectrum. EXTREMELY RARE and EDUCATIONALLY IMPORTA",
+      "source": {
+        "thread_slug": "muscle-weaknesslosing-balance-not-on-mac-meds",
+        "original_id": "TL019_christina_grams_severe_muscle_weakness",
+        "thread_url": "https://connect.ntminfo.org/discussion/muscle-weaknesslosing-balance-not-on-mac-meds"
+      }
+    },
+    {
+      "id": "PT020",
+      "patient_label": "Patient #20",
+      "demographics": {
+        "age_group": "not specified",
+        "location": "Location withheld",
+        "diagnosis_year": "multiple bouts (3rd bout, current episode since March 2023)"
+      },
+      "disease": {
+        "species": "MAC (Mycobacterium avium complex)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "severe (3rd MAC bout, progressive deterioration on Arikayce, 2 pneumothoraxes)",
+        "comorbidities": [
+          "Bronchiectasis",
+          "Bone marrow transplant history (in cancer remission)",
+          "Tachycardia requiring medications",
+          "2 pneumothoraxes (Nov 2024)"
+        ]
+      },
+      "outcome": {
+        "category": "treatment_ongoing",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "treatment_failure",
+          "treatment_complications",
+          "alternative_therapy"
+        ],
+        "complexity": "very_complex",
+        "educational_value": "high",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": 22.1,
+        "event_count": 9,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": null,
+            "description": "Third MAC recurrence diagnosed (previous episodes 2013 with lung resection at National Jewish Health, 2017 post-bone marrow transplant for cancer)",
+            "medications": [],
+            "culture_result": "MAC positive",
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_start",
+            "date": "2023-03",
+            "description": "Started Big 3 (azithromycin, ethambutol, rifampin) plus clofazimine for 3rd MAC episode",
+            "medications": [
+              "Big 3 (azithromycin, ethambutol, rifampin) (started)",
+              "Clofazimine (started)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 3,
+            "event_type": "medication_change",
+            "date": "2024-04",
+            "description": "Added IV amikacin via PICC line to regimen for treatment intensification",
+            "medications": [
+              "Amikacin (IV) (started)"
+            ],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "side_effect_type": "hearing_loss",
+                "severity": "severe (required medication change)",
+                "medication_suspected": "IV amikacin",
+                "action_taken": "PICC line removed, switched to Arikayce",
+                "resolution": "medication changed"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "event_number": 4,
+            "event_type": "medication_change",
+            "date": "2024-05",
+            "description": "Switched from IV amikacin to Arikayce after 6 weeks due to hearing loss",
+            "medications": [
+              "Amikacin (IV) (stopped)",
+              "Arikayce (liposomal amikacin) (started)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 5,
+            "event_type": "treatment_complication",
+            "date": null,
+            "description": "Progressive clinical deterioration on Arikayce: severe shortness of breath, tachycardia requiring multiple cardiac medications, 24/7 oxygen dependence, housebound for months",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [
+              {
+                "side_effect_type": "tachycardia",
+                "severity": "severe (requires multiple medications)",
+                "medication_suspected": "Arikayce",
+                "action_taken": "multiple cardiac medications prescribed, cardiologist evaluation",
+                "resolution": "ongoing management"
+              },
+              {
+                "side_effect_type": "progressive_respiratory_failure",
+                "severity": "life_threatening",
+                "medication_suspected": "Arikayce",
+                "action_taken": "supplemental oxygen 24/7, eventually medication stopped",
+                "resolution": "improved after stopping Arikayce"
+              }
+            ],
+            "notes": ""
+          },
+          {
+            "event_number": 6,
+            "event_type": "treatment_complication",
+            "date": "2024-11-01",
+            "description": "Hospitalized with 2 pneumothoraxes from severe coughing related to Arikayce treatment",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 7,
+            "event_type": "medication_change",
+            "date": "2024-11",
+            "description": "Stopped Arikayce and airway clearances to prevent further pneumothoraxes from violent coughing",
+            "medications": [
+              "Arikayce (stopped)",
+              "Big 3 + clofazimine (continued)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 8,
+            "event_type": "treatment_start",
+            "date": "2024-12-15",
+            "description": "Started Dupixent (dupilumab) as alternative treatment approach for MAC/bronchiectasis",
+            "medications": [
+              "Dupixent (dupilumab) (started)"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 9,
+            "event_type": "clinical_milestone",
+            "date": "2025-01",
+            "description": "Started pulmonary rehabilitation program, continuing Dupixent, slow gradual improvement ongoing",
+            "medications": [],
+            "culture_result": "4 negative cultures achieved, then 1 positive culture (May 2025)",
+            "side_effects": [],
+            "notes": ""
+          }
+        ]
+      },
+      "key_insight": "CRITICAL ARIKAYCE FAILURE and ALTERNATIVE TREATMENT case demonstrating IMPORTANT patterns: 1) ARIKAYCE PARADOXICAL WORSENING: Progressive clinical det",
+      "source": {
+        "thread_slug": "dupixet",
+        "original_id": "TL020_jan_dolgin_arikayce_failure_dupixent",
+        "thread_url": "https://connect.ntminfo.org/discussion/dupixet"
+      }
+    },
+    {
+      "id": "PT021",
+      "patient_label": "Patient #21",
+      "demographics": {
+        "age_group": "not specified",
+        "location": "Mayo Clinic Rochester (genetic testing)",
+        "diagnosis_year": 2018
+      },
+      "disease": {
+        "species": "MAC (Mycobacterium avium complex) in 2018, followed by M. avium intracellulare subspecies chimaera in 2019 - sequential infections",
+        "species_short": "MAC",
+        "disease_type": "Sequential NTM infections: MAC (2018) followed by chimaera (2019)",
+        "severity": "severe",
+        "comorbidities": []
+      },
+      "outcome": {
+        "category": "sustained_negative",
+        "description": "",
+        "months_since_completion": 60
+      },
+      "classification": {
+        "story_types": [
+          "long_term_success",
+          "environmental_detective_work",
+          "genetic_insight",
+          "sequential_infections",
+          "full_recovery"
+        ],
+        "complexity": "moderate",
+        "educational_value": "very_high",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": null,
+        "event_count": 8,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": "2018",
+            "description": "First NTM diagnosis: MAC (Mycobacterium avium complex). Patient experienced severe debilitating fatigue and nonstop coughing that caused bedridden status.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Severe initial presentation with quality of life severely impacted. Patient bedridden during this period."
+          },
+          {
+            "event_number": 2,
+            "event_type": "environmental_investigation",
+            "date": "2018",
+            "description": "Environmental source investigation conducted with Dr. Ted Naureckas from University of Chicago. Identified room air humidifier as probable NTM exposure source.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Critical educational point: Environmental source identification crucial for success. Patient now avoids all mist humidifiers. This detective work likely prevented future reinfections."
+          },
+          {
+            "event_number": 3,
+            "event_type": "treatment_start",
+            "date": "2018",
+            "description": "Started Big 3 antibiotics (azithromycin, ethambutol, rifampin) for MAC treatment under care of Dr. Ted Naureckas at University of Chicago.",
+            "medications": [
+              "Azithromycin",
+              "Ethambutol",
+              "Rifampin"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Standard MAC treatment protocol. Duration: 12 months total for both infections."
+          },
+          {
+            "event_number": 4,
+            "event_type": "diagnosis",
+            "date": "2019",
+            "description": "Second NTM diagnosis: M. avium intracellulare subspecies chimaera - back-to-back infection while still symptomatic from MAC. Patient remained bedridden with continued debilitating fatigue.",
+            "medications": [
+              "Continued Big 3"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Challenging case: Sequential infections with MAC followed by chimaera. Patient remained severely debilitated through both infections."
+          },
+          {
+            "event_number": 5,
+            "event_type": "genetic_testing",
+            "date": "2019",
+            "description": "Genetic testing performed at Mayo Clinic Rochester at recommendation of Dr. Ed Chan (National Jewish Health/VA). Testing revealed single gene mutation (x1282) for cystic fibrosis, explaining patient's susceptibility to NTM and other maladies.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Critical educational finding: CF gene mutation (x1282) explains NTM susceptibility. This information helps patient and family understand risk factors and need for ongoing vigilance."
+          },
+          {
+            "event_number": 6,
+            "event_type": "treatment_completion",
+            "date": "2019",
+            "description": "Completed 12 months of Big 3 antibiotics covering both MAC and chimaera infections. Treatment successfully cleared both infections.",
+            "medications": [
+              "Azithromycin",
+              "Ethambutol",
+              "Rifampin"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Treatment success: Both MAC and chimaera infections cleared with standard Big 3 regimen. Total treatment duration: 12 months."
+          },
+          {
+            "event_number": 7,
+            "event_type": "post_treatment_monitoring",
+            "date": "2019-2025",
+            "description": "Long-term sustained negative status. Patient has had no recurrence of NTM since completing treatment in 2019. As of September 2024, remains 5+ years negative with full recovery and return to active lifestyle.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Exceptional long-term success: 5+ years sustained negative (as of Sept 2024). Full return to active lifestyle including daily swimming (half mile) and full-time work. This represents true 'success story' addressing thread's central question."
+          },
+          {
+            "event_number": 8,
+            "event_type": "quality_of_life_milestone",
+            "date": "2020-2024",
+            "description": "Patient achieved full recovery and return to high-quality active lifestyle. Working full-time and swimming half mile daily - activities that would have been impossible during bedridden period.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": "Powerful quality of life recovery: From bedridden with debilitating fatigue to swimming half mile daily. Patient's story specifically shared to provide hope to others, addressing thread's request for 'successful stories' and 'role models/poster child to encourage everyone here!'"
+          }
+        ]
+      },
+      "key_insight": "Exceptional long-term success story: 5+ years sustained negative (as of Sept 2024) after sequential MAC and chimaera infections. Patient achieved comp",
+      "source": {
+        "thread_slug": "is-there-any-successful-story-of-mac",
+        "original_id": "TL021_lee_rubenstein_mac_chimaera_success",
+        "thread_url": "https://connect.ntminfo.org/discussion/is-there-any-successful-story-of-mac"
+      }
+    },
+    {
+      "id": "PT022",
+      "patient_label": "Patient #22",
+      "demographics": {
+        "age_group": "not specified",
+        "location": "CA",
+        "diagnosis_year": "not specified"
+      },
+      "disease": {
+        "species": "MAC (Mycobacterium avium complex)",
+        "species_short": "MAC",
+        "disease_type": "pulmonary",
+        "severity": "not specified",
+        "comorbidities": []
+      },
+      "outcome": {
+        "category": "sustained_negative",
+        "description": "",
+        "months_since_completion": null
+      },
+      "classification": {
+        "story_types": [
+          "watch_and_wait_success",
+          "treatment_refusal",
+          "airway_clearance_only",
+          "quality_of_life_priority"
+        ],
+        "complexity": "simple",
+        "educational_value": "very_high",
+        "common_pattern": false
+      },
+      "timeline": {
+        "duration_months": null,
+        "event_count": 8,
+        "events": [
+          {
+            "event_number": 1,
+            "event_type": "diagnosis",
+            "date": null,
+            "description": "Diagnosed with MAC (Mycobacterium avium complex), Pseudomonas aeruginosa (light growth), and bronchiectasis at age 70. Multiple nodules visible on CT scan. Patient is 5'7\", 108 lbs with BMI of 17.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 2,
+            "event_type": "treatment_decision",
+            "date": null,
+            "description": "Made deliberate decision to NOT take MAC antibiotic treatment (Big 3 regimen). Chose conservative management with airway clearance only: 7% hypertonic saline nebulization, postural drainage, and autogenic drainage techniques. Reason: concerns about antibiotic toxicity and body's inability to tolerate 18-24 month treatment course.",
+            "medications": [
+              "7% Hypertonic Saline"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 3,
+            "event_type": "culture_result",
+            "date": null,
+            "description": "First negative sputum culture for MAC approximately 6 months after diagnosis, achieved with airway clearance alone (no antibiotics). This represents conversion to negative WITHOUT antimicrobial treatment - highly significant finding.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 4,
+            "event_type": "culture_result",
+            "date": null,
+            "description": "Second consecutive negative MAC culture at 12 months post-diagnosis. Continuing airway clearance regimen with sustained success.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 5,
+            "event_type": "culture_result",
+            "date": null,
+            "description": "Third consecutive negative MAC culture at 24 months (2 years) post-diagnosis. Airway clearance-only approach continues to maintain MAC suppression.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 6,
+            "event_type": "culture_result",
+            "date": null,
+            "description": "Fourth consecutive negative MAC culture at 33 months post-diagnosis. Nearly 3 years MAC-free with airway clearance only. However, Pseudomonas aeruginosa progressed from light growth to heavy growth, requiring treatment decision.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 7,
+            "event_type": "treatment_decision",
+            "date": null,
+            "description": "Made decision to undergo 3-week course of IV ceftazidime to treat progressing Pseudomonas aeruginosa (light \u2192 heavy growth) before it becomes mucoid (more resistant). Nervous about IV antibiotics due to Infectious Disease doctor's warning that 'it usually returns, sometimes with a vengeance.' Notably, patient willing to treat Pseudomonas but maintains firm stance against MAC antibiotic treatment.",
+            "medications": [
+              "Ceftazidime"
+            ],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          },
+          {
+            "event_number": 8,
+            "event_type": "quality_of_life",
+            "date": null,
+            "description": "Three years after MAC diagnosis, patient reports maintaining active lifestyle despite ongoing challenges. Struggles with fatigue and feeling 'airway clearance dictates my life' due to phlegm buildup 2 hours after eating (requiring mid-day autogenic drainage). Silent reflux complicates mucus management. Weight remains low (108 lbs, BMI 17) despite efforts. However, no shortness of breath, no chronic cough, still walking/hiking with dogs twice daily. Overall assessment: challenging but acceptable quality of life without antibiotic treatment.",
+            "medications": [],
+            "culture_result": null,
+            "side_effects": [],
+            "notes": ""
+          }
+        ]
+      },
+      "key_insight": "EXCEPTIONAL WATCH-AND-WAIT SUCCESS: Achieved sustained MAC culture negativity (33+ months, 4 consecutive negative tests) through airway clearance alon",
+      "source": {
+        "thread_slug": "choosing-not-to-take-drugs",
+        "original_id": "TL022_lori_bryant_watch_and_wait_success",
+        "thread_url": "https://connect.ntminfo.org/discussion/choosing-not-to-take-drugs"
+      }
+    }
+  ]
+}
