@@ -253,7 +253,8 @@ function DashboardContent() {
             <CategoryGrid
               categories={data.categories}
               onTopicClick={(topicName) => {
-                window.location.href = `/topic/${topicName}`;
+                const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+                window.location.href = `${basePath}/topic/${topicName}`;
               }}
             />
           </section>
