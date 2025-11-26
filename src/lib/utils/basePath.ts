@@ -18,8 +18,8 @@ export function getBasePath(): string {
   // We can detect this by checking the current pathname
   const pathname = window.location.pathname;
   
-  // If pathname starts with /ntm-web/, we're on GitHub Pages
-  if (pathname.startsWith('/ntm-web/')) {
+  // If pathname starts with /ntm-web/ or is exactly /ntm-web, we're on GitHub Pages
+  if (pathname.startsWith('/ntm-web/') || pathname === '/ntm-web') {
     return '/ntm-web';
   }
   
