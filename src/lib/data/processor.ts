@@ -10,6 +10,7 @@ import type {
 } from '@/lib/types';
 import { TOPIC_MAPPINGS, CATEGORIES, EXTERNAL_LINKS } from '@/lib/constants';
 import { groupBy, sortBy, getMonthKey, calculatePercentageChange } from '@/lib/utils';
+import { getBasePath } from '@/lib/utils/basePath';
 
 /**
  * Load and process the manual tags data from JSON
@@ -17,7 +18,7 @@ import { groupBy, sortBy, getMonthKey, calculatePercentageChange } from '@/lib/u
 export async function loadManualTagsData(): Promise<ManualTagsData> {
   try {
     // Use relative path that works with basePath
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    const basePath = getBasePath();
     const dataPath = `${basePath}/data/manual_tags_production.json`;
     
     console.log('Loading data from', dataPath);
@@ -427,7 +428,7 @@ function getMockData(): ManualTagsData {
  */
 export async function loadTopicTips(topicName: string): Promise<TopicTips | null> {
   try {
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    const basePath = getBasePath();
     const dataPath = `${basePath}/data/topic_tips/${topicName}.json`;
     
     console.log('Loading topic tips from', dataPath);

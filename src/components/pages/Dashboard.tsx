@@ -11,6 +11,7 @@ import type { GlossaryData } from '@/lib/types/glossary';
 import type { TimelinesData } from '@/lib/types/timeline';
 import { formatNumber } from '@/lib/utils';
 import { APP_CONFIG } from '@/lib/constants';
+import { getBasePath } from '@/lib/utils/basePath';
 import { GlossaryView } from './GlossaryView';
 import { TimelineView } from './TimelineView';
 
@@ -59,7 +60,7 @@ function DashboardContent() {
           setData(processedData);
         } else if (activeTab === 'glossary') {
           // Use basePath for production GitHub Pages deployment
-          const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+          const basePath = getBasePath();
           const response = await fetch(`${basePath}/data/glossary.json`);
           if (!response.ok) {
             throw new Error('Failed to load glossary data');
@@ -72,7 +73,7 @@ function DashboardContent() {
           setGlossaryData(glossary);
         } else if (activeTab === 'timelines') {
           // Load timeline data
-          const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+          const basePath = getBasePath();
           const response = await fetch(`${basePath}/data/timelines.json`);
           if (!response.ok) {
             throw new Error('Failed to load timeline data');
@@ -253,7 +254,7 @@ function DashboardContent() {
             <CategoryGrid
               categories={data.categories}
               onTopicClick={(topicName) => {
-                const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+                const basePath = getBasePath();
                 window.location.href = `${basePath}/topic/${topicName}`;
               }}
             />

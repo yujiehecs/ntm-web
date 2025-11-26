@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import type { GlossaryData, GlossaryTerm } from '@/lib/types/glossary';
 import { GlossaryTermCard } from '@/components/pages/GlossaryTermCard';
+import { getBasePath } from '@/lib/utils/basePath';
 
 interface GlossaryViewProps {
   data: GlossaryData;
@@ -115,7 +116,7 @@ export function GlossaryView({ data }: GlossaryViewProps) {
               termTitle={title}
               onClick={() => {
                 const slug = term.canonical.toLowerCase().replace(/\s+/g, '-').replace(/[()]/g, '');
-                const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+                const basePath = getBasePath();
                 window.location.href = `${basePath}/glossary/${slug}`;
               }}
             />

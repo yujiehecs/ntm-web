@@ -4,6 +4,7 @@ import { Layout } from '@/components/layout/Layout';
 import { Badge } from '@/components/ui/basics';
 import type { GlossaryTerm } from '@/lib/types/glossary';
 import { ArrowLeftIcon } from '@heroicons/react/24/outline';
+import { getBasePath } from '@/lib/utils/basePath';
 
 interface GlossaryDetailProps {
   term: GlossaryTerm;
@@ -125,7 +126,7 @@ export function GlossaryDetail({ term, termTitle, allTerms }: GlossaryDetailProp
                   <button
                     key={relatedTermTitle}
                     onClick={() => {
-                      const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+                      const basePath = getBasePath();
                       window.location.href = `${basePath}/glossary/${slug}`;
                     }}
                     className="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors text-sm font-medium"
