@@ -37,7 +37,7 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
-          GITHUB_PAGES: true
+          USE_BASE_PATH: true
           NEXT_PUBLIC_BASE_PATH: /ntm-web
       
       - name: Add .nojekyll file
