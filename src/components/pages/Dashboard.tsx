@@ -147,7 +147,8 @@ function DashboardContent() {
             <button
               onClick={() => {
                 setActiveTab('topics');
-                window.history.pushState({}, '', '/?tab=topics');
+                const basePath = getBasePath();
+                window.history.pushState({}, '', `${basePath}/?tab=topics`);
               }}
               className={`px-6 py-2 rounded-lg font-medium transition-all ${
                 activeTab === 'topics'
@@ -160,7 +161,8 @@ function DashboardContent() {
             <button
               onClick={() => {
                 setActiveTab('glossary');
-                window.history.pushState({}, '', '/?tab=glossary');
+                const basePath = getBasePath();
+                window.history.pushState({}, '', `${basePath}/?tab=glossary`);
               }}
               className={`px-6 py-2 rounded-lg font-medium transition-all ${
                 activeTab === 'glossary'
@@ -173,7 +175,8 @@ function DashboardContent() {
             <button
               onClick={() => {
                 setActiveTab('timelines');
-                window.history.pushState({}, '', '/?tab=timelines');
+                const basePath = getBasePath();
+                window.history.pushState({}, '', `${basePath}/?tab=timelines`);
               }}
               className={`px-6 py-2 rounded-lg font-medium transition-all ${
                 activeTab === 'timelines'

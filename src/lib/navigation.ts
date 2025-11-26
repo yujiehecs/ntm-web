@@ -1,10 +1,4 @@
-/**
- * Get the base path for the application
- * Returns '/ntm-web' in production, empty string in development
- */
-export function getBasePath(): string {
-  return process.env.NODE_ENV === 'production' ? '/ntm-web' : '';
-}
+import { getBasePath } from './utils/basePath';
 
 /**
  * Navigate to a path with proper basePath handling
