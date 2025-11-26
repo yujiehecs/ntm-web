@@ -59,7 +59,7 @@ function DashboardContent() {
           setData(processedData);
         } else if (activeTab === 'glossary') {
           // Use basePath for production GitHub Pages deployment
-          const basePath = process.env.NODE_ENV === 'production' ? '/ntm-web' : '';
+          const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
           const response = await fetch(`${basePath}/data/glossary.json`);
           if (!response.ok) {
             throw new Error('Failed to load glossary data');
@@ -72,7 +72,7 @@ function DashboardContent() {
           setGlossaryData(glossary);
         } else if (activeTab === 'timelines') {
           // Load timeline data
-          const basePath = process.env.NODE_ENV === 'production' ? '/ntm-web' : '';
+          const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
           const response = await fetch(`${basePath}/data/timelines.json`);
           if (!response.ok) {
             throw new Error('Failed to load timeline data');

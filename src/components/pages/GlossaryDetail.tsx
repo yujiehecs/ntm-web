@@ -125,7 +125,7 @@ export function GlossaryDetail({ term, termTitle, allTerms }: GlossaryDetailProp
                   <button
                     key={relatedTermTitle}
                     onClick={() => {
-                      const basePath = process.env.NODE_ENV === 'production' ? '/ntm-web' : '';
+                      const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
                       window.location.href = `${basePath}/glossary/${slug}`;
                     }}
                     className="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors text-sm font-medium"

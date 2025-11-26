@@ -115,7 +115,7 @@ export function GlossaryView({ data }: GlossaryViewProps) {
               termTitle={title}
               onClick={() => {
                 const slug = term.canonical.toLowerCase().replace(/\s+/g, '-').replace(/[()]/g, '');
-                const basePath = process.env.NODE_ENV === 'production' ? '/ntm-web' : '';
+                const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
                 window.location.href = `${basePath}/glossary/${slug}`;
               }}
             />
