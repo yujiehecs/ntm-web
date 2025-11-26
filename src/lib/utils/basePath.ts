@@ -15,14 +15,14 @@ export function getBasePath(): string {
 
   // For GitHub Pages deployment, the basePath is /ntm-web
   // For Cloudflare or local dev, there's no basePath
-  // We can detect this by checking the current pathname
-  const pathname = window.location.pathname;
+  // Detect by checking the hostname
+  const hostname = window.location.hostname;
   
-  // If pathname starts with /ntm-web/ or is exactly /ntm-web, we're on GitHub Pages
-  if (pathname.startsWith('/ntm-web/') || pathname === '/ntm-web') {
+  // GitHub Pages uses github.io domain
+  if (hostname.includes('github.io')) {
     return '/ntm-web';
   }
   
-  // Otherwise, no basePath
+  // For all other cases (Cloudflare, local dev), no basePath
   return '';
 }
